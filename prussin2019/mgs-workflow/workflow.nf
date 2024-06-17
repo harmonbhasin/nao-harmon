@@ -1,0 +1,1 @@
+/home/ec2-user/mgs-workflow/workflows/main.nf
