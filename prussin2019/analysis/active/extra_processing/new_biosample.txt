@@ -568,8 +568,8 @@ Description:
 Keywords: GSC:MIxS;MIMS:6.0
 Accession: SAMN11050302	ID: 11050302
 
-31: AP DNA 1
-Identifiers: BioSample: SAMN11050301; Sample name: AP DNA 2; SRA: SRS4434187
+31: AP-DNA-2
+Identifiers: BioSample: SAMN11050301; Sample name: AP-DNA-2; SRA: SRS4434187
 Organism: air metagenome
 Attributes:
     /altitude="161"
@@ -587,8 +587,8 @@ Description:
 Keywords: GSC:MIxS;MIMS:6.0
 Accession: SAMN11050301	ID: 11050301
 
-32: AP-DNA 1
-Identifiers: BioSample: SAMN11050300; Sample name: AP-DNA 1; SRA: SRS4434186
+32: AP-DNA-1
+Identifiers: BioSample: SAMN11050300; Sample name: AP-DNA-1; SRA: SRS4434186
 Organism: air metagenome
 Attributes:
     /altitude="161"
@@ -605,3 +605,6 @@ Description:
 20_January_2014_17_February_2014
 Keywords: GSC:MIxS;MIMS:6.0
 Accession: SAMN11050300	ID: 11050300
+
+
+
