@@ -1,0 +1,8 @@
+2024-06-13 18:23:10	7s	serene_swanson	ERR	c84ee4fdb4d55f1e6095b7ec14bfa8b1	1e9f4cc6-4f9e-442a-a688-a2b95fbc3024	nextflow workflow.nf -resume
+2024-06-13 18:24:37	57.1s	astonishing_sammet	ERR	c84ee4fdb4d55f1e6095b7ec14bfa8b1	1e9f4cc6-4f9e-442a-a688-a2b95fbc3024	nextflow workflow.nf -resume
+2024-06-13 18:33:54	14m 45s	cheeky_wing	OK	c84ee4fdb4d55f1e6095b7ec14bfa8b1	2f0f34c5-8246-48ad-a080-fdddcd5c630d	nextflow workflow.nf
+2024-06-13 22:25:18	32m 23s	modest_meninsky	OK	c84ee4fdb4d55f1e6095b7ec14bfa8b1	01f12816-8ffb-4c13-aae5-f1c62c5cb506	nextflow workflow.nf
+2024-06-13 23:04:07	4m 50s	big_mandelbrot	ERR	c84ee4fdb4d55f1e6095b7ec14bfa8b1	01f12816-8ffb-4c13-aae5-f1c62c5cb506	nextflow workflow.nf -resume
+2024-06-13 23:09:20	5h 38m 40s	fabulous_hodgkin	ERR	c84ee4fdb4d55f1e6095b7ec14bfa8b1	01f12816-8ffb-4c13-aae5-f1c62c5cb506	nextflow workflow.nf -resume
+2024-06-14 14:03:31	-	sick_archimedes	-	c84ee4fdb4d55f1e6095b7ec14bfa8b1	abaa2d7e-681f-464b-9b57-2f29bb3fd643	nextflow workflow.nf
+2024-06-17 19:31:33	-	clever_bose	-	c84ee4fdb4d55f1e6095b7ec14bfa8b1	abaa2d7e-681f-464b-9b57-2f29bb3fd643	nextflow workflow.nf -resume

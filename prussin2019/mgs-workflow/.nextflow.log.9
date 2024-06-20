@@ -1,0 +1,797 @@
+Jun-13 18:23:06.406 [main] DEBUG nextflow.cli.Launcher - $> nextflow workflow.nf -resume
+Jun-13 18:23:06.581 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.2
+Jun-13 18:23:06.646 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/ec2-user/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
+Jun-13 18:23:06.668 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jun-13 18:23:06.669 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jun-13 18:23:06.672 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Jun-13 18:23:06.703 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jun-13 18:23:06.740 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/ec2-user/prussin2019/nextflow.config
+Jun-13 18:23:06.744 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/ec2-user/prussin2019/nextflow.config
+Jun-13 18:23:06.809 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/ec2-user/.nextflow/secrets/store.json
+Jun-13 18:23:06.812 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@988246e] - activable => nextflow.secret.LocalSecretsProvider@988246e
+Jun-13 18:23:06.833 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jun-13 18:23:08.246 [main] WARN  nextflow.config.ConfigBuilder - It appears you have never run this project before -- Option `-resume` is ignored
+Jun-13 18:23:08.346 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jun-13 18:23:08.412 [main] DEBUG nextflow.cli.CmdRun - Launching `workflow.nf` [serene_swanson] DSL2 - revision: c84ee4fdb4
+Jun-13 18:23:08.414 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[nf-amazon@2.5.2]
+Jun-13 18:23:08.415 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-amazon@2.5.2, nf-wave@1.4.2]
+Jun-13 18:23:08.415 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-amazon version: 2.5.2
+Jun-13 18:23:08.433 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-amazon@2.5.2' resolved
+Jun-13 18:23:08.434 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-amazon@2.5.2'
+Jun-13 18:23:08.555 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-amazon@2.5.2
+Jun-13 18:23:08.583 [main] DEBUG nextflow.file.FileHelper - > Added 'S3FileSystemProvider' to list of installed providers [s3]
+Jun-13 18:23:08.583 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-wave version: 1.4.2
+Jun-13 18:23:08.587 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-wave@1.4.2' resolved
+Jun-13 18:23:08.587 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-wave@1.4.2'
+Jun-13 18:23:08.624 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-wave@1.4.2
+Jun-13 18:23:08.766 [main] DEBUG nextflow.Session - Session UUID: 1e9f4cc6-4f9e-442a-a688-a2b95fbc3024
+Jun-13 18:23:08.767 [main] DEBUG nextflow.Session - Run name: serene_swanson
+Jun-13 18:23:08.767 [main] DEBUG nextflow.Session - Executor pool size: 4
+Jun-13 18:23:08.794 [main] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Jun-13 18:23:08.822 [main] DEBUG nextflow.cloud.aws.config.AwsConfig - AWS S3 config properties: {socket_timeout=0, max_connections=1000, connection_timeout=0, max_error_retry=10}
+Jun-13 18:23:09.407 [main] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jun-13 18:23:10.024 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jun-13 18:23:10.038 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jun-13 18:23:10.059 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.2 build 5914
+  Created: 29-05-2024 06:19 UTC 
+  System: Linux 6.1.92-99.174.amzn2023.x86_64
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 17.0.10+7
+  Encoding: UTF-8 (UTF-8)
+  Process: 126406@ip-172-31-2-212.ec2.internal [172.31.2.212]
+  CPUs: 4 - Mem: 7.5 GB (126.6 MB) - Swap: 0 (0)
+Jun-13 18:23:10.624 [main] DEBUG nextflow.file.FileHelper - Can't check if specified path is NFS (1): s3://nao-harmon/prussin2019/work
+
+Jun-13 18:23:10.624 [main] DEBUG nextflow.Session - Work-dir: s3://nao-harmon/prussin2019/work [null]
+Jun-13 18:23:10.624 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/ec2-user/prussin2019/bin
+Jun-13 18:23:10.670 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[AwsBatchExecutor]
+Jun-13 18:23:10.704 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jun-13 18:23:10.707 [main] DEBUG nextflow.Session - Observer factory: WaveFactory
+Jun-13 18:23:10.708 [main] DEBUG io.seqera.wave.plugin.WaveFactory - Detected Fusion enabled -- Enabling bundle project resources -- Disabling upload of remote bin directory
+Jun-13 18:23:10.762 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jun-13 18:23:10.791 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Jun-13 18:23:10.912 [main] DEBUG nextflow.Session - Session start
+Jun-13 18:23:14.609 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jun-13 18:23:15.000 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_HUMAN_BOWTIE2
+Jun-13 18:23:15.003 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_HUMAN_BOWTIE2
+Jun-13 18:23:15.025 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.026 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.030 [main] DEBUG nextflow.executor.Executor - [warm up] executor > awsbatch (fusion enabled)
+Jun-13 18:23:15.062 [main] DEBUG nextflow.util.ThrottlingExecutor - Creating throttling executor with opts: nextflow.util.ThrottlingExecutor$Options(poolName:AWSBatch-executor, limiter:RateLimiter[stableRate=50.0qps], poolSize:20, maxPoolSize:20, queueSize:5000, maxRetries:10, keepAlive:1m, autoThrottle:true, errorBurstDelay:1s, rampUpInterval:100, rampUpFactor:1.2, rampUpMaxRate:1.7976931348623157E308, backOffFactor:2.0, backOffMinRate:0.0166666667, retryDelay:1s)
+Jun-13 18:23:15.067 [main] DEBUG nextflow.util.ThrottlingExecutor - Creating throttling executor with opts: nextflow.util.ThrottlingExecutor$Options(poolName:AWSBatch-reaper, limiter:RateLimiter[stableRate=50.0qps], poolSize:20, maxPoolSize:20, queueSize:5000, maxRetries:10, keepAlive:1m, autoThrottle:true, errorBurstDelay:1s, rampUpInterval:100, rampUpFactor:1.2, rampUpMaxRate:1.7976931348623157E308, backOffFactor:2.0, backOffMinRate:0.0166666667, retryDelay:1s)
+Jun-13 18:23:15.069 [main] DEBUG n.cloud.aws.batch.AwsBatchExecutor - Creating parallel monitor for executor 'awsbatch' > pollInterval=10s; dumpInterval=5m
+Jun-13 18:23:15.076 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: awsbatch)
+Jun-13 18:23:15.103 [main] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jun-13 18:23:15.161 [main] DEBUG n.cloud.aws.batch.AwsBatchExecutor - [AWS BATCH] Executor options=AwsOptions(remoteBinDir:null, fetchInstanceType:false, region:us-east-1, jobRole:null, logsGroup:null, retryMode:standard, shareIdentifier:null, schedulingPriority:0, cliPath:null, volumes:[], maxParallelTransfers:4, maxTransferAttempts:5, maxSpotAttempts:5, delayBetweenAttempts:10s, storageClass:null, storageEncryption:null, storageKmsKeyId:null, s3Acl:null, debug:null, awsCli:aws --region us-east-1, fargateMode:false, s5cmdPath:null, executionRole:null)
+Jun-13 18:23:15.222 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_OTHER_BOWTIE2
+Jun-13 18:23:15.224 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_OTHER_BOWTIE2
+Jun-13 18:23:15.226 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.226 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.230 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_HUMAN_BBMAP
+Jun-13 18:23:15.231 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_HUMAN_BBMAP
+Jun-13 18:23:15.234 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.235 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.239 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_OTHER_BBMAP
+Jun-13 18:23:15.239 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_OTHER_BBMAP
+Jun-13 18:23:15.242 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.242 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.246 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_HV
+Jun-13 18:23:15.247 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_HV
+Jun-13 18:23:15.248 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.249 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.254 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_KRAKEN
+Jun-13 18:23:15.255 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:EXTRACT_KRAKEN
+Jun-13 18:23:15.259 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.259 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.263 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_RIBO
+Jun-13 18:23:15.263 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_RIBO
+Jun-13 18:23:15.266 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.266 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.275 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_ADAPTERS
+Jun-13 18:23:15.276 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_ADAPTERS
+Jun-13 18:23:15.278 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.278 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.286 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_TAXA
+Jun-13 18:23:15.287 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_TAXA
+Jun-13 18:23:15.293 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.293 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.299 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_SAMPLE_METADATA
+Jun-13 18:23:15.299 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name PREPARE_REFERENCES:COPY_SAMPLE_METADATA
+Jun-13 18:23:15.301 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.301 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.322 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,seqtk` for process with name HANDLE_RAW_READS_TRUNC:CONCAT_GZIPPED
+Jun-13 18:23:15.327 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:seqtk` matches labels `single,seqtk` for process with name HANDLE_RAW_READS_TRUNC:CONCAT_GZIPPED
+Jun-13 18:23:15.336 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.336 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.344 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,BBTools` for process with name HANDLE_RAW_READS_TRUNC:TRUNCATE_CONCAT
+Jun-13 18:23:15.345 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `single,BBTools` for process with name HANDLE_RAW_READS_TRUNC:TRUNCATE_CONCAT
+Jun-13 18:23:15.348 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.348 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.361 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name HANDLE_RAW_READS_TRUNC:FASTQC_CONCAT_TRUNC
+Jun-13 18:23:15.363 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.363 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.415 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,MultiQC` for process with name HANDLE_RAW_READS_TRUNC:MULTIQC_CONCAT
+Jun-13 18:23:15.415 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `single,MultiQC` for process with name HANDLE_RAW_READS_TRUNC:MULTIQC_CONCAT
+Jun-13 18:23:15.418 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.418 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.434 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `cutadapt,large` for process with name CLEAN_READS:PREPROCESS_CUTADAPT
+Jun-13 18:23:15.435 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:cutadapt` matches labels `cutadapt,large` for process with name CLEAN_READS:PREPROCESS_CUTADAPT
+Jun-13 18:23:15.437 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.437 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.456 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `trimmomatic,large` for process with name CLEAN_READS:PREPROCESS_TRIMMOMATIC
+Jun-13 18:23:15.457 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:trimmomatic` matches labels `trimmomatic,large` for process with name CLEAN_READS:PREPROCESS_TRIMMOMATIC
+Jun-13 18:23:15.459 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.459 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.472 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name CLEAN_READS:PREPROCESS_FASTP
+Jun-13 18:23:15.474 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.474 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.494 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name CLEAN_READS:FASTQC_CLEANED
+Jun-13 18:23:15.495 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.495 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.504 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,MultiQC` for process with name CLEAN_READS:MULTIQC_CLEANED
+Jun-13 18:23:15.504 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `single,MultiQC` for process with name CLEAN_READS:MULTIQC_CLEANED
+Jun-13 18:23:15.506 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.506 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.527 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `biopython,single` for process with name CLEAN_READS:EXTRACT_ADAPTERS_SINGLE
+Jun-13 18:23:15.528 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:biopython` matches labels `biopython,single` for process with name CLEAN_READS:EXTRACT_ADAPTERS_SINGLE
+Jun-13 18:23:15.529 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.530 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.537 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `biopython,single` for process with name CLEAN_READS:MERGE_ADAPTERS
+Jun-13 18:23:15.541 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:biopython` matches labels `biopython,single` for process with name CLEAN_READS:MERGE_ADAPTERS
+Jun-13 18:23:15.542 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.542 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.556 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,BBTools` for process with name DEDUP_READS:DEDUP_CLUMPIFY
+Jun-13 18:23:15.557 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `large,BBTools` for process with name DEDUP_READS:DEDUP_CLUMPIFY
+Jun-13 18:23:15.558 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.558 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.573 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name DEDUP_READS:FASTQC_DEDUP
+Jun-13 18:23:15.575 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.575 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.583 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,MultiQC` for process with name DEDUP_READS:MULTIQC_DEDUP
+Jun-13 18:23:15.584 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `single,MultiQC` for process with name DEDUP_READS:MULTIQC_DEDUP
+Jun-13 18:23:15.586 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.586 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.616 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,BBTools` for process with name REMOVE_RIBO_INITIAL:BBDUK_RIBO_INITIAL
+Jun-13 18:23:15.616 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `large,BBTools` for process with name REMOVE_RIBO_INITIAL:BBDUK_RIBO_INITIAL
+Jun-13 18:23:15.618 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.618 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.623 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name REMOVE_RIBO_INITIAL:FASTQC_RIBO_INITIAL
+Jun-13 18:23:15.624 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.624 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.644 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `MultiQC,single` for process with name REMOVE_RIBO_INITIAL:MULTIQC_RIBO_INITIAL
+Jun-13 18:23:15.645 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `MultiQC,single` for process with name REMOVE_RIBO_INITIAL:MULTIQC_RIBO_INITIAL
+Jun-13 18:23:15.646 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.646 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.659 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `BBTools,large` for process with name REMOVE_RIBO_SECONDARY:BBDUK_RIBO_SECONDARY
+Jun-13 18:23:15.659 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,large` for process with name REMOVE_RIBO_SECONDARY:BBDUK_RIBO_SECONDARY
+Jun-13 18:23:15.661 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.661 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.676 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name REMOVE_RIBO_SECONDARY:FASTQC_RIBO_SECONDARY
+Jun-13 18:23:15.677 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.677 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.684 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `MultiQC,single` for process with name REMOVE_RIBO_SECONDARY:MULTIQC_RIBO_SECONDARY
+Jun-13 18:23:15.684 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `MultiQC,single` for process with name REMOVE_RIBO_SECONDARY:MULTIQC_RIBO_SECONDARY
+Jun-13 18:23:15.686 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.686 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.712 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `Bowtie2,large` for process with name MAP_HUMAN_VIRUSES:RUN_BOWTIE2
+Jun-13 18:23:15.722 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bowtie2` matches labels `Bowtie2,large` for process with name MAP_HUMAN_VIRUSES:RUN_BOWTIE2
+Jun-13 18:23:15.723 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.723 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.730 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `pandas,single` for process with name MAP_HUMAN_VIRUSES:PROCESS_BOWTIE_SAM
+Jun-13 18:23:15.730 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,single` for process with name MAP_HUMAN_VIRUSES:PROCESS_BOWTIE_SAM
+Jun-13 18:23:15.732 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.732 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.744 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `biopython,single` for process with name MAP_HUMAN_VIRUSES:GET_UNCONC_READ_IDS
+Jun-13 18:23:15.744 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:biopython` matches labels `biopython,single` for process with name MAP_HUMAN_VIRUSES:GET_UNCONC_READ_IDS
+Jun-13 18:23:15.745 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.746 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.787 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `biopython,single` for process with name MAP_HUMAN_VIRUSES:EXTRACT_UNCONC_READS
+Jun-13 18:23:15.787 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:biopython` matches labels `biopython,single` for process with name MAP_HUMAN_VIRUSES:EXTRACT_UNCONC_READS
+Jun-13 18:23:15.789 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.789 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name MAP_HUMAN_VIRUSES:COMBINE_MAPPED_READS
+Jun-13 18:23:15.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name MAP_HUMAN_VIRUSES:COMBINE_MAPPED_READS
+Jun-13 18:23:15.801 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.801 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.815 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,Bowtie2` for process with name MAP_HUMAN_VIRUSES:BOWTIE2_HUMAN_DEPLETION
+Jun-13 18:23:15.816 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bowtie2` matches labels `large,Bowtie2` for process with name MAP_HUMAN_VIRUSES:BOWTIE2_HUMAN_DEPLETION
+Jun-13 18:23:15.817 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.817 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.831 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,BBTools` for process with name MAP_HUMAN_VIRUSES:BBMAP_HUMAN_DEPLETION
+Jun-13 18:23:15.831 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `large,BBTools` for process with name MAP_HUMAN_VIRUSES:BBMAP_HUMAN_DEPLETION
+Jun-13 18:23:15.833 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.833 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.838 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,Bowtie2` for process with name MAP_HUMAN_VIRUSES:BOWTIE2_REFERENCE_DEPLETION
+Jun-13 18:23:15.839 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bowtie2` matches labels `large,Bowtie2` for process with name MAP_HUMAN_VIRUSES:BOWTIE2_REFERENCE_DEPLETION
+Jun-13 18:23:15.852 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.852 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.874 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `BBTools,large` for process with name MAP_HUMAN_VIRUSES:BBMAP_REFERENCE_DEPLETION
+Jun-13 18:23:15.874 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,large` for process with name MAP_HUMAN_VIRUSES:BBMAP_REFERENCE_DEPLETION
+Jun-13 18:23:15.876 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.876 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.881 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name MAP_HUMAN_VIRUSES:BBMERGE_BOWTIE
+Jun-13 18:23:15.882 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name MAP_HUMAN_VIRUSES:BBMERGE_BOWTIE
+Jun-13 18:23:15.883 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.883 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.905 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `biopython,single` for process with name MAP_HUMAN_VIRUSES:JOIN_BOWTIE
+Jun-13 18:23:15.905 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:biopython` matches labels `biopython,single` for process with name MAP_HUMAN_VIRUSES:JOIN_BOWTIE
+Jun-13 18:23:15.906 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.906 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.911 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `BBTools,large` for process with name MAP_HUMAN_VIRUSES:DEDUP_HV
+Jun-13 18:23:15.912 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,large` for process with name MAP_HUMAN_VIRUSES:DEDUP_HV
+Jun-13 18:23:15.913 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.913 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.928 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `Kraken2,small` for process with name MAP_HUMAN_VIRUSES:KRAKEN_BOWTIE
+Jun-13 18:23:15.928 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Kraken2` matches labels `Kraken2,small` for process with name MAP_HUMAN_VIRUSES:KRAKEN_BOWTIE
+Jun-13 18:23:15.929 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.930 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.944 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `pandas,single` for process with name MAP_HUMAN_VIRUSES:PROCESS_KRAKEN_BOWTIE
+Jun-13 18:23:15.945 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,single` for process with name MAP_HUMAN_VIRUSES:PROCESS_KRAKEN_BOWTIE
+Jun-13 18:23:15.946 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.946 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.966 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:MERGE_SAM_KRAKEN
+Jun-13 18:23:15.966 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:MERGE_SAM_KRAKEN
+Jun-13 18:23:15.967 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.967 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.973 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:MERGE_SAMPLES_HV
+Jun-13 18:23:15.974 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:MERGE_SAMPLES_HV
+Jun-13 18:23:15.975 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.976 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.988 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:FILTER_HV
+Jun-13 18:23:15.989 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:FILTER_HV
+Jun-13 18:23:15.991 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:15.991 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:15.998 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:COLLAPSE_HV
+Jun-13 18:23:15.999 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:COLLAPSE_HV
+Jun-13 18:23:16.000 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.000 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.022 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:MAKE_HV_FASTA
+Jun-13 18:23:16.023 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name MAP_HUMAN_VIRUSES:MAKE_HV_FASTA
+Jun-13 18:23:16.024 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.024 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.028 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `R,large` for process with name MAP_HUMAN_VIRUSES:COUNT_HV_CLADES
+Jun-13 18:23:16.028 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:R` matches labels `R,large` for process with name MAP_HUMAN_VIRUSES:COUNT_HV_CLADES
+Jun-13 18:23:16.030 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.030 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.052 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name CLASSIFY_READS:BBMERGE
+Jun-13 18:23:16.053 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name CLASSIFY_READS:BBMERGE
+Jun-13 18:23:16.054 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.054 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.059 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `biopython,single` for process with name CLASSIFY_READS:JOIN
+Jun-13 18:23:16.060 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:biopython` matches labels `biopython,single` for process with name CLASSIFY_READS:JOIN
+Jun-13 18:23:16.061 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.061 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.069 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `Kraken2,large` for process with name CLASSIFY_READS:KRAKEN
+Jun-13 18:23:16.069 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Kraken2` matches labels `Kraken2,large` for process with name CLASSIFY_READS:KRAKEN
+Jun-13 18:23:16.071 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.071 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.094 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name CLASSIFY_READS:LABEL_KRAKEN_REPORTS
+Jun-13 18:23:16.095 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name CLASSIFY_READS:LABEL_KRAKEN_REPORTS
+Jun-13 18:23:16.096 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.096 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.106 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name CLASSIFY_READS:MERGE_KRAKEN_REPORTS
+Jun-13 18:23:16.106 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name CLASSIFY_READS:MERGE_KRAKEN_REPORTS
+Jun-13 18:23:16.108 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.108 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.113 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `Bracken,single` for process with name CLASSIFY_READS:BRACKEN_DOMAINS
+Jun-13 18:23:16.113 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bracken` matches labels `Bracken,single` for process with name CLASSIFY_READS:BRACKEN_DOMAINS
+Jun-13 18:23:16.114 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.114 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.119 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name CLASSIFY_READS:LABEL_BRACKEN
+Jun-13 18:23:16.120 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name CLASSIFY_READS:LABEL_BRACKEN
+Jun-13 18:23:16.121 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.121 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.149 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name CLASSIFY_READS:MERGE_BRACKEN
+Jun-13 18:23:16.149 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name CLASSIFY_READS:MERGE_BRACKEN
+Jun-13 18:23:16.214 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.214 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.243 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `R,single` for process with name PROCESS_OUTPUT:SUMMARIZE_MULTIQC_SINGLE
+Jun-13 18:23:16.244 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:R` matches labels `R,single` for process with name PROCESS_OUTPUT:SUMMARIZE_MULTIQC_SINGLE
+Jun-13 18:23:16.246 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.246 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.291 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name PROCESS_OUTPUT:MERGE_MULTIQC
+Jun-13 18:23:16.291 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name PROCESS_OUTPUT:MERGE_MULTIQC
+Jun-13 18:23:16.293 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.293 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.301 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name PROCESS_OUTPUT:SUMMARIZE_COMPOSITION
+Jun-13 18:23:16.301 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name PROCESS_OUTPUT:SUMMARIZE_COMPOSITION
+Jun-13 18:23:16.303 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jun-13 18:23:16.303 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jun-13 18:23:16.307 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: PREPARE_REFERENCES:EXTRACT_HUMAN_BBMAP, BBMERGE_BOWTIE, FASTQC_CONCAT, EXTRACT_KRAKEN, SUMMARIZE_COMPOSITION, MAP_HUMAN_VIRUSES:PROCESS_BOWTIE_SAM, PREPARE_REFERENCES:EXTRACT_HUMAN_BOWTIE2, MULTIQC_DEDUP, JOIN, KRAKEN_SUBSET, MERGE_SAMPLES_HV, CLASSIFY_READS:LABEL_KRAKEN_REPORTS, FILTER_BLAST, MERGE_ADAPTERS, MAP_HUMAN_VIRUSES:EXTRACT_UNCONC_READS, JOIN_SUBSET, EXTRACT_ADAPTERS_SINGLE, DEDUP_READS:MULTIQC_DEDUP, MAP_HUMAN_VIRUSES:FILTER_HV, PAIR_BLAST, REMOVE_RIBO_SECONDARY:MULTIQC_RIBO_SECONDARY, EXTRACT_HV, HANDLE_RAW_READS_TRUNC:MULTIQC_CONCAT, DEDUP_READS:FASTQC_DEDUP, MULTIQC_CONCAT, MULTIQC_RIBO_SECONDARY, DEDUP_READS:DEDUP_CLUMPIFY, BOWTIE2_REFERENCE_DEPLETION, BBMAP_HUMAN_DEPLETION, REMOVE_RIBO_SECONDARY:BBDUK_RIBO_SECONDARY, CLEAN_READS:PREPROCESS_FASTP, MAP_HUMAN_VIRUSES:BBMERGE_BOWTIE, EXTRACT_OTHER_BOWTIE2, COPY_TAXA, COUNT_HV_CLADES, MERGE_BRACKEN_SUBSET, CLEAN_READS:MERGE_ADAPTERS, EXTRACT_HUMAN_BOWTIE2, MAP_HUMAN_VIRUSES:RUN_BOWTIE2, PROCESS_OUTPUT:SUMMARIZE_COMPOSITION, DEDUP_CLUMPIFY, HANDLE_RAW_READS_TRUNC:CONCAT_GZIPPED, CLASSIFY_READS:LABEL_BRACKEN, FASTQC_RIBO_SECONDARY, MERGE_MULTIQC, REMOVE_RIBO_INITIAL:FASTQC_RIBO_INITIAL, FASTQC_CONCAT_TRUNC, JOIN_BOWTIE, PREPARE_REFERENCES:COPY_RIBO, MAP_HUMAN_VIRUSES:BBMAP_REFERENCE_DEPLETION, PROCESS_KRAKEN_BOWTIE, MAKE_HV_FASTA, SUMMARIZE_MULTIQC_SINGLE, REMOVE_RIBO_INITIAL:MULTIQC_RIBO_INITIAL, MAP_HUMAN_VIRUSES:PROCESS_KRAKEN_BOWTIE, KRAKEN_BOWTIE, HANDLE_RAW_READS_TRUNC:TRUNCATE_CONCAT, PROCESS_OUTPUT:SUMMARIZE_MULTIQC_SINGLE, MERGE_SAM_KRAKEN, EXTRACT_OTHER_BBMAP, SUBSET_CLEANED, CLEAN_READS:FASTQC_CLEANED, MAP_HUMAN_VIRUSES:BBMAP_HUMAN_DEPLETION, REMOVE_RIBO_SECONDARY:FASTQC_RIBO_SECONDARY, BBDUK_RIBO_INITIAL, MAP_HUMAN_VIRUSES:DEDUP_HV, BBMERGE_SUBSET, REMOVE_RIBO_INITIAL:BBDUK_RIBO_INITIAL, COMBINE_MAPPED_READS, PREPARE_REFERENCES:COPY_ADAPTERS, MAP_HUMAN_VIRUSES:COUNT_HV_CLADES, GET_UNCONC_READ_IDS, BBMERGE, PREPARE_REFERENCES:EXTRACT_HV, BBDUK_RIBO_SECONDARY, LABEL_BRACKEN, FASTQC_RIBO_INITIAL, CLASSIFY_READS:MERGE_KRAKEN_REPORTS, CLASSIFY_READS:BBMERGE, PREPROCESS_CUTADAPT, CLEAN_READS:EXTRACT_ADAPTERS_SINGLE, CONCAT_GZIPPED, DEDUP_HV, MAP_HUMAN_VIRUSES:JOIN_BOWTIE, PREPROCESS_FASTP, PREPARE_REFERENCES:EXTRACT_KRAKEN, CLASSIFY_READS:KRAKEN, TRUNCATE_CONCAT, CLEAN_READS:MULTIQC_CLEANED, COPY_SAMPLE_METADATA, EXTRACT_UNCONC_READS, PROCESS_BOWTIE_SAM, KRAKEN, FASTQC_CLEANED, MULTIQC_CLEANED, BOWTIE2_HUMAN_DEPLETION, CLASSIFY_READS:BRACKEN_DOMAINS, MAP_HUMAN_VIRUSES:BOWTIE2_HUMAN_DEPLETION, RUN_BOWTIE2, LABEL_BRACKEN_SUBSET, BRACKEN_DOMAINS, PROCESS_OUTPUT:MERGE_MULTIQC, FILTER_HV, COLLAPSE_HV, MERGE_BRACKEN, SUBSET_BLAST, BRACKEN_DOMAINS_SUBSET, COPY_ADAPTERS, EXTRACT_HUMAN_BBMAP, MAP_HUMAN_VIRUSES:GET_UNCONC_READ_IDS, CLASSIFY_READS:MERGE_BRACKEN, FASTQC_DEDUP, PREPARE_REFERENCES:EXTRACT_OTHER_BOWTIE2, MAP_HUMAN_VIRUSES:MAKE_HV_FASTA, MAP_HUMAN_VIRUSES:BOWTIE2_REFERENCE_DEPLETION, CLASSIFY_READS:JOIN, MAP_HUMAN_VIRUSES:KRAKEN_BOWTIE, COPY_RIBO, MAP_HUMAN_VIRUSES:MERGE_SAMPLES_HV, CLEAN_READS:PREPROCESS_TRIMMOMATIC, MAP_HUMAN_VIRUSES:COLLAPSE_HV, MERGE_KRAKEN_REPORTS, MULTIQC_RIBO_INITIAL, BLAST_HV, LABEL_KRAKEN_REPORTS, PREPARE_REFERENCES:EXTRACT_OTHER_BBMAP, PREPROCESS_TRIMMOMATIC, CLEAN_READS:PREPROCESS_CUTADAPT, MAP_HUMAN_VIRUSES:MERGE_SAM_KRAKEN, PREPARE_REFERENCES:COPY_SAMPLE_METADATA, MAP_HUMAN_VIRUSES:COMBINE_MAPPED_READS, BBMAP_REFERENCE_DEPLETION, PREPARE_REFERENCES:COPY_TAXA, HANDLE_RAW_READS_TRUNC:FASTQC_CONCAT_TRUNC
+Jun-13 18:23:16.307 [main] DEBUG nextflow.Session - Igniting dataflow network (62)
+Jun-13 18:23:16.313 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:EXTRACT_HUMAN_BOWTIE2
+Jun-13 18:23:16.313 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:EXTRACT_OTHER_BOWTIE2
+Jun-13 18:23:16.313 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:EXTRACT_HUMAN_BBMAP
+Jun-13 18:23:16.313 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:EXTRACT_OTHER_BBMAP
+Jun-13 18:23:16.313 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:EXTRACT_HV
+Jun-13 18:23:16.313 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:EXTRACT_KRAKEN
+Jun-13 18:23:16.317 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:COPY_RIBO
+Jun-13 18:23:16.318 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:COPY_ADAPTERS
+Jun-13 18:23:16.326 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:COPY_TAXA
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPARE_REFERENCES:COPY_SAMPLE_METADATA
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > HANDLE_RAW_READS_TRUNC:CONCAT_GZIPPED
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > HANDLE_RAW_READS_TRUNC:TRUNCATE_CONCAT
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > HANDLE_RAW_READS_TRUNC:FASTQC_CONCAT_TRUNC
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > HANDLE_RAW_READS_TRUNC:MULTIQC_CONCAT
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLEAN_READS:PREPROCESS_CUTADAPT
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLEAN_READS:PREPROCESS_TRIMMOMATIC
+Jun-13 18:23:16.373 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLEAN_READS:PREPROCESS_FASTP
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLEAN_READS:FASTQC_CLEANED
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLEAN_READS:MULTIQC_CLEANED
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLEAN_READS:EXTRACT_ADAPTERS_SINGLE
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLEAN_READS:MERGE_ADAPTERS
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DEDUP_READS:DEDUP_CLUMPIFY
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DEDUP_READS:FASTQC_DEDUP
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DEDUP_READS:MULTIQC_DEDUP
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REMOVE_RIBO_INITIAL:BBDUK_RIBO_INITIAL
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REMOVE_RIBO_INITIAL:FASTQC_RIBO_INITIAL
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REMOVE_RIBO_INITIAL:MULTIQC_RIBO_INITIAL
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REMOVE_RIBO_SECONDARY:BBDUK_RIBO_SECONDARY
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REMOVE_RIBO_SECONDARY:FASTQC_RIBO_SECONDARY
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REMOVE_RIBO_SECONDARY:MULTIQC_RIBO_SECONDARY
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:RUN_BOWTIE2
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:PROCESS_BOWTIE_SAM
+Jun-13 18:23:16.374 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:GET_UNCONC_READ_IDS
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:EXTRACT_UNCONC_READS
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:COMBINE_MAPPED_READS
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:BOWTIE2_HUMAN_DEPLETION
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:BBMAP_HUMAN_DEPLETION
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:BOWTIE2_REFERENCE_DEPLETION
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:BBMAP_REFERENCE_DEPLETION
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:BBMERGE_BOWTIE
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:JOIN_BOWTIE
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:DEDUP_HV
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:KRAKEN_BOWTIE
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:PROCESS_KRAKEN_BOWTIE
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:MERGE_SAM_KRAKEN
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:MERGE_SAMPLES_HV
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:FILTER_HV
+Jun-13 18:23:16.375 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:COLLAPSE_HV
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:MAKE_HV_FASTA
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAP_HUMAN_VIRUSES:COUNT_HV_CLADES
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:BBMERGE
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:JOIN
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:KRAKEN
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:LABEL_KRAKEN_REPORTS
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:MERGE_KRAKEN_REPORTS
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:BRACKEN_DOMAINS
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:LABEL_BRACKEN
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CLASSIFY_READS:MERGE_BRACKEN
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_OUTPUT:SUMMARIZE_MULTIQC_SINGLE
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_OUTPUT:MERGE_MULTIQC
+Jun-13 18:23:16.376 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_OUTPUT:SUMMARIZE_COMPOSITION
+Jun-13 18:23:16.378 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_298c08336ad104d7: /home/ec2-user/prussin2019/workflow.nf
+Jun-13 18:23:16.378 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jun-13 18:23:16.378 [main] DEBUG nextflow.Session - Session await
+Jun-13 18:23:16.406 [Actor Thread 18] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Jun-13 18:23:16.407 [Actor Thread 18] DEBUG nextflow.cloud.aws.config.AwsConfig - AWS S3 config properties: {socket_timeout=0, max_connections=1000, connection_timeout=0, max_error_retry=10}
+Jun-13 18:23:16.407 [Actor Thread 18] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jun-13 18:23:16.542 [Actor Thread 14] DEBUG i.s.wave.plugin.config.WaveConfig - Wave strategy not specified - using default: [container, dockerfile, conda, spack]
+Jun-13 18:23:16.560 [Actor Thread 24] DEBUG nextflow.util.HashBuilder - Unable to get file attributes file: /home/ec2-user/prussin2019/adapters.fasta -- Cause: java.nio.file.NoSuchFileException: /home/ec2-user/prussin2019/adapters.fasta
+Jun-13 18:23:16.572 [Actor Thread 14] DEBUG io.seqera.wave.plugin.WaveClient - Wave config: WaveConfig(enabled:true, endpoint:https://wave.seqera.io, containerConfigUrl:[], tokensCacheMaxDuration:30m, condaOpts:CondaOpts(mambaImage=mambaorg/micromamba:1.5.8-lunar; basePackages=conda-forge::procps-ng, commands=null), spackOpts:SpackOpts(basePackages=null, commands=null), strategy:[container, dockerfile, conda, spack], bundleProjectResources:true, buildRepository:null, cacheRepository:null, retryOpts:RetryOpts(delay:450ms, maxDelay:1m 30s, maxAttempts:10, jitter:0.25), httpClientOpts:HttpOpts(), freezeMode:null, preserveFileTimestamp:null)
+Jun-13 18:23:16.643 [FileTransfer-1] DEBUG nextflow.file.FilePorter - Copying foreign file /home/ec2-user/prussin2019/libraries.csv to work dir: s3://nao-harmon/prussin2019/work/stage-1e9f4cc6-4f9e-442a-a688-a2b95fbc3024/03/0ab4a8e38a9cfc24741cb6f668e368/libraries.csv
+Jun-13 18:23:16.661 [FileTransfer-1] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 upload file from=/home/ec2-user/prussin2019/libraries.csv to=s3://nao-harmon/prussin2019/work/stage-1e9f4cc6-4f9e-442a-a688-a2b95fbc3024/03/0ab4a8e38a9cfc24741cb6f668e368/libraries.csv
+Jun-13 18:23:16.662 [FileTransfer-1] DEBUG nextflow.cloud.aws.nio.S3Client - Creating S3 transfer manager pool - chunk-size=104857600; max-treads=10;
+Jun-13 18:23:16.662 [FileTransfer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'S3TransferManager' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jun-13 18:23:16.665 [Actor Thread 14] DEBUG io.seqera.wave.plugin.WaveClient - Wave request container config: https://fusionfs.seqera.io/releases/v2.3-amd64.json
+Jun-13 18:23:16.675 [FileTransfer-2] DEBUG nextflow.file.FilePorter - Copying foreign file /home/ec2-user/prussin2019/adapters.fasta to work dir: s3://nao-harmon/prussin2019/work/stage-1e9f4cc6-4f9e-442a-a688-a2b95fbc3024/93/7e3b67e7b30f5368cbb9569c1b8ce5/adapters.fasta
+Jun-13 18:23:16.679 [Actor Thread 24] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:COPY_ADAPTERS; work-dir=null
+  error [nextflow.exception.ProcessStageException]: Can't stage file /home/ec2-user/prussin2019/adapters.fasta -- file does not exist
+Jun-13 18:23:16.712 [Actor Thread 24] INFO  nextflow.processor.TaskProcessor - [null] NOTE: Can't stage file /home/ec2-user/prussin2019/adapters.fasta -- file does not exist -- Execution is retried (1)
+Jun-13 18:23:16.725 [pool-2-thread-1] ERROR nextflow.processor.TaskProcessor - Unable to re-submit task `PREPARE_REFERENCES:COPY_ADAPTERS`
+java.lang.NullPointerException: Cannot invoke "com.google.common.hash.HashCode.asBytes()" because "hash" is null
+	at nextflow.processor.TaskProcessor.checkCachedOrLaunchTask(TaskProcessor.groovy:807)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:342)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.processor.TaskProcessor$_checkErrorStrategy_closure20.doCall(TaskProcessor.groovy:1162)
+	at nextflow.processor.TaskProcessor$_checkErrorStrategy_closure20.doCall(TaskProcessor.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at groovy.lang.Closure.run(Closure.java:505)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Jun-13 18:23:16.746 [pool-2-thread-1] DEBUG nextflow.Session - Session aborted -- Cause: Cannot invoke "com.google.common.hash.HashCode.asBytes()" because "hash" is null
+Jun-13 18:23:16.837 [pool-2-thread-1] DEBUG nextflow.Session - The following nodes are still active:
+[process] PREPARE_REFERENCES:EXTRACT_HUMAN_BOWTIE2
+  status=ACTIVE
+  port 0: (value) bound ; channel: human_index_tarball
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:EXTRACT_OTHER_BOWTIE2
+  status=ACTIVE
+  port 0: (value) bound ; channel: other_index_tarball
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:EXTRACT_HUMAN_BBMAP
+  status=ACTIVE
+  port 0: (value) bound ; channel: human_index_tarball
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:EXTRACT_OTHER_BBMAP
+  status=ACTIVE
+  port 0: (value) bound ; channel: other_index_tarball
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:EXTRACT_HV
+  status=ACTIVE
+  port 0: (value) bound ; channel: hv_index_tarball
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:EXTRACT_KRAKEN
+  status=ACTIVE
+  port 0: (value) bound ; channel: kraken_tarball
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:COPY_RIBO
+  status=ACTIVE
+  port 0: (value) bound ; channel: ribo_db
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:COPY_TAXA
+  status=ACTIVE
+  port 0: (value) bound ; channel: viral_taxa
+  port 1: (cntrl) -     ; channel: $
+
+[process] PREPARE_REFERENCES:COPY_SAMPLE_METADATA
+  status=ACTIVE
+  port 0: (value) bound ; channel: sample_metadata
+  port 1: (cntrl) -     ; channel: $
+
+[process] HANDLE_RAW_READS_TRUNC:CONCAT_GZIPPED
+  status=ACTIVE
+  port 0: (value) bound ; channel: raw_files_directory
+  port 1: (queue) closed; channel: -
+  port 2: (cntrl) -     ; channel: $
+
+[process] HANDLE_RAW_READS_TRUNC:TRUNCATE_CONCAT
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: n_reads
+  port 2: (cntrl) -     ; channel: $
+
+[process] HANDLE_RAW_READS_TRUNC:FASTQC_CONCAT_TRUNC
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] HANDLE_RAW_READS_TRUNC:MULTIQC_CONCAT
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: *
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLEAN_READS:PREPROCESS_CUTADAPT
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: adapters
+  port 2: (cntrl) -     ; channel: $
+
+[process] CLEAN_READS:PREPROCESS_TRIMMOMATIC
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: adapters
+  port 2: (cntrl) -     ; channel: $
+
+[process] CLEAN_READS:PREPROCESS_FASTP
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: adapters
+  port 2: (cntrl) -     ; channel: $
+
+[process] CLEAN_READS:FASTQC_CLEANED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLEAN_READS:MULTIQC_CLEANED
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: *
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLEAN_READS:EXTRACT_ADAPTERS_SINGLE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLEAN_READS:MERGE_ADAPTERS
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: adapters_in
+  port 1: (value) OPEN  ; channel: adapter_files
+  port 2: (cntrl) -     ; channel: $
+
+[process] DEDUP_READS:DEDUP_CLUMPIFY
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] DEDUP_READS:FASTQC_DEDUP
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] DEDUP_READS:MULTIQC_DEDUP
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: *
+  port 1: (cntrl) -     ; channel: $
+
+[process] REMOVE_RIBO_INITIAL:BBDUK_RIBO_INITIAL
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: ribo_ref
+  port 2: (cntrl) -     ; channel: $
+
+[process] REMOVE_RIBO_INITIAL:FASTQC_RIBO_INITIAL
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] REMOVE_RIBO_INITIAL:MULTIQC_RIBO_INITIAL
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: *
+  port 1: (cntrl) -     ; channel: $
+
+[process] REMOVE_RIBO_SECONDARY:BBDUK_RIBO_SECONDARY
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: ribo_ref
+  port 2: (cntrl) -     ; channel: $
+
+[process] REMOVE_RIBO_SECONDARY:FASTQC_RIBO_SECONDARY
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] REMOVE_RIBO_SECONDARY:MULTIQC_RIBO_SECONDARY
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: *
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:RUN_BOWTIE2
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: index_dir
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:PROCESS_BOWTIE_SAM
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: script_process_sam
+  port 2: (value) bound ; channel: genomeid_taxid_map_path
+  port 3: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:GET_UNCONC_READ_IDS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:EXTRACT_UNCONC_READS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:COMBINE_MAPPED_READS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:BOWTIE2_HUMAN_DEPLETION
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: index_dir
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:BBMAP_HUMAN_DEPLETION
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: index_ref_dir
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:BOWTIE2_REFERENCE_DEPLETION
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: index_dir
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:BBMAP_REFERENCE_DEPLETION
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: index_ref_dir
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:BBMERGE_BOWTIE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:JOIN_BOWTIE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: script_join_fastq
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:DEDUP_HV
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:KRAKEN_BOWTIE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: db_path
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:PROCESS_KRAKEN_BOWTIE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: script_process_kraken
+  port 2: (value) bound ; channel: nodes_path
+  port 3: (value) bound ; channel: hv_path
+  port 4: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:MERGE_SAM_KRAKEN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:MERGE_SAMPLES_HV
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: tsvs
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:FILTER_HV
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits
+  port 1: (value) bound ; channel: score_threshold
+  port 2: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:COLLAPSE_HV
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits_filtered
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:MAKE_HV_FASTA
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits_collapsed
+  port 1: (cntrl) -     ; channel: $
+
+[process] MAP_HUMAN_VIRUSES:COUNT_HV_CLADES
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits_collapsed
+  port 1: (value) OPEN  ; channel: viral_taxa
+  port 2: (value) bound ; channel: script_count_taxa
+  port 3: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:BBMERGE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:JOIN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: script_join_fastq
+  port 2: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:KRAKEN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: db_path
+  port 2: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:LABEL_KRAKEN_REPORTS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:MERGE_KRAKEN_REPORTS
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: tsvs
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:BRACKEN_DOMAINS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: db_path
+  port 2: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:LABEL_BRACKEN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] CLASSIFY_READS:MERGE_BRACKEN
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: tsvs
+  port 1: (cntrl) -     ; channel: $
+
+[process] PROCESS_OUTPUT:SUMMARIZE_MULTIQC_SINGLE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: script_summarize_multiqc
+  port 2: (cntrl) -     ; channel: $
+
+[process] PROCESS_OUTPUT:MERGE_MULTIQC
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: basic_stats_tsvs
+  port 1: (value) OPEN  ; channel: adapter_tsvs
+  port 2: (value) OPEN  ; channel: base_quality_tsvs
+  port 3: (value) OPEN  ; channel: sequence_quality_tsvs
+  port 4: (cntrl) -     ; channel: $
+
+[process] PROCESS_OUTPUT:SUMMARIZE_COMPOSITION
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: bracken_merged
+  port 1: (value) OPEN  ; channel: multiqc_basic_merged
+  port 2: (cntrl) -     ; channel: $
+
+Jun-13 18:23:16.839 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jun-13 18:23:16.839 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jun-13 18:23:16.839 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: awsbatch) - terminating tasks monitor poll loop
+Jun-13 18:23:16.841 [Actor Thread 5] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:EXTRACT_HUMAN_BOWTIE2; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.841 [Actor Thread 4] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:EXTRACT_OTHER_BOWTIE2; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.841 [Actor Thread 1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:EXTRACT_HV; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.841 [Actor Thread 2] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:EXTRACT_OTHER_BBMAP; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.841 [Actor Thread 3] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:EXTRACT_HUMAN_BBMAP; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.842 [Actor Thread 8] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:COPY_RIBO; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.842 [Actor Thread 6] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:EXTRACT_KRAKEN; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.842 [Actor Thread 17] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:COPY_SAMPLE_METADATA; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.843 [Actor Thread 19] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PREPARE_REFERENCES:COPY_TAXA; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.843 [Actor Thread 15] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=HANDLE_RAW_READS_TRUNC:CONCAT_GZIPPED; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.846 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jun-13 18:23:16.852 [Actor Thread 17] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=HANDLE_RAW_READS_TRUNC:MULTIQC_CONCAT; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.861 [Actor Thread 17] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=CLEAN_READS:MULTIQC_CLEANED; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.872 [Actor Thread 15] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=MAP_HUMAN_VIRUSES:COMBINE_MAPPED_READS; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.887 [Actor Thread 15] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=MAP_HUMAN_VIRUSES:MERGE_SAMPLES_HV; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jun-13 18:23:16.965 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jun-13 18:23:17.004 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-wave@1.4.2'
+Jun-13 18:23:17.004 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-wave
+Jun-13 18:23:17.004 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-amazon@2.5.2'
+Jun-13 18:23:17.004 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-amazon
+Jun-13 18:23:17.005 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
