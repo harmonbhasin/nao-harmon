@@ -21,7 +21,7 @@ library(cowplot)
 library(patchwork)
 library(fastqcr)
 library(RColorBrewer)
-source("../sampling-strategies/scripts/aux_plot-theme.R")
+source("../../../sampling-strategies/scripts/aux_plot-theme.R")
 theme_base <- theme_base + theme(aspect.ratio = NULL)
 theme_rotate <- theme_base + theme(
     axis.text.x = element_text(hjust = 1, angle = 45),
