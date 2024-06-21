@@ -5,3 +5,5 @@
 2024-06-13 23:04:07	4m 50s	big_mandelbrot	ERR	c84ee4fdb4d55f1e6095b7ec14bfa8b1	01f12816-8ffb-4c13-aae5-f1c62c5cb506	nextflow workflow.nf -resume
 2024-06-13 23:09:20	5h 38m 40s	fabulous_hodgkin	ERR	c84ee4fdb4d55f1e6095b7ec14bfa8b1	01f12816-8ffb-4c13-aae5-f1c62c5cb506	nextflow workflow.nf -resume
 2024-06-14 14:03:31	-	sick_archimedes	-	c84ee4fdb4d55f1e6095b7ec14bfa8b1	abaa2d7e-681f-464b-9b57-2f29bb3fd643	nextflow workflow.nf
+2024-06-21 20:19:05	-	awesome_mcnulty	-	c84ee4fdb4d55f1e6095b7ec14bfa8b1	abaa2d7e-681f-464b-9b57-2f29bb3fd643	nextflow workflow.nf -resume
+2024-06-21 20:20:53	-	modest_ardinghelli	-	c84ee4fdb4d55f1e6095b7ec14bfa8b1	abaa2d7e-681f-464b-9b57-2f29bb3fd643	nextflow workflow.nf -resume
