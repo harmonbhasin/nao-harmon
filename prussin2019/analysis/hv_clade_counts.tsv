@@ -1,0 +1,3614 @@
+taxid	name	rank	parent_taxid	sample	n_reads_direct	n_reads_clade
+10239	Viruses	superkingdom	1	AP-DNA-10	0	1198
+10239	Viruses	superkingdom	1	AP-DNA-11	0	460
+10239	Viruses	superkingdom	1	AP-DNA-13	0	495
+10239	Viruses	superkingdom	1	AP-DNA-14	0	91
+10239	Viruses	superkingdom	1	AP-DNA-2	0	2390
+10239	Viruses	superkingdom	1	AP-DNA-6	0	489
+10239	Viruses	superkingdom	1	AP-DNA-7	0	491
+10239	Viruses	superkingdom	1	AP-RNA-3	0	171
+10239	Viruses	superkingdom	1	AP-RNA-5	0	120
+10239	Viruses	superkingdom	1	AP-DNA-12	0	506
+10239	Viruses	superkingdom	1	AP-DNA-4	0	456
+10239	Viruses	superkingdom	1	AP-DNA-8	0	354
+10239	Viruses	superkingdom	1	AP-DNA-9	0	844
+10239	Viruses	superkingdom	1	AP-DNA-3	0	1182
+10239	Viruses	superkingdom	1	AP-DNA-1	0	2531
+10239	Viruses	superkingdom	1	AP-RNA-1	0	360
+10239	Viruses	superkingdom	1	AP-DNA-15	0	17
+10239	Viruses	superkingdom	1	AP-DNA-5	0	506
+10239	Viruses	superkingdom	1	AP-RNA-10	0	166
+10239	Viruses	superkingdom	1	AP-RNA-11	0	74
+10239	Viruses	superkingdom	1	AP-RNA-12	0	275
+10239	Viruses	superkingdom	1	AP-RNA-13	0	103
+10239	Viruses	superkingdom	1	AP-RNA-14	0	18
+10239	Viruses	superkingdom	1	AP-RNA-2	0	390
+10239	Viruses	superkingdom	1	AP-RNA-4	0	218
+10239	Viruses	superkingdom	1	AP-RNA-6	0	114
+10239	Viruses	superkingdom	1	AP-RNA-7	0	99
+10239	Viruses	superkingdom	1	AP-RNA-8	0	177
+10239	Viruses	superkingdom	1	AP-RNA-9	0	203
+10239	Viruses	superkingdom	1	AP-DNA-16	0	22
+10239	Viruses	superkingdom	1	AP-RNA-15	0	1
+10240	Poxviridae	family	2732527	AP-DNA-10	0	4
+10240	Poxviridae	family	2732527	AP-DNA-11	0	2
+10240	Poxviridae	family	2732527	AP-DNA-13	0	1
+10240	Poxviridae	family	2732527	AP-DNA-14	0	2
+10240	Poxviridae	family	2732527	AP-DNA-2	0	7
+10240	Poxviridae	family	2732527	AP-DNA-6	0	2
+10240	Poxviridae	family	2732527	AP-DNA-7	0	3
+10240	Poxviridae	family	2732527	AP-RNA-3	0	1
+10240	Poxviridae	family	2732527	AP-RNA-5	0	1
+10240	Poxviridae	family	2732527	AP-DNA-12	0	2
+10240	Poxviridae	family	2732527	AP-DNA-4	0	5
+10240	Poxviridae	family	2732527	AP-DNA-8	0	1
+10240	Poxviridae	family	2732527	AP-DNA-9	0	1
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-10	0	4
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-11	0	2
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-13	0	1
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-14	0	2
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-2	0	7
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-6	0	2
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-7	0	3
+10241	Chordopoxvirinae	subfamily	10240	AP-RNA-3	0	1
+10241	Chordopoxvirinae	subfamily	10240	AP-RNA-5	0	1
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-12	0	2
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-4	0	5
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-8	0	1
+10241	Chordopoxvirinae	subfamily	10240	AP-DNA-9	0	1
+10242	Orthopoxvirus	genus	10241	AP-DNA-10	0	1
+10242	Orthopoxvirus	genus	10241	AP-DNA-11	0	2
+10242	Orthopoxvirus	genus	10241	AP-DNA-13	0	1
+10242	Orthopoxvirus	genus	10241	AP-DNA-14	0	1
+10242	Orthopoxvirus	genus	10241	AP-DNA-2	0	1
+10242	Orthopoxvirus	genus	10241	AP-DNA-6	0	1
+10242	Orthopoxvirus	genus	10241	AP-DNA-7	0	1
+10242	Orthopoxvirus	genus	10241	AP-RNA-3	0	1
+10242	Orthopoxvirus	genus	10241	AP-RNA-5	0	1
+10245	Vaccinia virus	species	10242	AP-DNA-10	1	1
+10245	Vaccinia virus	species	10242	AP-DNA-11	2	2
+10245	Vaccinia virus	species	10242	AP-DNA-13	1	1
+10245	Vaccinia virus	species	10242	AP-DNA-14	1	1
+10245	Vaccinia virus	species	10242	AP-DNA-2	1	1
+10245	Vaccinia virus	species	10242	AP-DNA-6	1	1
+10245	Vaccinia virus	species	10242	AP-DNA-7	1	1
+10245	Vaccinia virus	species	10242	AP-RNA-3	1	1
+10245	Vaccinia virus	species	10242	AP-RNA-5	1	1
+10278	Molluscipoxvirus	genus	10241	AP-DNA-10	0	3
+10278	Molluscipoxvirus	genus	10241	AP-DNA-14	0	1
+10278	Molluscipoxvirus	genus	10241	AP-DNA-2	0	6
+10278	Molluscipoxvirus	genus	10241	AP-DNA-6	0	1
+10278	Molluscipoxvirus	genus	10241	AP-DNA-7	0	2
+10278	Molluscipoxvirus	genus	10241	AP-DNA-12	0	2
+10278	Molluscipoxvirus	genus	10241	AP-DNA-4	0	5
+10278	Molluscipoxvirus	genus	10241	AP-DNA-8	0	1
+10278	Molluscipoxvirus	genus	10241	AP-DNA-9	0	1
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-10	0	3
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-14	0	1
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-2	0	6
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-6	0	1
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-7	0	2
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-12	0	2
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-4	0	5
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-8	0	1
+10279	Molluscum contagiosum virus	species	10278	AP-DNA-9	0	1
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-10	3	3
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-14	1	1
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-2	6	6
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-6	1	1
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-7	2	2
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-12	2	2
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-4	5	5
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-8	1	1
+10280	Molluscum contagiosum virus subtype 1	no rank	10279	AP-DNA-9	1	1
+10292	Herpesviridae	family	548681	AP-DNA-10	0	829
+10292	Herpesviridae	family	548681	AP-DNA-11	0	344
+10292	Herpesviridae	family	548681	AP-DNA-13	0	406
+10292	Herpesviridae	family	548681	AP-DNA-14	0	51
+10292	Herpesviridae	family	548681	AP-DNA-2	0	1930
+10292	Herpesviridae	family	548681	AP-DNA-6	0	288
+10292	Herpesviridae	family	548681	AP-DNA-7	0	278
+10292	Herpesviridae	family	548681	AP-RNA-3	0	58
+10292	Herpesviridae	family	548681	AP-RNA-5	0	22
+10292	Herpesviridae	family	548681	AP-DNA-12	0	208
+10292	Herpesviridae	family	548681	AP-DNA-4	0	185
+10292	Herpesviridae	family	548681	AP-DNA-8	0	131
+10292	Herpesviridae	family	548681	AP-DNA-9	0	417
+10292	Herpesviridae	family	548681	AP-DNA-3	0	770
+10292	Herpesviridae	family	548681	AP-DNA-1	0	1648
+10292	Herpesviridae	family	548681	AP-RNA-1	0	133
+10292	Herpesviridae	family	548681	AP-DNA-15	0	4
+10292	Herpesviridae	family	548681	AP-DNA-5	0	308
+10292	Herpesviridae	family	548681	AP-RNA-10	0	28
+10292	Herpesviridae	family	548681	AP-RNA-11	0	16
+10292	Herpesviridae	family	548681	AP-RNA-12	0	14
+10292	Herpesviridae	family	548681	AP-RNA-13	0	29
+10292	Herpesviridae	family	548681	AP-RNA-14	0	6
+10292	Herpesviridae	family	548681	AP-RNA-2	0	167
+10292	Herpesviridae	family	548681	AP-RNA-4	0	24
+10292	Herpesviridae	family	548681	AP-RNA-6	0	26
+10292	Herpesviridae	family	548681	AP-RNA-7	0	16
+10292	Herpesviridae	family	548681	AP-RNA-8	0	13
+10292	Herpesviridae	family	548681	AP-RNA-9	0	25
+10293	Alphaherpesvirinae	subfamily	10292	AP-DNA-10	0	2
+10293	Alphaherpesvirinae	subfamily	10292	AP-DNA-11	0	1
+10293	Alphaherpesvirinae	subfamily	10292	AP-DNA-14	0	1
+10293	Alphaherpesvirinae	subfamily	10292	AP-DNA-2	0	2
+10293	Alphaherpesvirinae	subfamily	10292	AP-DNA-3	0	8
+10293	Alphaherpesvirinae	subfamily	10292	AP-DNA-1	0	2
+10293	Alphaherpesvirinae	subfamily	10292	AP-RNA-1	0	1
+10294	Simplexvirus	genus	10293	AP-DNA-10	0	2
+10294	Simplexvirus	genus	10293	AP-DNA-11	0	1
+10294	Simplexvirus	genus	10293	AP-DNA-14	0	1
+10294	Simplexvirus	genus	10293	AP-DNA-2	0	2
+10294	Simplexvirus	genus	10293	AP-DNA-3	0	7
+10294	Simplexvirus	genus	10293	AP-DNA-1	0	2
+10294	Simplexvirus	genus	10293	AP-RNA-1	0	1
+10298	Human alphaherpesvirus 1	species	10294	AP-DNA-10	1	2
+10298	Human alphaherpesvirus 1	species	10294	AP-DNA-14	1	1
+10298	Human alphaherpesvirus 1	species	10294	AP-DNA-2	2	2
+10298	Human alphaherpesvirus 1	species	10294	AP-DNA-3	7	7
+10299	Human alphaherpesvirus 1 strain 17	no rank	10298	AP-DNA-10	1	1
+10310	Human alphaherpesvirus 2	species	10294	AP-DNA-11	1	1
+10310	Human alphaherpesvirus 2	species	10294	AP-DNA-1	2	2
+10310	Human alphaherpesvirus 2	species	10294	AP-RNA-1	1	1
+10319	Varicellovirus	genus	10293	AP-DNA-3	0	1
+10335	Human alphaherpesvirus 3	species	10319	AP-DNA-3	1	1
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-10	0	824
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-11	0	343
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-13	0	406
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-14	0	49
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-2	0	1927
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-6	0	288
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-7	0	278
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-3	0	58
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-5	0	22
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-12	0	206
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-4	0	185
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-8	0	131
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-9	0	417
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-3	0	760
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-1	0	1645
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-1	0	132
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-15	0	4
+10357	Betaherpesvirinae	subfamily	10292	AP-DNA-5	0	308
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-10	0	27
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-11	0	16
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-12	0	14
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-13	0	29
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-14	0	6
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-2	0	167
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-4	0	24
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-6	0	26
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-7	0	16
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-8	0	13
+10357	Betaherpesvirinae	subfamily	10292	AP-RNA-9	0	25
+10358	Cytomegalovirus	genus	10357	AP-DNA-10	0	821
+10358	Cytomegalovirus	genus	10357	AP-DNA-11	0	342
+10358	Cytomegalovirus	genus	10357	AP-DNA-13	0	404
+10358	Cytomegalovirus	genus	10357	AP-DNA-14	0	49
+10358	Cytomegalovirus	genus	10357	AP-DNA-2	0	1919
+10358	Cytomegalovirus	genus	10357	AP-DNA-6	0	287
+10358	Cytomegalovirus	genus	10357	AP-DNA-7	0	277
+10358	Cytomegalovirus	genus	10357	AP-RNA-3	0	56
+10358	Cytomegalovirus	genus	10357	AP-RNA-5	0	22
+10358	Cytomegalovirus	genus	10357	AP-DNA-12	0	203
+10358	Cytomegalovirus	genus	10357	AP-DNA-4	0	184
+10358	Cytomegalovirus	genus	10357	AP-DNA-8	0	130
+10358	Cytomegalovirus	genus	10357	AP-DNA-9	0	417
+10358	Cytomegalovirus	genus	10357	AP-DNA-3	0	755
+10358	Cytomegalovirus	genus	10357	AP-DNA-1	0	1641
+10358	Cytomegalovirus	genus	10357	AP-RNA-1	0	129
+10358	Cytomegalovirus	genus	10357	AP-DNA-15	0	2
+10358	Cytomegalovirus	genus	10357	AP-DNA-5	0	308
+10358	Cytomegalovirus	genus	10357	AP-RNA-10	0	27
+10358	Cytomegalovirus	genus	10357	AP-RNA-11	0	14
+10358	Cytomegalovirus	genus	10357	AP-RNA-12	0	14
+10358	Cytomegalovirus	genus	10357	AP-RNA-13	0	29
+10358	Cytomegalovirus	genus	10357	AP-RNA-14	0	6
+10358	Cytomegalovirus	genus	10357	AP-RNA-2	0	164
+10358	Cytomegalovirus	genus	10357	AP-RNA-4	0	21
+10358	Cytomegalovirus	genus	10357	AP-RNA-6	0	25
+10358	Cytomegalovirus	genus	10357	AP-RNA-7	0	15
+10358	Cytomegalovirus	genus	10357	AP-RNA-8	0	11
+10358	Cytomegalovirus	genus	10357	AP-RNA-9	0	25
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-10	821	821
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-11	342	342
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-13	404	404
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-14	49	49
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-2	1919	1919
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-6	287	287
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-7	277	277
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-3	56	56
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-5	22	22
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-12	203	203
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-4	184	184
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-8	130	130
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-9	417	417
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-3	755	755
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-1	1641	1641
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-1	129	129
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-15	2	2
+10359	Human betaherpesvirus 5	species	10358	AP-DNA-5	308	308
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-10	27	27
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-11	14	14
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-12	14	14
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-13	29	29
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-14	6	6
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-2	164	164
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-4	21	21
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-6	25	25
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-7	15	15
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-8	11	11
+10359	Human betaherpesvirus 5	species	10358	AP-RNA-9	25	25
+10372	Human betaherpesvirus 7	species	40272	AP-DNA-10	1	1
+10372	Human betaherpesvirus 7	species	40272	AP-DNA-11	1	1
+10372	Human betaherpesvirus 7	species	40272	AP-DNA-13	2	2
+10372	Human betaherpesvirus 7	species	40272	AP-DNA-2	1	1
+10372	Human betaherpesvirus 7	species	40272	AP-RNA-3	2	2
+10372	Human betaherpesvirus 7	species	40272	AP-DNA-12	2	2
+10372	Human betaherpesvirus 7	species	40272	AP-DNA-3	3	3
+10372	Human betaherpesvirus 7	species	40272	AP-RNA-1	2	2
+10372	Human betaherpesvirus 7	species	40272	AP-DNA-15	2	2
+10372	Human betaherpesvirus 7	species	40272	AP-RNA-11	2	2
+10372	Human betaherpesvirus 7	species	40272	AP-RNA-2	1	1
+10372	Human betaherpesvirus 7	species	40272	AP-RNA-4	2	2
+10372	Human betaherpesvirus 7	species	40272	AP-RNA-8	1	1
+10374	Gammaherpesvirinae	subfamily	10292	AP-DNA-10	0	3
+10374	Gammaherpesvirinae	subfamily	10292	AP-DNA-14	0	1
+10374	Gammaherpesvirinae	subfamily	10292	AP-DNA-2	0	1
+10374	Gammaherpesvirinae	subfamily	10292	AP-DNA-12	0	2
+10374	Gammaherpesvirinae	subfamily	10292	AP-DNA-3	0	2
+10374	Gammaherpesvirinae	subfamily	10292	AP-DNA-1	0	1
+10374	Gammaherpesvirinae	subfamily	10292	AP-RNA-10	0	1
+10375	Lymphocryptovirus	genus	10374	AP-DNA-10	0	3
+10375	Lymphocryptovirus	genus	10374	AP-DNA-14	0	1
+10375	Lymphocryptovirus	genus	10374	AP-DNA-2	0	1
+10375	Lymphocryptovirus	genus	10374	AP-DNA-12	0	2
+10375	Lymphocryptovirus	genus	10374	AP-DNA-3	0	2
+10375	Lymphocryptovirus	genus	10374	AP-DNA-1	0	1
+10375	Lymphocryptovirus	genus	10374	AP-RNA-10	0	1
+10376	Human gammaherpesvirus 4	species	10375	AP-DNA-10	3	3
+10376	Human gammaherpesvirus 4	species	10375	AP-DNA-14	1	1
+10376	Human gammaherpesvirus 4	species	10375	AP-DNA-2	1	1
+10376	Human gammaherpesvirus 4	species	10375	AP-DNA-12	2	2
+10376	Human gammaherpesvirus 4	species	10375	AP-DNA-3	2	2
+10376	Human gammaherpesvirus 4	species	10375	AP-DNA-1	1	1
+10376	Human gammaherpesvirus 4	species	10375	AP-RNA-10	1	1
+10508	Adenoviridae	family	2732559	AP-DNA-10	0	15
+10508	Adenoviridae	family	2732559	AP-DNA-11	0	7
+10508	Adenoviridae	family	2732559	AP-DNA-13	0	5
+10508	Adenoviridae	family	2732559	AP-DNA-14	0	3
+10508	Adenoviridae	family	2732559	AP-DNA-2	0	73
+10508	Adenoviridae	family	2732559	AP-DNA-6	0	4
+10508	Adenoviridae	family	2732559	AP-DNA-7	0	31
+10508	Adenoviridae	family	2732559	AP-RNA-3	0	4
+10508	Adenoviridae	family	2732559	AP-RNA-5	0	1
+10508	Adenoviridae	family	2732559	AP-DNA-12	0	4
+10508	Adenoviridae	family	2732559	AP-DNA-4	0	4
+10508	Adenoviridae	family	2732559	AP-DNA-8	0	23
+10508	Adenoviridae	family	2732559	AP-DNA-9	0	5
+10508	Adenoviridae	family	2732559	AP-DNA-3	0	22
+10508	Adenoviridae	family	2732559	AP-DNA-1	0	335
+10508	Adenoviridae	family	2732559	AP-RNA-1	0	35
+10508	Adenoviridae	family	2732559	AP-DNA-5	0	1
+10508	Adenoviridae	family	2732559	AP-RNA-13	0	1
+10508	Adenoviridae	family	2732559	AP-RNA-2	0	7
+10508	Adenoviridae	family	2732559	AP-RNA-4	0	1
+10508	Adenoviridae	family	2732559	AP-RNA-7	0	3
+10508	Adenoviridae	family	2732559	AP-RNA-8	0	5
+10509	Mastadenovirus	genus	10508	AP-DNA-10	0	15
+10509	Mastadenovirus	genus	10508	AP-DNA-11	0	7
+10509	Mastadenovirus	genus	10508	AP-DNA-13	0	5
+10509	Mastadenovirus	genus	10508	AP-DNA-14	0	3
+10509	Mastadenovirus	genus	10508	AP-DNA-2	0	73
+10509	Mastadenovirus	genus	10508	AP-DNA-6	0	4
+10509	Mastadenovirus	genus	10508	AP-DNA-7	0	31
+10509	Mastadenovirus	genus	10508	AP-RNA-3	0	4
+10509	Mastadenovirus	genus	10508	AP-RNA-5	0	1
+10509	Mastadenovirus	genus	10508	AP-DNA-12	0	4
+10509	Mastadenovirus	genus	10508	AP-DNA-4	0	4
+10509	Mastadenovirus	genus	10508	AP-DNA-8	0	23
+10509	Mastadenovirus	genus	10508	AP-DNA-9	0	5
+10509	Mastadenovirus	genus	10508	AP-DNA-3	0	22
+10509	Mastadenovirus	genus	10508	AP-DNA-1	0	335
+10509	Mastadenovirus	genus	10508	AP-RNA-1	0	35
+10509	Mastadenovirus	genus	10508	AP-DNA-5	0	1
+10509	Mastadenovirus	genus	10508	AP-RNA-13	0	1
+10509	Mastadenovirus	genus	10508	AP-RNA-2	0	7
+10509	Mastadenovirus	genus	10508	AP-RNA-4	0	1
+10509	Mastadenovirus	genus	10508	AP-RNA-7	0	3
+10509	Mastadenovirus	genus	10508	AP-RNA-8	0	5
+10515	Human adenovirus 2	serotype	129951	AP-DNA-10	1	1
+10515	Human adenovirus 2	serotype	129951	AP-DNA-13	1	1
+10515	Human adenovirus 2	serotype	129951	AP-DNA-2	19	19
+10515	Human adenovirus 2	serotype	129951	AP-DNA-4	1	1
+10515	Human adenovirus 2	serotype	129951	AP-DNA-8	3	3
+10515	Human adenovirus 2	serotype	129951	AP-DNA-3	5	5
+10515	Human adenovirus 2	serotype	129951	AP-DNA-1	50	50
+10515	Human adenovirus 2	serotype	129951	AP-RNA-1	6	6
+10515	Human adenovirus 2	serotype	129951	AP-RNA-8	2	2
+10524	Human adenovirus 41	serotype	130309	AP-DNA-10	2	2
+10524	Human adenovirus 41	serotype	130309	AP-DNA-11	3	3
+10524	Human adenovirus 41	serotype	130309	AP-DNA-13	1	1
+10524	Human adenovirus 41	serotype	130309	AP-DNA-14	1	1
+10524	Human adenovirus 41	serotype	130309	AP-DNA-2	3	3
+10524	Human adenovirus 41	serotype	130309	AP-DNA-7	25	25
+10524	Human adenovirus 41	serotype	130309	AP-DNA-8	1	1
+10524	Human adenovirus 41	serotype	130309	AP-DNA-9	1	1
+10524	Human adenovirus 41	serotype	130309	AP-DNA-3	1	1
+10524	Human adenovirus 41	serotype	130309	AP-DNA-1	1	1
+10524	Human adenovirus 41	serotype	130309	AP-RNA-7	1	1
+10524	Human adenovirus 41	serotype	130309	AP-RNA-8	1	1
+10529	Human adenovirus 31	serotype	129875	AP-RNA-3	3	3
+10529	Human adenovirus 31	serotype	129875	AP-DNA-1	1	1
+10533	Human adenovirus 1	serotype	129951	AP-DNA-10	4	4
+10533	Human adenovirus 1	serotype	129951	AP-DNA-11	1	1
+10533	Human adenovirus 1	serotype	129951	AP-DNA-2	8	8
+10533	Human adenovirus 1	serotype	129951	AP-DNA-6	1	1
+10533	Human adenovirus 1	serotype	129951	AP-DNA-4	1	1
+10533	Human adenovirus 1	serotype	129951	AP-DNA-8	6	6
+10533	Human adenovirus 1	serotype	129951	AP-DNA-3	7	7
+10533	Human adenovirus 1	serotype	129951	AP-DNA-1	37	37
+10533	Human adenovirus 1	serotype	129951	AP-RNA-1	2	2
+10534	Human adenovirus 6	serotype	129951	AP-DNA-14	2	2
+10534	Human adenovirus 6	serotype	129951	AP-DNA-2	6	6
+10534	Human adenovirus 6	serotype	129951	AP-DNA-8	1	1
+10534	Human adenovirus 6	serotype	129951	AP-DNA-1	23	23
+10534	Human adenovirus 6	serotype	129951	AP-RNA-1	4	4
+10534	Human adenovirus 6	serotype	129951	AP-RNA-2	2	2
+10579	Human papillomavirus type 8	serotype	337051	AP-DNA-13	1	1
+10579	Human papillomavirus type 8	serotype	337051	AP-DNA-2	2	2
+10579	Human papillomavirus type 8	serotype	337051	AP-DNA-6	4	4
+10579	Human papillomavirus type 8	serotype	337051	AP-RNA-3	1	1
+10579	Human papillomavirus type 8	serotype	337051	AP-DNA-12	1	1
+10579	Human papillomavirus type 8	serotype	337051	AP-DNA-4	1	1
+10579	Human papillomavirus type 8	serotype	337051	AP-DNA-1	1	1
+10579	Human papillomavirus type 8	serotype	337051	AP-RNA-6	1	1
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-10	2	2
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-13	1	1
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-2	56	56
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-6	3	3
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-7	17	17
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-3	6	6
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-5	1	1
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-12	1	1
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-4	1	1
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-8	2	2
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-3	34	34
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-1	26	26
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-1	4	4
+10583	Human papillomavirus type 1a	serotype	334203	AP-DNA-5	4	4
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-12	2	2
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-13	2	2
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-14	1	1
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-2	17	17
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-4	4	4
+10583	Human papillomavirus type 1a	serotype	334203	AP-RNA-7	1	1
+10584	Human papillomavirus type 2a	serotype	337043	AP-DNA-10	1	1
+10584	Human papillomavirus type 2a	serotype	337043	AP-RNA-3	1	1
+10584	Human papillomavirus type 2a	serotype	337043	AP-DNA-9	2	2
+10584	Human papillomavirus type 2a	serotype	337043	AP-DNA-3	2	2
+10584	Human papillomavirus type 2a	serotype	337043	AP-DNA-1	6	6
+10584	Human papillomavirus type 2a	serotype	337043	AP-RNA-9	1	1
+10590	human papillomavirus 42	serotype	337048	AP-DNA-10	2	2
+10590	human papillomavirus 42	serotype	337048	AP-DNA-11	1	1
+10590	human papillomavirus 42	serotype	337048	AP-DNA-12	1	1
+10590	human papillomavirus 42	serotype	337048	AP-DNA-8	1	1
+10590	human papillomavirus 42	serotype	337048	AP-DNA-9	2	2
+10590	human papillomavirus 42	serotype	337048	AP-DNA-5	1	1
+10590	human papillomavirus 42	serotype	337048	AP-RNA-14	2	2
+10594	human papillomavirus 47	serotype	337051	AP-DNA-14	1	1
+10599	Human papillomavirus type 5b	serotype	337051	AP-DNA-11	1	1
+10599	Human papillomavirus type 5b	serotype	337051	AP-RNA-5	1	1
+10599	Human papillomavirus type 5b	serotype	337051	AP-DNA-8	1	1
+10599	Human papillomavirus type 5b	serotype	337051	AP-DNA-3	2	2
+10604	human papillomavirus 12	serotype	337051	AP-DNA-10	1	1
+10604	human papillomavirus 12	serotype	337051	AP-DNA-13	1	1
+10604	human papillomavirus 12	serotype	337051	AP-DNA-9	1	1
+10604	human papillomavirus 12	serotype	337051	AP-RNA-1	1	1
+10605	human papillomavirus 14	serotype	337051	AP-DNA-6	0	1
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-10	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-2	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-6	2	2
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-7	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-RNA-3	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-8	3	3
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-3	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-1	3	3
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-5	2	2
+10606	Human papillomavirus 15	serotype	333924	AP-RNA-10	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-RNA-13	2	2
+10606	Human papillomavirus 15	serotype	333924	AP-RNA-2	4	4
+10606	Human papillomavirus 15	serotype	333924	AP-RNA-7	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-RNA-8	3	3
+10606	Human papillomavirus 15	serotype	333924	AP-RNA-9	1	1
+10606	Human papillomavirus 15	serotype	333924	AP-DNA-16	6	6
+10607	Human papillomavirus 17	serotype	333924	AP-DNA-10	1	1
+10607	Human papillomavirus 17	serotype	333924	AP-DNA-11	1	1
+10607	Human papillomavirus 17	serotype	333924	AP-DNA-13	1	1
+10607	Human papillomavirus 17	serotype	333924	AP-DNA-7	1	1
+10607	Human papillomavirus 17	serotype	333924	AP-DNA-1	6	6
+10607	Human papillomavirus 17	serotype	333924	AP-RNA-1	5	5
+10607	Human papillomavirus 17	serotype	333924	AP-DNA-5	2	2
+10607	Human papillomavirus 17	serotype	333924	AP-RNA-10	2	2
+10607	Human papillomavirus 17	serotype	333924	AP-RNA-2	1	1
+10608	Human papillomavirus 19	serotype	337051	AP-DNA-1	1	1
+10608	Human papillomavirus 19	serotype	337051	AP-RNA-6	2	2
+10614	Human papillomavirus 3	serotype	337039	AP-DNA-4	1	1
+10614	Human papillomavirus 3	serotype	337039	AP-DNA-3	1	1
+10614	Human papillomavirus 3	serotype	337039	AP-RNA-4	1	1
+10614	Human papillomavirus 3	serotype	337039	AP-RNA-6	2	2
+10616	Human papillomavirus type 49	serotype	334207	AP-DNA-10	1	1
+10616	Human papillomavirus type 49	serotype	334207	AP-DNA-11	1	1
+10616	Human papillomavirus type 49	serotype	334207	AP-DNA-8	1	1
+10616	Human papillomavirus type 49	serotype	334207	AP-DNA-3	2	2
+10616	Human papillomavirus type 49	serotype	334207	AP-RNA-1	1	1
+10616	Human papillomavirus type 49	serotype	334207	AP-RNA-8	2	2
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-10	3	3
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-11	3	3
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-13	12	12
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-14	1	1
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-2	4	4
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-7	1	1
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-3	1	1
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-5	1	1
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-12	84	84
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-4	2	2
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-8	12	12
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-3	3	3
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-1	1	1
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-1	2	2
+10617	Human papillomavirus 4	serotype	333926	AP-DNA-5	14	14
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-12	36	36
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-13	13	13
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-2	1	1
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-4	3	3
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-8	8	8
+10617	Human papillomavirus 4	serotype	333926	AP-RNA-15	1	1
+10621	Human papillomavirus 9	serotype	333924	AP-DNA-3	1	1
+10621	Human papillomavirus 9	serotype	333924	AP-DNA-1	4	4
+10621	Human papillomavirus 9	serotype	333924	AP-RNA-1	1	1
+10621	Human papillomavirus 9	serotype	333924	AP-RNA-12	1	1
+10621	Human papillomavirus 9	serotype	333924	AP-RNA-2	1	1
+10780	Parvoviridae	family	2732534	AP-DNA-11	0	2
+10780	Parvoviridae	family	2732534	AP-DNA-13	0	4
+10780	Parvoviridae	family	2732534	AP-DNA-14	0	1
+10780	Parvoviridae	family	2732534	AP-DNA-2	0	6
+10780	Parvoviridae	family	2732534	AP-DNA-6	0	1
+10780	Parvoviridae	family	2732534	AP-RNA-5	0	3
+10780	Parvoviridae	family	2732534	AP-DNA-4	0	2
+10780	Parvoviridae	family	2732534	AP-DNA-9	0	1
+10780	Parvoviridae	family	2732534	AP-DNA-3	0	3
+10780	Parvoviridae	family	2732534	AP-DNA-1	0	4
+10780	Parvoviridae	family	2732534	AP-RNA-1	0	4
+10780	Parvoviridae	family	2732534	AP-DNA-5	0	2
+10780	Parvoviridae	family	2732534	AP-RNA-10	0	9
+10780	Parvoviridae	family	2732534	AP-RNA-11	0	1
+10780	Parvoviridae	family	2732534	AP-RNA-12	0	3
+10780	Parvoviridae	family	2732534	AP-RNA-13	0	1
+10780	Parvoviridae	family	2732534	AP-RNA-2	0	2
+10780	Parvoviridae	family	2732534	AP-RNA-4	0	3
+10780	Parvoviridae	family	2732534	AP-RNA-6	0	3
+10780	Parvoviridae	family	2732534	AP-RNA-7	0	3
+10780	Parvoviridae	family	2732534	AP-RNA-8	0	1
+10780	Parvoviridae	family	2732534	AP-RNA-9	0	1
+11050	Flaviviridae	family	2732545	AP-DNA-10	0	2
+11050	Flaviviridae	family	2732545	AP-DNA-11	0	3
+11050	Flaviviridae	family	2732545	AP-DNA-13	0	3
+11050	Flaviviridae	family	2732545	AP-DNA-2	0	3
+11050	Flaviviridae	family	2732545	AP-DNA-7	0	1
+11050	Flaviviridae	family	2732545	AP-RNA-3	0	1
+11050	Flaviviridae	family	2732545	AP-DNA-12	0	2
+11050	Flaviviridae	family	2732545	AP-DNA-8	0	3
+11050	Flaviviridae	family	2732545	AP-DNA-1	0	2
+11050	Flaviviridae	family	2732545	AP-DNA-5	0	1
+11051	Flavivirus	genus	11050	AP-DNA-10	0	2
+11051	Flavivirus	genus	11050	AP-DNA-11	0	3
+11051	Flavivirus	genus	11050	AP-DNA-13	0	3
+11051	Flavivirus	genus	11050	AP-DNA-2	0	3
+11051	Flavivirus	genus	11050	AP-DNA-7	0	1
+11051	Flavivirus	genus	11050	AP-RNA-3	0	1
+11051	Flavivirus	genus	11050	AP-DNA-12	0	2
+11051	Flavivirus	genus	11050	AP-DNA-8	0	3
+11051	Flavivirus	genus	11050	AP-DNA-1	0	2
+11051	Flavivirus	genus	11050	AP-DNA-5	0	1
+11118	Coronaviridae	family	2499399	AP-RNA-1	0	20
+11118	Coronaviridae	family	2499399	AP-RNA-12	0	50
+11118	Coronaviridae	family	2499399	AP-RNA-13	0	6
+11118	Coronaviridae	family	2499399	AP-RNA-14	0	1
+11118	Coronaviridae	family	2499399	AP-RNA-2	0	14
+11118	Coronaviridae	family	2499399	AP-RNA-4	0	1
+11128	Bovine coronavirus	no rank	694003	AP-RNA-12	0	1
+11137	Human coronavirus 229E	species	2509480	AP-RNA-13	1	1
+11157	Mononegavirales	order	2497574	AP-RNA-5	0	6
+11157	Mononegavirales	order	2497574	AP-RNA-11	0	5
+11157	Mononegavirales	order	2497574	AP-RNA-13	0	13
+11157	Mononegavirales	order	2497574	AP-RNA-4	0	5
+11158	Paramyxoviridae	family	11157	AP-RNA-5	0	6
+11158	Paramyxoviridae	family	11157	AP-RNA-11	0	5
+11158	Paramyxoviridae	family	11157	AP-RNA-4	0	4
+11216	Human respirovirus 3	species	186938	AP-RNA-5	3	6
+11216	Human respirovirus 3	species	186938	AP-RNA-11	2	5
+11216	Human respirovirus 3	species	186938	AP-RNA-4	1	4
+11244	Pneumoviridae	family	11157	AP-RNA-13	0	13
+11244	Pneumoviridae	family	11157	AP-RNA-4	0	1
+11250	Human orthopneumovirus	species	1868215	AP-RNA-13	0	13
+11308	Orthomyxoviridae	family	2499411	AP-RNA-13	0	2
+11308	Orthomyxoviridae	family	2499411	AP-RNA-2	0	1
+11308	Orthomyxoviridae	family	2499411	AP-DNA-16	0	2
+11320	Influenza A virus	species	197911	AP-RNA-13	0	1
+11320	Influenza A virus	species	197911	AP-RNA-2	0	1
+11320	Influenza A virus	species	197911	AP-DNA-16	0	2
+11552	Influenza C virus	species	197913	AP-RNA-13	0	1
+11553	Influenza C virus (C/Ann Arbor/1/50)	no rank	11552	AP-RNA-13	1	1
+11632	Retroviridae	family	2169561	AP-DNA-10	0	6
+11632	Retroviridae	family	2169561	AP-DNA-11	0	7
+11632	Retroviridae	family	2169561	AP-DNA-13	0	5
+11632	Retroviridae	family	2169561	AP-DNA-14	0	3
+11632	Retroviridae	family	2169561	AP-DNA-6	0	1
+11632	Retroviridae	family	2169561	AP-DNA-7	0	2
+11632	Retroviridae	family	2169561	AP-RNA-3	0	1
+11632	Retroviridae	family	2169561	AP-DNA-12	0	12
+11632	Retroviridae	family	2169561	AP-DNA-9	0	1
+11632	Retroviridae	family	2169561	AP-DNA-3	0	2
+11632	Retroviridae	family	2169561	AP-DNA-1	0	3
+11632	Retroviridae	family	2169561	AP-DNA-15	0	1
+11646	Lentivirus	genus	327045	AP-DNA-10	0	6
+11646	Lentivirus	genus	327045	AP-DNA-11	0	5
+11646	Lentivirus	genus	327045	AP-DNA-13	0	4
+11646	Lentivirus	genus	327045	AP-DNA-7	0	1
+11646	Lentivirus	genus	327045	AP-DNA-12	0	11
+11646	Lentivirus	genus	327045	AP-DNA-9	0	1
+11646	Lentivirus	genus	327045	AP-DNA-1	0	2
+11646	Lentivirus	genus	327045	AP-DNA-15	0	1
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-10	6	6
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-11	5	5
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-13	4	4
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-7	1	1
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-12	11	11
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-9	1	1
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-1	2	2
+11676	Human immunodeficiency virus 1	species	11646	AP-DNA-15	1	1
+11786	Murine leukemia virus	species	153135	AP-DNA-3	0	1
+11837	Xenotropic murine leukemia virus	no rank	368797	AP-DNA-3	1	1
+11908	Human T-cell leukemia virus type I	no rank	194440	AP-DNA-12	1	1
+11974	Caliciviridae	family	464095	AP-RNA-1	0	1
+11983	Norwalk virus	species	142786	AP-RNA-1	0	1
+12058	Picornaviridae	family	464095	AP-RNA-3	0	1
+12058	Picornaviridae	family	464095	AP-RNA-5	0	3
+12058	Picornaviridae	family	464095	AP-RNA-1	0	12
+12058	Picornaviridae	family	464095	AP-RNA-10	0	11
+12058	Picornaviridae	family	464095	AP-RNA-11	0	2
+12058	Picornaviridae	family	464095	AP-RNA-13	0	1
+12058	Picornaviridae	family	464095	AP-RNA-2	0	5
+12058	Picornaviridae	family	464095	AP-RNA-4	0	1
+12058	Picornaviridae	family	464095	AP-RNA-6	0	3
+12058	Picornaviridae	family	464095	AP-RNA-8	0	17
+12058	Picornaviridae	family	464095	AP-RNA-9	0	4
+12059	Enterovirus	genus	2946630	AP-RNA-3	0	1
+12059	Enterovirus	genus	2946630	AP-RNA-5	0	3
+12059	Enterovirus	genus	2946630	AP-RNA-1	0	12
+12059	Enterovirus	genus	2946630	AP-RNA-10	0	9
+12059	Enterovirus	genus	2946630	AP-RNA-11	0	2
+12059	Enterovirus	genus	2946630	AP-RNA-13	0	1
+12059	Enterovirus	genus	2946630	AP-RNA-2	0	5
+12059	Enterovirus	genus	2946630	AP-RNA-4	0	1
+12059	Enterovirus	genus	2946630	AP-RNA-6	0	3
+12059	Enterovirus	genus	2946630	AP-RNA-8	0	17
+12059	Enterovirus	genus	2946630	AP-RNA-9	0	3
+12103	Cardiovirus	genus	2946627	AP-RNA-10	0	1
+12103	Cardiovirus	genus	2946627	AP-RNA-9	0	1
+12429	unclassified viruses	no rank	10239	AP-DNA-7	0	2
+12429	unclassified viruses	no rank	10239	AP-RNA-10	0	1
+28284	Human adenovirus 40	serotype	130309	AP-DNA-7	1	1
+28284	Human adenovirus 40	serotype	130309	AP-RNA-7	1	1
+28285	Human adenovirus 5	serotype	129951	AP-DNA-10	1	1
+28285	Human adenovirus 5	serotype	129951	AP-DNA-13	1	1
+28285	Human adenovirus 5	serotype	129951	AP-DNA-2	10	10
+28285	Human adenovirus 5	serotype	129951	AP-DNA-8	3	3
+28285	Human adenovirus 5	serotype	129951	AP-DNA-1	36	36
+28285	Human adenovirus 5	serotype	129951	AP-RNA-1	4	4
+28285	Human adenovirus 5	serotype	129951	AP-DNA-5	1	1
+28285	Human adenovirus 5	serotype	129951	AP-RNA-2	1	1
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-10	2	2
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-11	4	4
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-13	4	4
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-2	7	7
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-6	9	9
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-7	33	33
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-5	4	4
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-12	6	6
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-4	2	2
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-8	10	10
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-9	6	6
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-3	14	14
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-1	12	12
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-1	5	5
+28311	Human papillomavirus type 63	serotype	334204	AP-DNA-5	6	6
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-10	3	3
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-11	2	2
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-12	4	4
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-13	3	3
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-14	1	1
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-4	2	2
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-6	4	4
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-7	17	17
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-8	7	7
+28311	Human papillomavirus type 63	serotype	334204	AP-RNA-9	2	2
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-10	54	54
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-11	23	23
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-13	6	6
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-14	4	4
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-2	5	5
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-6	11	11
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-7	19	19
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-3	4	4
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-5	3	3
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-12	7	7
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-4	10	10
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-8	32	32
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-9	7	7
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-3	19	19
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-1	6	6
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-1	3	3
+28312	Human papillomavirus 65	serotype	333926	AP-DNA-5	13	13
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-10	17	17
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-11	8	8
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-12	5	5
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-13	4	4
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-14	2	2
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-2	3	3
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-4	10	10
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-6	5	5
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-7	3	3
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-8	18	18
+28312	Human papillomavirus 65	serotype	333926	AP-RNA-9	11	11
+31546	Human papillomavirus type 14D	no rank	10605	AP-DNA-6	1	1
+31547	human papillomavirus 20	serotype	337051	AP-DNA-14	1	1
+31547	human papillomavirus 20	serotype	337051	AP-DNA-2	3	3
+31547	human papillomavirus 20	serotype	337051	AP-DNA-6	2	2
+31547	human papillomavirus 20	serotype	337051	AP-DNA-7	3	3
+31547	human papillomavirus 20	serotype	337051	AP-RNA-5	2	2
+31547	human papillomavirus 20	serotype	337051	AP-DNA-12	1	1
+31547	human papillomavirus 20	serotype	337051	AP-DNA-8	5	5
+31547	human papillomavirus 20	serotype	337051	AP-DNA-3	1	1
+31547	human papillomavirus 20	serotype	337051	AP-DNA-5	3	3
+31547	human papillomavirus 20	serotype	337051	AP-RNA-11	1	1
+31547	human papillomavirus 20	serotype	337051	AP-RNA-4	1	1
+31547	human papillomavirus 20	serotype	337051	AP-DNA-16	5	5
+31548	human papillomavirus 21	serotype	337051	AP-DNA-14	1	1
+31631	Human coronavirus OC43	no rank	694003	AP-RNA-12	49	49
+31631	Human coronavirus OC43	no rank	694003	AP-RNA-13	5	5
+31631	Human coronavirus OC43	no rank	694003	AP-RNA-14	1	1
+31631	Human coronavirus OC43	no rank	694003	AP-RNA-2	2	2
+32603	Human betaherpesvirus 6A	species	40272	AP-RNA-4	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-10	2	2
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-2	7	7
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-6	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-7	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-12	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-4	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-8	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-3	2	2
+32604	Human betaherpesvirus 6B	species	40272	AP-DNA-1	4	4
+32604	Human betaherpesvirus 6B	species	40272	AP-RNA-1	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-RNA-2	2	2
+32604	Human betaherpesvirus 6B	species	40272	AP-RNA-6	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-RNA-7	1	1
+32604	Human betaherpesvirus 6B	species	40272	AP-RNA-8	1	1
+35276	unclassified Retroviridae	no rank	11632	AP-DNA-11	0	1
+35276	unclassified Retroviridae	no rank	11632	AP-DNA-13	0	1
+35276	unclassified Retroviridae	no rank	11632	AP-DNA-14	0	3
+35276	unclassified Retroviridae	no rank	11632	AP-DNA-6	0	1
+35276	unclassified Retroviridae	no rank	11632	AP-DNA-3	0	1
+37111	Human papillomavirus 28	serotype	337039	AP-DNA-6	1	1
+37111	Human papillomavirus 28	serotype	337039	AP-DNA-7	1	1
+37111	Human papillomavirus 28	serotype	337039	AP-DNA-12	12	12
+37111	Human papillomavirus 28	serotype	337039	AP-DNA-4	1	1
+37111	Human papillomavirus 28	serotype	337039	AP-DNA-8	4	4
+37111	Human papillomavirus 28	serotype	337039	AP-DNA-9	2	2
+37111	Human papillomavirus 28	serotype	337039	AP-RNA-12	14	14
+37119	human papillomavirus 66	serotype	337050	AP-DNA-3	1	1
+37120	human papillomavirus 67	serotype	337041	AP-RNA-4	1	1
+37954	Human papillomavirus 22	serotype	333924	AP-DNA-10	1	1
+37954	Human papillomavirus 22	serotype	333924	AP-DNA-14	1	1
+37954	Human papillomavirus 22	serotype	333924	AP-DNA-2	4	4
+37954	Human papillomavirus 22	serotype	333924	AP-DNA-7	1	1
+37954	Human papillomavirus 22	serotype	333924	AP-DNA-12	1	1
+37954	Human papillomavirus 22	serotype	333924	AP-DNA-9	16	16
+37954	Human papillomavirus 22	serotype	333924	AP-DNA-1	1	1
+37954	Human papillomavirus 22	serotype	333924	AP-RNA-10	1	1
+37954	Human papillomavirus 22	serotype	333924	AP-RNA-9	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-10	2	2
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-11	2	2
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-13	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-14	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-2	120	120
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-6	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-5	3	3
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-4	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-8	4	4
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-9	3	3
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-3	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-1	5	5
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-1	3	3
+37955	Human papillomavirus 23	serotype	333924	AP-DNA-5	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-12	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-2	39	39
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-4	1	1
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-7	2	2
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-8	2	2
+37955	Human papillomavirus 23	serotype	333924	AP-RNA-9	1	1
+37956	human papillomavirus 24	serotype	337051	AP-DNA-10	4	4
+37956	human papillomavirus 24	serotype	337051	AP-DNA-13	1	1
+37956	human papillomavirus 24	serotype	337051	AP-DNA-2	2	2
+37956	human papillomavirus 24	serotype	337051	AP-DNA-6	6	6
+37956	human papillomavirus 24	serotype	337051	AP-DNA-7	1	1
+37956	human papillomavirus 24	serotype	337051	AP-RNA-3	1	1
+37956	human papillomavirus 24	serotype	337051	AP-DNA-12	89	89
+37956	human papillomavirus 24	serotype	337051	AP-DNA-4	1	1
+37956	human papillomavirus 24	serotype	337051	AP-DNA-8	3	3
+37956	human papillomavirus 24	serotype	337051	AP-DNA-3	8	8
+37956	human papillomavirus 24	serotype	337051	AP-DNA-1	15	15
+37956	human papillomavirus 24	serotype	337051	AP-RNA-1	10	10
+37956	human papillomavirus 24	serotype	337051	AP-DNA-5	2	2
+37956	human papillomavirus 24	serotype	337051	AP-RNA-12	92	92
+37956	human papillomavirus 24	serotype	337051	AP-RNA-2	1	1
+37956	human papillomavirus 24	serotype	337051	AP-RNA-4	1	1
+37956	human papillomavirus 24	serotype	337051	AP-RNA-7	3	3
+37956	human papillomavirus 24	serotype	337051	AP-RNA-8	1	1
+37957	human papillomavirus 36	serotype	337051	AP-RNA-7	1	1
+37958	Human papillomavirus 37	serotype	333924	AP-DNA-10	1	1
+37958	Human papillomavirus 37	serotype	333924	AP-RNA-3	5	5
+37958	Human papillomavirus 37	serotype	333924	AP-DNA-9	1	1
+37958	Human papillomavirus 37	serotype	333924	AP-DNA-3	9	9
+37958	Human papillomavirus 37	serotype	333924	AP-DNA-1	5	5
+37958	Human papillomavirus 37	serotype	333924	AP-RNA-1	3	3
+37958	Human papillomavirus 37	serotype	333924	AP-DNA-15	1	1
+37958	Human papillomavirus 37	serotype	333924	AP-RNA-6	1	1
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-10	4	114
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-2	1	2
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-6	2	3
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-7	0	1
+37959	Human papillomavirus 38	serotype	333924	AP-RNA-5	1	1
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-12	1	1
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-4	66	66
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-3	1	2
+37959	Human papillomavirus 38	serotype	333924	AP-DNA-1	1	3
+37959	Human papillomavirus 38	serotype	333924	AP-RNA-10	4	67
+37959	Human papillomavirus 38	serotype	333924	AP-RNA-13	0	1
+37959	Human papillomavirus 38	serotype	333924	AP-RNA-14	1	1
+37959	Human papillomavirus 38	serotype	333924	AP-RNA-2	1	1
+37959	Human papillomavirus 38	serotype	333924	AP-RNA-4	68	70
+37959	Human papillomavirus 38	serotype	333924	AP-RNA-6	1	2
+39733	Astroviridae	family	2732551	AP-RNA-5	0	2
+39733	Astroviridae	family	2732551	AP-RNA-11	0	1
+39733	Astroviridae	family	2732551	AP-RNA-4	0	1
+40119	Parvovirinae	subfamily	10780	AP-DNA-11	0	2
+40119	Parvovirinae	subfamily	10780	AP-DNA-13	0	4
+40119	Parvovirinae	subfamily	10780	AP-DNA-14	0	1
+40119	Parvovirinae	subfamily	10780	AP-DNA-2	0	6
+40119	Parvovirinae	subfamily	10780	AP-DNA-6	0	1
+40119	Parvovirinae	subfamily	10780	AP-RNA-5	0	3
+40119	Parvovirinae	subfamily	10780	AP-DNA-4	0	2
+40119	Parvovirinae	subfamily	10780	AP-DNA-9	0	1
+40119	Parvovirinae	subfamily	10780	AP-DNA-3	0	3
+40119	Parvovirinae	subfamily	10780	AP-DNA-1	0	4
+40119	Parvovirinae	subfamily	10780	AP-RNA-1	0	4
+40119	Parvovirinae	subfamily	10780	AP-DNA-5	0	2
+40119	Parvovirinae	subfamily	10780	AP-RNA-10	0	9
+40119	Parvovirinae	subfamily	10780	AP-RNA-11	0	1
+40119	Parvovirinae	subfamily	10780	AP-RNA-12	0	3
+40119	Parvovirinae	subfamily	10780	AP-RNA-13	0	1
+40119	Parvovirinae	subfamily	10780	AP-RNA-2	0	2
+40119	Parvovirinae	subfamily	10780	AP-RNA-4	0	3
+40119	Parvovirinae	subfamily	10780	AP-RNA-6	0	3
+40119	Parvovirinae	subfamily	10780	AP-RNA-7	0	3
+40119	Parvovirinae	subfamily	10780	AP-RNA-8	0	1
+40119	Parvovirinae	subfamily	10780	AP-RNA-9	0	1
+40272	Roseolovirus	genus	10357	AP-DNA-10	0	3
+40272	Roseolovirus	genus	10357	AP-DNA-11	0	1
+40272	Roseolovirus	genus	10357	AP-DNA-13	0	2
+40272	Roseolovirus	genus	10357	AP-DNA-2	0	8
+40272	Roseolovirus	genus	10357	AP-DNA-6	0	1
+40272	Roseolovirus	genus	10357	AP-DNA-7	0	1
+40272	Roseolovirus	genus	10357	AP-RNA-3	0	2
+40272	Roseolovirus	genus	10357	AP-DNA-12	0	3
+40272	Roseolovirus	genus	10357	AP-DNA-4	0	1
+40272	Roseolovirus	genus	10357	AP-DNA-8	0	1
+40272	Roseolovirus	genus	10357	AP-DNA-3	0	5
+40272	Roseolovirus	genus	10357	AP-DNA-1	0	4
+40272	Roseolovirus	genus	10357	AP-RNA-1	0	3
+40272	Roseolovirus	genus	10357	AP-DNA-15	0	2
+40272	Roseolovirus	genus	10357	AP-RNA-11	0	2
+40272	Roseolovirus	genus	10357	AP-RNA-2	0	3
+40272	Roseolovirus	genus	10357	AP-RNA-4	0	3
+40272	Roseolovirus	genus	10357	AP-RNA-6	0	1
+40272	Roseolovirus	genus	10357	AP-RNA-7	0	1
+40272	Roseolovirus	genus	10357	AP-RNA-8	0	2
+40538	Human papillomavirus type 48	serotype	333928	AP-DNA-13	1	1
+40538	Human papillomavirus type 48	serotype	333928	AP-DNA-2	1	1
+40538	Human papillomavirus type 48	serotype	333928	AP-RNA-5	1	1
+40538	Human papillomavirus type 48	serotype	333928	AP-RNA-8	1	1
+40539	Human papillomavirus type 50	serotype	333929	AP-DNA-13	1	1
+40539	Human papillomavirus type 50	serotype	333929	AP-DNA-6	1	1
+40539	Human papillomavirus type 50	serotype	333929	AP-DNA-7	2	2
+40539	Human papillomavirus type 50	serotype	333929	AP-RNA-5	1	1
+40539	Human papillomavirus type 50	serotype	333929	AP-DNA-8	1	1
+40539	Human papillomavirus type 50	serotype	333929	AP-DNA-3	1	1
+40539	Human papillomavirus type 50	serotype	333929	AP-RNA-4	2	2
+43358	Human astrovirus 8	no rank	1239565	AP-RNA-5	1	1
+45617	Human endogenous retrovirus K	species	206037	AP-DNA-11	0	1
+45617	Human endogenous retrovirus K	species	206037	AP-DNA-13	0	1
+45617	Human endogenous retrovirus K	species	206037	AP-DNA-14	0	3
+45617	Human endogenous retrovirus K	species	206037	AP-DNA-6	0	1
+45617	Human endogenous retrovirus K	species	206037	AP-DNA-3	0	1
+45659	Human adenovirus B3	serotype	108098	AP-DNA-3	2	2
+61673	Porcine endogenous retrovirus	no rank	369960	AP-DNA-11	0	1
+61673	Porcine endogenous retrovirus	no rank	369960	AP-DNA-7	0	1
+61673	Porcine endogenous retrovirus	no rank	369960	AP-RNA-3	0	1
+61673	Porcine endogenous retrovirus	no rank	369960	AP-DNA-1	0	1
+64320	Zika virus	species	11051	AP-DNA-10	2	2
+64320	Zika virus	species	11051	AP-DNA-11	3	3
+64320	Zika virus	species	11051	AP-DNA-13	3	3
+64320	Zika virus	species	11051	AP-DNA-2	3	3
+64320	Zika virus	species	11051	AP-DNA-7	1	1
+64320	Zika virus	species	11051	AP-RNA-3	1	1
+64320	Zika virus	species	11051	AP-DNA-12	2	2
+64320	Zika virus	species	11051	AP-DNA-8	3	3
+64320	Zika virus	species	11051	AP-DNA-1	2	2
+64320	Zika virus	species	11051	AP-DNA-5	1	1
+68887	Torque teno virus	species	363628	AP-DNA-12	1	1
+68887	Torque teno virus	species	363628	AP-DNA-4	2	2
+68887	Torque teno virus	species	363628	AP-DNA-5	0	2
+68887	Torque teno virus	species	363628	AP-RNA-4	2	2
+68887	Torque teno virus	species	363628	AP-RNA-8	1	1
+76804	Nidovirales	order	2732506	AP-RNA-1	0	20
+76804	Nidovirales	order	2732506	AP-RNA-12	0	50
+76804	Nidovirales	order	2732506	AP-RNA-13	0	6
+76804	Nidovirales	order	2732506	AP-RNA-14	0	1
+76804	Nidovirales	order	2732506	AP-RNA-2	0	14
+76804	Nidovirales	order	2732506	AP-RNA-4	0	1
+93678	TTV-like mini virus	species	1535289	AP-DNA-11	1	1
+93678	TTV-like mini virus	species	1535289	AP-DNA-13	1	1
+93678	TTV-like mini virus	species	1535289	AP-RNA-3	1	1
+93678	TTV-like mini virus	species	1535289	AP-DNA-3	2	2
+93678	TTV-like mini virus	species	1535289	AP-RNA-10	2	2
+93678	TTV-like mini virus	species	1535289	AP-RNA-11	3	3
+93678	TTV-like mini virus	species	1535289	AP-RNA-13	1	1
+108098	Human mastadenovirus B	species	10509	AP-DNA-2	1	1
+108098	Human mastadenovirus B	species	10509	AP-DNA-3	0	2
+114727	H1N1 subtype	serotype	11320	AP-RNA-2	0	1
+119210	H3N2 subtype	serotype	11320	AP-RNA-13	0	1
+119210	H3N2 subtype	serotype	11320	AP-DNA-16	0	2
+129875	Human mastadenovirus A	species	10509	AP-DNA-6	1	1
+129875	Human mastadenovirus A	species	10509	AP-RNA-3	0	3
+129875	Human mastadenovirus A	species	10509	AP-DNA-1	0	1
+129951	Human mastadenovirus C	species	10509	AP-DNA-10	7	13
+129951	Human mastadenovirus C	species	10509	AP-DNA-11	2	3
+129951	Human mastadenovirus C	species	10509	AP-DNA-13	2	4
+129951	Human mastadenovirus C	species	10509	AP-DNA-14	0	2
+129951	Human mastadenovirus C	species	10509	AP-DNA-2	25	69
+129951	Human mastadenovirus C	species	10509	AP-DNA-6	2	3
+129951	Human mastadenovirus C	species	10509	AP-DNA-7	2	2
+129951	Human mastadenovirus C	species	10509	AP-RNA-3	1	1
+129951	Human mastadenovirus C	species	10509	AP-RNA-5	1	1
+129951	Human mastadenovirus C	species	10509	AP-DNA-12	4	4
+129951	Human mastadenovirus C	species	10509	AP-DNA-4	2	4
+129951	Human mastadenovirus C	species	10509	AP-DNA-8	8	21
+129951	Human mastadenovirus C	species	10509	AP-DNA-9	4	4
+129951	Human mastadenovirus C	species	10509	AP-DNA-3	7	19
+129951	Human mastadenovirus C	species	10509	AP-DNA-1	181	333
+129951	Human mastadenovirus C	species	10509	AP-RNA-1	19	35
+129951	Human mastadenovirus C	species	10509	AP-DNA-5	0	1
+129951	Human mastadenovirus C	species	10509	AP-RNA-2	4	7
+129951	Human mastadenovirus C	species	10509	AP-RNA-4	1	1
+129951	Human mastadenovirus C	species	10509	AP-RNA-8	1	3
+130309	Human mastadenovirus F	species	10509	AP-DNA-10	0	2
+130309	Human mastadenovirus F	species	10509	AP-DNA-11	1	4
+130309	Human mastadenovirus F	species	10509	AP-DNA-13	0	1
+130309	Human mastadenovirus F	species	10509	AP-DNA-14	0	1
+130309	Human mastadenovirus F	species	10509	AP-DNA-2	0	3
+130309	Human mastadenovirus F	species	10509	AP-DNA-7	3	29
+130309	Human mastadenovirus F	species	10509	AP-DNA-8	1	2
+130309	Human mastadenovirus F	species	10509	AP-DNA-9	0	1
+130309	Human mastadenovirus F	species	10509	AP-DNA-3	0	1
+130309	Human mastadenovirus F	species	10509	AP-DNA-1	0	1
+130309	Human mastadenovirus F	species	10509	AP-RNA-13	1	1
+130309	Human mastadenovirus F	species	10509	AP-RNA-7	1	3
+130309	Human mastadenovirus F	species	10509	AP-RNA-8	1	2
+138948	Enterovirus A	species	12059	AP-RNA-8	0	1
+138949	Enterovirus B	species	12059	AP-RNA-6	0	1
+138954	Parechovirus	genus	2946640	AP-RNA-10	0	1
+142786	Norovirus	genus	11974	AP-RNA-1	0	1
+147711	Rhinovirus A	species	12059	AP-RNA-3	0	1
+147711	Rhinovirus A	species	12059	AP-RNA-10	0	4
+147711	Rhinovirus A	species	12059	AP-RNA-4	0	1
+147711	Rhinovirus A	species	12059	AP-RNA-6	0	2
+147711	Rhinovirus A	species	12059	AP-RNA-8	1	1
+147711	Rhinovirus A	species	12059	AP-RNA-9	0	3
+150080	Norovirus isolates	no rank	11983	AP-RNA-1	0	1
+151340	Papillomaviridae	family	2732533	AP-DNA-10	0	296
+151340	Papillomaviridae	family	2732533	AP-DNA-11	0	75
+151340	Papillomaviridae	family	2732533	AP-DNA-13	0	45
+151340	Papillomaviridae	family	2732533	AP-DNA-14	0	21
+151340	Papillomaviridae	family	2732533	AP-DNA-2	0	260
+151340	Papillomaviridae	family	2732533	AP-DNA-6	0	167
+151340	Papillomaviridae	family	2732533	AP-DNA-7	0	124
+151340	Papillomaviridae	family	2732533	AP-RNA-3	0	66
+151340	Papillomaviridae	family	2732533	AP-RNA-5	0	61
+151340	Papillomaviridae	family	2732533	AP-DNA-12	0	258
+151340	Papillomaviridae	family	2732533	AP-DNA-4	0	238
+151340	Papillomaviridae	family	2732533	AP-DNA-8	0	158
+151340	Papillomaviridae	family	2732533	AP-DNA-9	0	403
+151340	Papillomaviridae	family	2732533	AP-DNA-3	0	274
+151340	Papillomaviridae	family	2732533	AP-DNA-1	0	445
+151340	Papillomaviridae	family	2732533	AP-RNA-1	0	116
+151340	Papillomaviridae	family	2732533	AP-DNA-15	0	10
+151340	Papillomaviridae	family	2732533	AP-DNA-5	0	163
+151340	Papillomaviridae	family	2732533	AP-RNA-10	0	104
+151340	Papillomaviridae	family	2732533	AP-RNA-11	0	28
+151340	Papillomaviridae	family	2732533	AP-RNA-12	0	187
+151340	Papillomaviridae	family	2732533	AP-RNA-13	0	34
+151340	Papillomaviridae	family	2732533	AP-RNA-14	0	10
+151340	Papillomaviridae	family	2732533	AP-RNA-2	0	89
+151340	Papillomaviridae	family	2732533	AP-RNA-4	0	151
+151340	Papillomaviridae	family	2732533	AP-RNA-6	0	67
+151340	Papillomaviridae	family	2732533	AP-RNA-7	0	47
+151340	Papillomaviridae	family	2732533	AP-RNA-8	0	87
+151340	Papillomaviridae	family	2732533	AP-RNA-9	0	165
+151340	Papillomaviridae	family	2732533	AP-DNA-16	0	20
+151340	Papillomaviridae	family	2732533	AP-RNA-15	0	1
+151341	Polyomaviridae	family	2732532	AP-DNA-10	0	42
+151341	Polyomaviridae	family	2732532	AP-DNA-11	0	16
+151341	Polyomaviridae	family	2732532	AP-DNA-13	0	25
+151341	Polyomaviridae	family	2732532	AP-DNA-14	0	9
+151341	Polyomaviridae	family	2732532	AP-DNA-2	0	110
+151341	Polyomaviridae	family	2732532	AP-DNA-6	0	26
+151341	Polyomaviridae	family	2732532	AP-DNA-7	0	49
+151341	Polyomaviridae	family	2732532	AP-RNA-3	0	33
+151341	Polyomaviridae	family	2732532	AP-RNA-5	0	16
+151341	Polyomaviridae	family	2732532	AP-DNA-12	0	15
+151341	Polyomaviridae	family	2732532	AP-DNA-4	0	19
+151341	Polyomaviridae	family	2732532	AP-DNA-8	0	37
+151341	Polyomaviridae	family	2732532	AP-DNA-9	0	16
+151341	Polyomaviridae	family	2732532	AP-DNA-3	0	97
+151341	Polyomaviridae	family	2732532	AP-DNA-1	0	89
+151341	Polyomaviridae	family	2732532	AP-RNA-1	0	32
+151341	Polyomaviridae	family	2732532	AP-DNA-15	0	2
+151341	Polyomaviridae	family	2732532	AP-DNA-5	0	29
+151341	Polyomaviridae	family	2732532	AP-RNA-10	0	6
+151341	Polyomaviridae	family	2732532	AP-RNA-11	0	10
+151341	Polyomaviridae	family	2732532	AP-RNA-12	0	15
+151341	Polyomaviridae	family	2732532	AP-RNA-13	0	13
+151341	Polyomaviridae	family	2732532	AP-RNA-14	0	1
+151341	Polyomaviridae	family	2732532	AP-RNA-2	0	81
+151341	Polyomaviridae	family	2732532	AP-RNA-4	0	23
+151341	Polyomaviridae	family	2732532	AP-RNA-6	0	12
+151341	Polyomaviridae	family	2732532	AP-RNA-7	0	25
+151341	Polyomaviridae	family	2732532	AP-RNA-8	0	27
+151341	Polyomaviridae	family	2732532	AP-RNA-9	0	7
+153135	Gammaretrovirus	genus	327045	AP-DNA-11	0	1
+153135	Gammaretrovirus	genus	327045	AP-DNA-7	0	1
+153135	Gammaretrovirus	genus	327045	AP-RNA-3	0	1
+153135	Gammaretrovirus	genus	327045	AP-DNA-3	0	1
+153135	Gammaretrovirus	genus	327045	AP-DNA-1	0	1
+153136	Deltaretrovirus	genus	327045	AP-DNA-12	0	1
+162145	Human metapneumovirus	species	162387	AP-RNA-4	1	1
+162387	Metapneumovirus	genus	11244	AP-RNA-4	0	1
+166122	Human endogenous retrovirus K113	no rank	45617	AP-DNA-11	1	1
+166122	Human endogenous retrovirus K113	no rank	45617	AP-DNA-13	1	1
+166122	Human endogenous retrovirus K113	no rank	45617	AP-DNA-14	3	3
+166122	Human endogenous retrovirus K113	no rank	45617	AP-DNA-6	1	1
+166122	Human endogenous retrovirus K113	no rank	45617	AP-DNA-3	1	1
+166124	Human enteric coronavirus 4408	no rank	11128	AP-RNA-12	0	1
+173087	unknown virus	clade	333774	AP-DNA-13	0	2
+173087	unknown virus	clade	333774	AP-DNA-3	0	1
+185914	unknown virus	serotype	147711	AP-RNA-3	1	1
+185924	unknown virus	serotype	147711	AP-RNA-6	2	2
+186160	unknown virus	no rank	333753	AP-DNA-2	2	2
+186160	unknown virus	no rank	333753	AP-RNA-3	1	1
+186160	unknown virus	no rank	333753	AP-DNA-4	2	2
+186160	unknown virus	no rank	333753	AP-DNA-3	8	8
+186160	unknown virus	no rank	333753	AP-DNA-1	1	1
+186160	unknown virus	no rank	333753	AP-DNA-5	1	1
+186160	unknown virus	no rank	333753	AP-RNA-4	1	1
+186938	unknown virus	genus	2560076	AP-RNA-5	0	6
+186938	unknown virus	genus	2560076	AP-RNA-11	0	5
+186938	unknown virus	genus	2560076	AP-RNA-4	0	4
+194440	unknown virus	species	153136	AP-DNA-12	0	1
+194959	unknown virus	no rank	61673	AP-RNA-3	1	1
+195055	unknown virus	no rank	1803956	AP-RNA-10	1	1
+197911	unknown virus	genus	11308	AP-RNA-13	0	1
+197911	unknown virus	genus	11308	AP-RNA-2	0	1
+197911	unknown virus	genus	11308	AP-DNA-16	0	2
+197913	unknown virus	genus	11308	AP-RNA-13	0	1
+206037	unknown virus	clade	35276	AP-DNA-11	0	1
+206037	unknown virus	clade	35276	AP-DNA-13	0	1
+206037	unknown virus	clade	35276	AP-DNA-14	0	3
+206037	unknown virus	clade	35276	AP-DNA-6	0	1
+206037	unknown virus	clade	35276	AP-DNA-3	0	1
+208895	unknown virus	no rank	11250	AP-RNA-13	13	13
+211787	unknown virus	serotype	334208	AP-DNA-10	1	1
+211787	unknown virus	serotype	334208	AP-DNA-11	1	1
+211787	unknown virus	serotype	334208	AP-DNA-6	75	75
+211787	unknown virus	serotype	334208	AP-DNA-7	1	1
+211787	unknown virus	serotype	334208	AP-RNA-3	1	1
+211787	unknown virus	serotype	334208	AP-RNA-13	1	1
+211787	unknown virus	serotype	334208	AP-RNA-2	1	1
+211787	unknown virus	serotype	334208	AP-RNA-4	3	3
+211787	unknown virus	serotype	334208	AP-RNA-6	23	23
+211787	unknown virus	serotype	334208	AP-RNA-7	2	2
+227307	unknown virus	genus	687329	AP-DNA-1	0	1
+247269	unknown virus	serotype	334209	AP-DNA-11	2	2
+249588	unknown virus	genus	39733	AP-RNA-5	0	2
+249588	unknown virus	genus	39733	AP-RNA-11	0	1
+249588	unknown virus	genus	39733	AP-RNA-4	0	1
+260717	unknown virus	serotype	337039	AP-DNA-5	1	1
+290028	unknown virus	species	2509481	AP-RNA-1	20	20
+290028	unknown virus	species	2509481	AP-RNA-2	12	12
+290028	unknown virus	species	2509481	AP-RNA-4	1	1
+318569	unknown virus	serotype	138949	AP-RNA-6	1	1
+325455	unknown virus	genus	2169595	AP-DNA-10	0	75
+325455	unknown virus	genus	2169595	AP-DNA-11	0	33
+325455	unknown virus	genus	2169595	AP-DNA-13	0	23
+325455	unknown virus	genus	2169595	AP-DNA-14	0	6
+325455	unknown virus	genus	2169595	AP-DNA-2	0	22
+325455	unknown virus	genus	2169595	AP-DNA-6	0	26
+325455	unknown virus	genus	2169595	AP-DNA-7	0	45
+325455	unknown virus	genus	2169595	AP-RNA-3	0	8
+325455	unknown virus	genus	2169595	AP-RNA-5	0	19
+325455	unknown virus	genus	2169595	AP-DNA-12	0	99
+325455	unknown virus	genus	2169595	AP-DNA-4	0	29
+325455	unknown virus	genus	2169595	AP-DNA-8	0	56
+325455	unknown virus	genus	2169595	AP-DNA-9	0	21
+325455	unknown virus	genus	2169595	AP-DNA-3	0	33
+325455	unknown virus	genus	2169595	AP-DNA-1	0	14
+325455	unknown virus	genus	2169595	AP-RNA-1	0	14
+325455	unknown virus	genus	2169595	AP-DNA-15	0	2
+325455	unknown virus	genus	2169595	AP-DNA-5	0	35
+325455	unknown virus	genus	2169595	AP-RNA-10	0	21
+325455	unknown virus	genus	2169595	AP-RNA-11	0	10
+325455	unknown virus	genus	2169595	AP-RNA-12	0	47
+325455	unknown virus	genus	2169595	AP-RNA-13	0	20
+325455	unknown virus	genus	2169595	AP-RNA-14	0	3
+325455	unknown virus	genus	2169595	AP-RNA-2	0	10
+325455	unknown virus	genus	2169595	AP-RNA-4	0	33
+325455	unknown virus	genus	2169595	AP-RNA-6	0	15
+325455	unknown virus	genus	2169595	AP-RNA-7	0	10
+325455	unknown virus	genus	2169595	AP-RNA-8	0	35
+325455	unknown virus	genus	2169595	AP-RNA-9	0	21
+325455	unknown virus	genus	2169595	AP-DNA-16	0	3
+325455	unknown virus	genus	2169595	AP-RNA-15	0	1
+325568	unknown virus	no rank	333752	AP-DNA-10	1	1
+325568	unknown virus	no rank	333752	AP-DNA-2	1	1
+325568	unknown virus	no rank	333752	AP-RNA-3	5	5
+325568	unknown virus	no rank	333752	AP-DNA-12	1	1
+325568	unknown virus	no rank	333752	AP-DNA-3	12	12
+325568	unknown virus	no rank	333752	AP-DNA-1	4	4
+325568	unknown virus	no rank	333752	AP-RNA-2	1	1
+327045	unknown virus	subfamily	11632	AP-DNA-10	0	6
+327045	unknown virus	subfamily	11632	AP-DNA-11	0	6
+327045	unknown virus	subfamily	11632	AP-DNA-13	0	4
+327045	unknown virus	subfamily	11632	AP-DNA-7	0	2
+327045	unknown virus	subfamily	11632	AP-RNA-3	0	1
+327045	unknown virus	subfamily	11632	AP-DNA-12	0	12
+327045	unknown virus	subfamily	11632	AP-DNA-9	0	1
+327045	unknown virus	subfamily	11632	AP-DNA-3	0	1
+327045	unknown virus	subfamily	11632	AP-DNA-1	0	3
+327045	unknown virus	subfamily	11632	AP-DNA-15	0	1
+329641	unknown virus	species	1507402	AP-DNA-11	0	1
+329641	unknown virus	species	1507402	AP-DNA-13	0	3
+329641	unknown virus	species	1507402	AP-DNA-14	0	1
+329641	unknown virus	species	1507402	AP-DNA-2	0	3
+329641	unknown virus	species	1507402	AP-RNA-5	0	3
+329641	unknown virus	species	1507402	AP-DNA-4	0	2
+329641	unknown virus	species	1507402	AP-DNA-9	0	1
+329641	unknown virus	species	1507402	AP-DNA-3	0	2
+329641	unknown virus	species	1507402	AP-DNA-1	0	3
+329641	unknown virus	species	1507402	AP-RNA-1	0	4
+329641	unknown virus	species	1507402	AP-DNA-5	0	2
+329641	unknown virus	species	1507402	AP-RNA-12	0	2
+329641	unknown virus	species	1507402	AP-RNA-13	0	1
+329641	unknown virus	species	1507402	AP-RNA-2	0	1
+329641	unknown virus	species	1507402	AP-RNA-4	0	2
+329641	unknown virus	species	1507402	AP-RNA-6	0	3
+329641	unknown virus	species	1507402	AP-RNA-7	0	3
+329641	unknown virus	species	1507402	AP-RNA-8	0	1
+329641	unknown virus	species	1507402	AP-RNA-9	0	1
+333750	unknown virus	genus	2169595	AP-DNA-10	0	64
+333750	unknown virus	genus	2169595	AP-DNA-11	0	18
+333750	unknown virus	genus	2169595	AP-DNA-13	0	3
+333750	unknown virus	genus	2169595	AP-DNA-14	0	4
+333750	unknown virus	genus	2169595	AP-DNA-2	0	26
+333750	unknown virus	genus	2169595	AP-DNA-6	0	19
+333750	unknown virus	genus	2169595	AP-DNA-7	0	5
+333750	unknown virus	genus	2169595	AP-RNA-3	0	38
+333750	unknown virus	genus	2169595	AP-RNA-5	0	11
+333750	unknown virus	genus	2169595	AP-DNA-12	0	35
+333750	unknown virus	genus	2169595	AP-DNA-4	0	126
+333750	unknown virus	genus	2169595	AP-DNA-8	0	5
+333750	unknown virus	genus	2169595	AP-DNA-9	0	14
+333750	unknown virus	genus	2169595	AP-DNA-3	0	151
+333750	unknown virus	genus	2169595	AP-DNA-1	0	288
+333750	unknown virus	genus	2169595	AP-RNA-1	0	51
+333750	unknown virus	genus	2169595	AP-DNA-5	0	65
+333750	unknown virus	genus	2169595	AP-RNA-10	0	4
+333750	unknown virus	genus	2169595	AP-RNA-11	0	10
+333750	unknown virus	genus	2169595	AP-RNA-12	0	18
+333750	unknown virus	genus	2169595	AP-RNA-14	0	3
+333750	unknown virus	genus	2169595	AP-RNA-2	0	4
+333750	unknown virus	genus	2169595	AP-RNA-4	0	25
+333750	unknown virus	genus	2169595	AP-RNA-6	0	4
+333750	unknown virus	genus	2169595	AP-RNA-7	0	1
+333750	unknown virus	genus	2169595	AP-RNA-9	0	2
+333751	unknown virus	serotype	337043	AP-DNA-11	1	1
+333751	unknown virus	serotype	337043	AP-DNA-9	4	4
+333751	unknown virus	serotype	337043	AP-DNA-3	1	1
+333751	unknown virus	serotype	337043	AP-DNA-1	2	2
+333751	unknown virus	serotype	337043	AP-DNA-5	1	1
+333751	unknown virus	serotype	337043	AP-RNA-11	1	1
+333752	unknown virus	serotype	337043	AP-DNA-10	1	2
+333752	unknown virus	serotype	337043	AP-DNA-13	2	2
+333752	unknown virus	serotype	337043	AP-DNA-14	2	2
+333752	unknown virus	serotype	337043	AP-DNA-2	2	3
+333752	unknown virus	serotype	337043	AP-RNA-3	2	7
+333752	unknown virus	serotype	337043	AP-RNA-5	2	2
+333752	unknown virus	serotype	337043	AP-DNA-12	0	1
+333752	unknown virus	serotype	337043	AP-DNA-3	23	35
+333752	unknown virus	serotype	337043	AP-DNA-1	6	10
+333752	unknown virus	serotype	337043	AP-DNA-5	2	2
+333752	unknown virus	serotype	337043	AP-RNA-14	1	1
+333752	unknown virus	serotype	337043	AP-RNA-2	1	2
+333753	unknown virus	serotype	337043	AP-DNA-10	4	4
+333753	unknown virus	serotype	337043	AP-DNA-11	2	2
+333753	unknown virus	serotype	337043	AP-DNA-13	0	1
+333753	unknown virus	serotype	337043	AP-DNA-2	10	12
+333753	unknown virus	serotype	337043	AP-DNA-6	15	16
+333753	unknown virus	serotype	337043	AP-RNA-3	25	27
+333753	unknown virus	serotype	337043	AP-RNA-5	6	6
+333753	unknown virus	serotype	337043	AP-DNA-4	117	122
+333753	unknown virus	serotype	337043	AP-DNA-3	79	91
+333753	unknown virus	serotype	337043	AP-DNA-1	263	270
+333753	unknown virus	serotype	337043	AP-RNA-1	49	51
+333753	unknown virus	serotype	337043	AP-DNA-5	14	15
+333753	unknown virus	serotype	337043	AP-RNA-10	1	1
+333753	unknown virus	serotype	337043	AP-RNA-12	1	1
+333753	unknown virus	serotype	337043	AP-RNA-2	2	2
+333753	unknown virus	serotype	337043	AP-RNA-4	21	22
+333753	unknown virus	serotype	337043	AP-RNA-6	1	1
+333759	unknown virus	serotype	337039	AP-DNA-10	54	54
+333759	unknown virus	serotype	337039	AP-DNA-11	13	13
+333759	unknown virus	serotype	337039	AP-DNA-2	6	6
+333759	unknown virus	serotype	337039	AP-DNA-6	2	2
+333759	unknown virus	serotype	337039	AP-DNA-7	2	2
+333759	unknown virus	serotype	337039	AP-RNA-3	3	3
+333759	unknown virus	serotype	337039	AP-RNA-5	3	3
+333759	unknown virus	serotype	337039	AP-DNA-12	21	21
+333759	unknown virus	serotype	337039	AP-DNA-4	1	1
+333759	unknown virus	serotype	337039	AP-DNA-9	4	4
+333759	unknown virus	serotype	337039	AP-DNA-3	19	19
+333759	unknown virus	serotype	337039	AP-DNA-5	45	45
+333759	unknown virus	serotype	337039	AP-RNA-10	3	3
+333759	unknown virus	serotype	337039	AP-RNA-11	9	9
+333759	unknown virus	serotype	337039	AP-RNA-12	2	2
+333759	unknown virus	serotype	337039	AP-RNA-4	1	1
+333759	unknown virus	serotype	337039	AP-RNA-7	1	1
+333759	unknown virus	serotype	337039	AP-RNA-9	1	1
+333765	unknown virus	serotype	337050	AP-DNA-4	1	1
+333774	unknown virus	no rank	151340	AP-DNA-13	0	2
+333774	unknown virus	no rank	151340	AP-DNA-3	0	1
+333922	unknown virus	genus	2169595	AP-DNA-10	0	153
+333922	unknown virus	genus	2169595	AP-DNA-11	0	20
+333922	unknown virus	genus	2169595	AP-DNA-13	0	12
+333922	unknown virus	genus	2169595	AP-DNA-14	0	11
+333922	unknown virus	genus	2169595	AP-DNA-2	0	149
+333922	unknown virus	genus	2169595	AP-DNA-6	0	110
+333922	unknown virus	genus	2169595	AP-DNA-7	0	24
+333922	unknown virus	genus	2169595	AP-RNA-3	0	14
+333922	unknown virus	genus	2169595	AP-RNA-5	0	26
+333922	unknown virus	genus	2169595	AP-DNA-12	0	117
+333922	unknown virus	genus	2169595	AP-DNA-4	0	80
+333922	unknown virus	genus	2169595	AP-DNA-8	0	85
+333922	unknown virus	genus	2169595	AP-DNA-9	0	362
+333922	unknown virus	genus	2169595	AP-DNA-3	0	41
+333922	unknown virus	genus	2169595	AP-DNA-1	0	105
+333922	unknown virus	genus	2169595	AP-RNA-1	0	42
+333922	unknown virus	genus	2169595	AP-DNA-15	0	8
+333922	unknown virus	genus	2169595	AP-DNA-5	0	53
+333922	unknown virus	genus	2169595	AP-RNA-10	0	76
+333922	unknown virus	genus	2169595	AP-RNA-11	0	6
+333922	unknown virus	genus	2169595	AP-RNA-12	0	116
+333922	unknown virus	genus	2169595	AP-RNA-13	0	9
+333922	unknown virus	genus	2169595	AP-RNA-14	0	2
+333922	unknown virus	genus	2169595	AP-RNA-2	0	58
+333922	unknown virus	genus	2169595	AP-RNA-4	0	87
+333922	unknown virus	genus	2169595	AP-RNA-6	0	44
+333922	unknown virus	genus	2169595	AP-RNA-7	0	18
+333922	unknown virus	genus	2169595	AP-RNA-8	0	45
+333922	unknown virus	genus	2169595	AP-RNA-9	0	140
+333922	unknown virus	genus	2169595	AP-DNA-16	0	17
+333923	unknown virus	serotype	337051	AP-DNA-10	2	2
+333923	unknown virus	serotype	337051	AP-DNA-6	1	1
+333923	unknown virus	serotype	337051	AP-DNA-7	2	2
+333923	unknown virus	serotype	337051	AP-RNA-1	2	2
+333923	unknown virus	serotype	337051	AP-RNA-11	1	1
+333923	unknown virus	serotype	337051	AP-RNA-12	2	2
+333923	unknown virus	serotype	337051	AP-RNA-2	1	1
+333923	unknown virus	serotype	337051	AP-RNA-4	1	1
+333924	unknown virus	species	333922	AP-DNA-10	0	138
+333924	unknown virus	species	333922	AP-DNA-11	0	13
+333924	unknown virus	species	333922	AP-DNA-13	0	5
+333924	unknown virus	species	333922	AP-DNA-14	0	3
+333924	unknown virus	species	333922	AP-DNA-2	0	140
+333924	unknown virus	species	333922	AP-DNA-6	0	15
+333924	unknown virus	species	333922	AP-DNA-7	0	11
+333924	unknown virus	species	333922	AP-RNA-3	0	7
+333924	unknown virus	species	333922	AP-RNA-5	0	7
+333924	unknown virus	species	333922	AP-DNA-12	0	23
+333924	unknown virus	species	333922	AP-DNA-4	0	77
+333924	unknown virus	species	333922	AP-DNA-8	0	73
+333924	unknown virus	species	333922	AP-DNA-9	0	359
+333924	unknown virus	species	333922	AP-DNA-3	0	22
+333924	unknown virus	species	333922	AP-DNA-1	0	84
+333924	unknown virus	species	333922	AP-RNA-1	0	28
+333924	unknown virus	species	333922	AP-DNA-15	0	1
+333924	unknown virus	species	333922	AP-DNA-5	0	23
+333924	unknown virus	species	333922	AP-RNA-10	0	76
+333924	unknown virus	species	333922	AP-RNA-11	0	2
+333924	unknown virus	species	333922	AP-RNA-12	0	17
+333924	unknown virus	species	333922	AP-RNA-13	0	5
+333924	unknown virus	species	333922	AP-RNA-14	0	1
+333924	unknown virus	species	333922	AP-RNA-2	0	54
+333924	unknown virus	species	333922	AP-RNA-4	0	79
+333924	unknown virus	species	333922	AP-RNA-6	0	10
+333924	unknown virus	species	333922	AP-RNA-7	0	9
+333924	unknown virus	species	333922	AP-RNA-8	0	40
+333924	unknown virus	species	333922	AP-RNA-9	0	139
+333924	unknown virus	species	333922	AP-DNA-16	0	8
+333926	unknown virus	species	325455	AP-DNA-10	0	57
+333926	unknown virus	species	325455	AP-DNA-11	0	26
+333926	unknown virus	species	325455	AP-DNA-13	0	18
+333926	unknown virus	species	325455	AP-DNA-14	0	5
+333926	unknown virus	species	325455	AP-DNA-2	0	10
+333926	unknown virus	species	325455	AP-DNA-6	0	12
+333926	unknown virus	species	325455	AP-DNA-7	0	21
+333926	unknown virus	species	325455	AP-RNA-3	0	5
+333926	unknown virus	species	325455	AP-RNA-5	0	4
+333926	unknown virus	species	325455	AP-DNA-12	0	91
+333926	unknown virus	species	325455	AP-DNA-4	0	12
+333926	unknown virus	species	325455	AP-DNA-8	0	44
+333926	unknown virus	species	325455	AP-DNA-9	0	7
+333926	unknown virus	species	325455	AP-DNA-3	0	22
+333926	unknown virus	species	325455	AP-DNA-1	0	8
+333926	unknown virus	species	325455	AP-RNA-1	0	5
+333926	unknown virus	species	325455	AP-DNA-5	0	27
+333926	unknown virus	species	325455	AP-RNA-10	0	17
+333926	unknown virus	species	325455	AP-RNA-11	0	8
+333926	unknown virus	species	325455	AP-RNA-12	0	41
+333926	unknown virus	species	325455	AP-RNA-13	0	17
+333926	unknown virus	species	325455	AP-RNA-14	0	2
+333926	unknown virus	species	325455	AP-RNA-2	0	4
+333926	unknown virus	species	325455	AP-RNA-4	0	13
+333926	unknown virus	species	325455	AP-RNA-6	0	5
+333926	unknown virus	species	325455	AP-RNA-7	0	3
+333926	unknown virus	species	325455	AP-RNA-8	0	26
+333926	unknown virus	species	325455	AP-RNA-9	0	11
+333926	unknown virus	species	325455	AP-RNA-15	0	1
+333928	unknown virus	species	325455	AP-DNA-13	0	1
+333928	unknown virus	species	325455	AP-DNA-2	0	1
+333928	unknown virus	species	325455	AP-RNA-5	0	1
+333928	unknown virus	species	325455	AP-RNA-8	0	1
+333929	unknown virus	species	325455	AP-DNA-13	0	1
+333929	unknown virus	species	325455	AP-DNA-6	0	1
+333929	unknown virus	species	325455	AP-DNA-7	0	2
+333929	unknown virus	species	325455	AP-RNA-5	0	1
+333929	unknown virus	species	325455	AP-DNA-8	0	1
+333929	unknown virus	species	325455	AP-DNA-3	0	1
+333929	unknown virus	species	325455	AP-RNA-4	0	2
+334202	unknown virus	genus	2169595	AP-DNA-10	0	4
+334202	unknown virus	genus	2169595	AP-DNA-11	0	4
+334202	unknown virus	genus	2169595	AP-DNA-13	0	5
+334202	unknown virus	genus	2169595	AP-DNA-2	0	63
+334202	unknown virus	genus	2169595	AP-DNA-6	0	12
+334202	unknown virus	genus	2169595	AP-DNA-7	0	50
+334202	unknown virus	genus	2169595	AP-RNA-3	0	6
+334202	unknown virus	genus	2169595	AP-RNA-5	0	5
+334202	unknown virus	genus	2169595	AP-DNA-12	0	7
+334202	unknown virus	genus	2169595	AP-DNA-4	0	3
+334202	unknown virus	genus	2169595	AP-DNA-8	0	12
+334202	unknown virus	genus	2169595	AP-DNA-9	0	6
+334202	unknown virus	genus	2169595	AP-DNA-3	0	48
+334202	unknown virus	genus	2169595	AP-DNA-1	0	38
+334202	unknown virus	genus	2169595	AP-RNA-1	0	9
+334202	unknown virus	genus	2169595	AP-DNA-5	0	10
+334202	unknown virus	genus	2169595	AP-RNA-10	0	3
+334202	unknown virus	genus	2169595	AP-RNA-11	0	2
+334202	unknown virus	genus	2169595	AP-RNA-12	0	6
+334202	unknown virus	genus	2169595	AP-RNA-13	0	5
+334202	unknown virus	genus	2169595	AP-RNA-14	0	2
+334202	unknown virus	genus	2169595	AP-RNA-2	0	17
+334202	unknown virus	genus	2169595	AP-RNA-4	0	6
+334202	unknown virus	genus	2169595	AP-RNA-6	0	4
+334202	unknown virus	genus	2169595	AP-RNA-7	0	18
+334202	unknown virus	genus	2169595	AP-RNA-8	0	7
+334202	unknown virus	genus	2169595	AP-RNA-9	0	2
+334203	unknown virus	species	334202	AP-DNA-10	0	2
+334203	unknown virus	species	334202	AP-DNA-13	0	1
+334203	unknown virus	species	334202	AP-DNA-2	0	56
+334203	unknown virus	species	334202	AP-DNA-6	0	3
+334203	unknown virus	species	334202	AP-DNA-7	0	17
+334203	unknown virus	species	334202	AP-RNA-3	0	6
+334203	unknown virus	species	334202	AP-RNA-5	0	1
+334203	unknown virus	species	334202	AP-DNA-12	0	1
+334203	unknown virus	species	334202	AP-DNA-4	0	1
+334203	unknown virus	species	334202	AP-DNA-8	0	2
+334203	unknown virus	species	334202	AP-DNA-3	0	34
+334203	unknown virus	species	334202	AP-DNA-1	0	26
+334203	unknown virus	species	334202	AP-RNA-1	0	4
+334203	unknown virus	species	334202	AP-DNA-5	0	4
+334203	unknown virus	species	334202	AP-RNA-12	0	2
+334203	unknown virus	species	334202	AP-RNA-13	0	2
+334203	unknown virus	species	334202	AP-RNA-14	0	1
+334203	unknown virus	species	334202	AP-RNA-2	0	17
+334203	unknown virus	species	334202	AP-RNA-4	0	4
+334203	unknown virus	species	334202	AP-RNA-7	0	1
+334204	unknown virus	species	334202	AP-DNA-10	0	2
+334204	unknown virus	species	334202	AP-DNA-11	0	4
+334204	unknown virus	species	334202	AP-DNA-13	0	4
+334204	unknown virus	species	334202	AP-DNA-2	0	7
+334204	unknown virus	species	334202	AP-DNA-6	0	9
+334204	unknown virus	species	334202	AP-DNA-7	0	33
+334204	unknown virus	species	334202	AP-RNA-5	0	4
+334204	unknown virus	species	334202	AP-DNA-12	0	6
+334204	unknown virus	species	334202	AP-DNA-4	0	2
+334204	unknown virus	species	334202	AP-DNA-8	0	10
+334204	unknown virus	species	334202	AP-DNA-9	0	6
+334204	unknown virus	species	334202	AP-DNA-3	0	14
+334204	unknown virus	species	334202	AP-DNA-1	0	12
+334204	unknown virus	species	334202	AP-RNA-1	0	5
+334204	unknown virus	species	334202	AP-DNA-5	0	6
+334204	unknown virus	species	334202	AP-RNA-10	0	3
+334204	unknown virus	species	334202	AP-RNA-11	0	2
+334204	unknown virus	species	334202	AP-RNA-12	0	4
+334204	unknown virus	species	334202	AP-RNA-13	0	3
+334204	unknown virus	species	334202	AP-RNA-14	0	1
+334204	unknown virus	species	334202	AP-RNA-4	0	2
+334204	unknown virus	species	334202	AP-RNA-6	0	4
+334204	unknown virus	species	334202	AP-RNA-7	0	17
+334204	unknown virus	species	334202	AP-RNA-8	0	7
+334204	unknown virus	species	334202	AP-RNA-9	0	2
+334207	unknown virus	species	333922	AP-DNA-10	0	2
+334207	unknown virus	species	333922	AP-DNA-11	0	1
+334207	unknown virus	species	333922	AP-DNA-14	0	3
+334207	unknown virus	species	333922	AP-DNA-6	0	2
+334207	unknown virus	species	333922	AP-RNA-5	0	5
+334207	unknown virus	species	333922	AP-DNA-8	0	1
+334207	unknown virus	species	333922	AP-DNA-9	0	2
+334207	unknown virus	species	333922	AP-DNA-3	0	2
+334207	unknown virus	species	333922	AP-RNA-1	0	1
+334207	unknown virus	species	333922	AP-DNA-5	0	16
+334207	unknown virus	species	333922	AP-RNA-12	0	2
+334207	unknown virus	species	333922	AP-RNA-13	0	1
+334207	unknown virus	species	333922	AP-RNA-4	0	1
+334207	unknown virus	species	333922	AP-RNA-6	0	2
+334207	unknown virus	species	333922	AP-RNA-8	0	2
+334208	unknown virus	species	333922	AP-DNA-10	0	1
+334208	unknown virus	species	333922	AP-DNA-11	0	1
+334208	unknown virus	species	333922	AP-DNA-6	0	75
+334208	unknown virus	species	333922	AP-DNA-7	0	1
+334208	unknown virus	species	333922	AP-RNA-3	0	1
+334208	unknown virus	species	333922	AP-RNA-13	0	1
+334208	unknown virus	species	333922	AP-RNA-2	0	1
+334208	unknown virus	species	333922	AP-RNA-4	0	3
+334208	unknown virus	species	333922	AP-RNA-6	0	23
+334208	unknown virus	species	333922	AP-RNA-7	0	2
+334209	unknown virus	species	333922	AP-DNA-11	0	2
+334209	unknown virus	species	333922	AP-DNA-1	0	2
+334209	unknown virus	species	333922	AP-DNA-5	0	2
+334209	unknown virus	species	333922	AP-RNA-2	0	1
+334514	unknown virus	no rank	37959	AP-DNA-10	110	110
+334514	unknown virus	no rank	37959	AP-DNA-2	1	1
+334514	unknown virus	no rank	37959	AP-DNA-6	1	1
+334514	unknown virus	no rank	37959	AP-DNA-7	1	1
+334514	unknown virus	no rank	37959	AP-DNA-3	1	1
+334514	unknown virus	no rank	37959	AP-DNA-1	2	2
+334514	unknown virus	no rank	37959	AP-RNA-10	63	63
+334514	unknown virus	no rank	37959	AP-RNA-13	1	1
+334514	unknown virus	no rank	37959	AP-RNA-4	2	2
+334514	unknown virus	no rank	37959	AP-RNA-6	1	1
+335341	unknown virus	no rank	119210	AP-RNA-13	1	1
+335341	unknown virus	no rank	119210	AP-DNA-16	1	1
+337039	unknown virus	species	333750	AP-DNA-10	0	55
+337039	unknown virus	species	333750	AP-DNA-11	0	14
+337039	unknown virus	species	333750	AP-DNA-14	0	2
+337039	unknown virus	species	333750	AP-DNA-2	0	11
+337039	unknown virus	species	333750	AP-DNA-6	0	3
+337039	unknown virus	species	333750	AP-DNA-7	0	5
+337039	unknown virus	species	333750	AP-RNA-3	0	3
+337039	unknown virus	species	333750	AP-RNA-5	0	3
+337039	unknown virus	species	333750	AP-DNA-12	0	33
+337039	unknown virus	species	333750	AP-DNA-4	0	3
+337039	unknown virus	species	333750	AP-DNA-8	0	4
+337039	unknown virus	species	333750	AP-DNA-9	0	6
+337039	unknown virus	species	333750	AP-DNA-3	0	21
+337039	unknown virus	species	333750	AP-DNA-5	0	46
+337039	unknown virus	species	333750	AP-RNA-10	0	3
+337039	unknown virus	species	333750	AP-RNA-11	0	9
+337039	unknown virus	species	333750	AP-RNA-12	0	17
+337039	unknown virus	species	333750	AP-RNA-4	0	2
+337039	unknown virus	species	333750	AP-RNA-6	0	3
+337039	unknown virus	species	333750	AP-RNA-7	0	1
+337039	unknown virus	species	333750	AP-RNA-9	0	1
+337041	unknown virus	species	333750	AP-RNA-4	0	1
+337043	unknown virus	species	333750	AP-DNA-10	0	7
+337043	unknown virus	species	333750	AP-DNA-11	0	3
+337043	unknown virus	species	333750	AP-DNA-13	0	3
+337043	unknown virus	species	333750	AP-DNA-14	0	2
+337043	unknown virus	species	333750	AP-DNA-2	0	15
+337043	unknown virus	species	333750	AP-DNA-6	0	16
+337043	unknown virus	species	333750	AP-RNA-3	0	35
+337043	unknown virus	species	333750	AP-RNA-5	0	8
+337043	unknown virus	species	333750	AP-DNA-12	0	1
+337043	unknown virus	species	333750	AP-DNA-4	0	122
+337043	unknown virus	species	333750	AP-DNA-9	0	6
+337043	unknown virus	species	333750	AP-DNA-3	0	129
+337043	unknown virus	species	333750	AP-DNA-1	0	288
+337043	unknown virus	species	333750	AP-RNA-1	0	51
+337043	unknown virus	species	333750	AP-DNA-5	0	18
+337043	unknown virus	species	333750	AP-RNA-10	0	1
+337043	unknown virus	species	333750	AP-RNA-11	0	1
+337043	unknown virus	species	333750	AP-RNA-12	0	1
+337043	unknown virus	species	333750	AP-RNA-14	0	1
+337043	unknown virus	species	333750	AP-RNA-2	0	4
+337043	unknown virus	species	333750	AP-RNA-4	0	22
+337043	unknown virus	species	333750	AP-RNA-6	0	1
+337043	unknown virus	species	333750	AP-RNA-9	0	1
+337048	unknown virus	species	333750	AP-DNA-10	0	2
+337048	unknown virus	species	333750	AP-DNA-11	0	1
+337048	unknown virus	species	333750	AP-DNA-12	0	1
+337048	unknown virus	species	333750	AP-DNA-8	0	1
+337048	unknown virus	species	333750	AP-DNA-9	0	2
+337048	unknown virus	species	333750	AP-DNA-5	0	1
+337048	unknown virus	species	333750	AP-RNA-14	0	2
+337050	unknown virus	species	333750	AP-DNA-4	0	1
+337050	unknown virus	species	333750	AP-DNA-3	0	1
+337051	unknown virus	species	333922	AP-DNA-10	0	12
+337051	unknown virus	species	333922	AP-DNA-11	0	3
+337051	unknown virus	species	333922	AP-DNA-13	0	7
+337051	unknown virus	species	333922	AP-DNA-14	0	5
+337051	unknown virus	species	333922	AP-DNA-2	0	9
+337051	unknown virus	species	333922	AP-DNA-6	0	18
+337051	unknown virus	species	333922	AP-DNA-7	0	12
+337051	unknown virus	species	333922	AP-RNA-3	0	6
+337051	unknown virus	species	333922	AP-RNA-5	0	14
+337051	unknown virus	species	333922	AP-DNA-12	0	94
+337051	unknown virus	species	333922	AP-DNA-4	0	3
+337051	unknown virus	species	333922	AP-DNA-8	0	11
+337051	unknown virus	species	333922	AP-DNA-9	0	1
+337051	unknown virus	species	333922	AP-DNA-3	0	17
+337051	unknown virus	species	333922	AP-DNA-1	0	19
+337051	unknown virus	species	333922	AP-RNA-1	0	13
+337051	unknown virus	species	333922	AP-DNA-15	0	7
+337051	unknown virus	species	333922	AP-DNA-5	0	12
+337051	unknown virus	species	333922	AP-RNA-11	0	4
+337051	unknown virus	species	333922	AP-RNA-12	0	97
+337051	unknown virus	species	333922	AP-RNA-13	0	2
+337051	unknown virus	species	333922	AP-RNA-14	0	1
+337051	unknown virus	species	333922	AP-RNA-2	0	2
+337051	unknown virus	species	333922	AP-RNA-4	0	4
+337051	unknown virus	species	333922	AP-RNA-6	0	9
+337051	unknown virus	species	333922	AP-RNA-7	0	7
+337051	unknown virus	species	333922	AP-RNA-8	0	3
+337051	unknown virus	species	333922	AP-RNA-9	0	1
+337051	unknown virus	species	333922	AP-DNA-16	0	9
+363628	unknown virus	no rank	687329	AP-DNA-12	0	1
+363628	unknown virus	no rank	687329	AP-DNA-4	0	2
+363628	unknown virus	no rank	687329	AP-DNA-5	0	2
+363628	unknown virus	no rank	687329	AP-RNA-4	0	2
+363628	unknown virus	no rank	687329	AP-RNA-8	0	1
+368797	unknown virus	no rank	11786	AP-DNA-3	0	1
+369960	unknown virus	species	153135	AP-DNA-11	0	1
+369960	unknown virus	species	153135	AP-DNA-7	0	1
+369960	unknown virus	species	153135	AP-RNA-3	0	1
+369960	unknown virus	species	153135	AP-DNA-1	0	1
+370522	unknown virus	no rank	119210	AP-DNA-16	1	1
+377613	unknown virus	no rank	129951	AP-DNA-2	0	1
+377613	unknown virus	no rank	129951	AP-DNA-1	0	5
+394504	unknown virus	no rank	329641	AP-DNA-13	1	1
+394504	unknown virus	no rank	329641	AP-DNA-1	1	1
+394504	unknown virus	no rank	329641	AP-RNA-1	1	1
+394504	unknown virus	no rank	329641	AP-RNA-7	1	1
+423446	unknown virus	no rank	1891764	AP-DNA-2	2	2
+423446	unknown virus	no rank	1891764	AP-DNA-6	1	1
+423446	unknown virus	no rank	1891764	AP-DNA-7	6	6
+423446	unknown virus	no rank	1891764	AP-RNA-3	1	1
+423446	unknown virus	no rank	1891764	AP-DNA-4	1	1
+423446	unknown virus	no rank	1891764	AP-DNA-3	7	7
+423446	unknown virus	no rank	1891764	AP-DNA-1	2	2
+423446	unknown virus	no rank	1891764	AP-DNA-5	2	2
+423446	unknown virus	no rank	1891764	AP-RNA-2	1	1
+423446	unknown virus	no rank	1891764	AP-RNA-4	1	1
+423446	unknown virus	no rank	1891764	AP-RNA-6	1	1
+423446	unknown virus	no rank	1891764	AP-RNA-7	1	1
+423446	unknown virus	no rank	1891764	AP-RNA-9	1	1
+423447	unknown virus	no rank	1891764	AP-DNA-10	1	1
+423447	unknown virus	no rank	1891764	AP-DNA-13	2	2
+423447	unknown virus	no rank	1891764	AP-DNA-2	1	1
+423447	unknown virus	no rank	1891764	AP-DNA-6	2	2
+423447	unknown virus	no rank	1891764	AP-DNA-7	6	6
+423447	unknown virus	no rank	1891764	AP-RNA-3	2	2
+423447	unknown virus	no rank	1891764	AP-DNA-8	1	1
+423447	unknown virus	no rank	1891764	AP-DNA-3	6	6
+423447	unknown virus	no rank	1891764	AP-DNA-5	2	2
+423447	unknown virus	no rank	1891764	AP-RNA-2	1	1
+423447	unknown virus	no rank	1891764	AP-RNA-6	2	2
+423447	unknown virus	no rank	1891764	AP-RNA-7	1	1
+423447	unknown virus	no rank	1891764	AP-RNA-9	1	1
+423448	unknown virus	no rank	1891764	AP-DNA-2	2	2
+423448	unknown virus	no rank	1891764	AP-DNA-6	3	3
+423448	unknown virus	no rank	1891764	AP-DNA-7	4	4
+423448	unknown virus	no rank	1891764	AP-DNA-3	1	1
+423448	unknown virus	no rank	1891764	AP-DNA-1	2	2
+423448	unknown virus	no rank	1891764	AP-DNA-5	1	1
+423448	unknown virus	no rank	1891764	AP-RNA-4	1	1
+423448	unknown virus	no rank	1891764	AP-RNA-7	2	2
+423448	unknown virus	no rank	1891764	AP-RNA-8	1	1
+427343	unknown virus	serotype	333924	AP-DNA-10	1	1
+427343	unknown virus	serotype	333924	AP-DNA-11	7	7
+427343	unknown virus	serotype	333924	AP-DNA-2	6	6
+427343	unknown virus	serotype	333924	AP-DNA-6	1	1
+427343	unknown virus	serotype	333924	AP-DNA-7	2	2
+427343	unknown virus	serotype	333924	AP-DNA-12	1	1
+427343	unknown virus	serotype	333924	AP-DNA-4	1	1
+427343	unknown virus	serotype	333924	AP-DNA-8	2	2
+427343	unknown virus	serotype	333924	AP-DNA-9	230	230
+427343	unknown virus	serotype	333924	AP-DNA-1	4	4
+427343	unknown virus	serotype	333924	AP-DNA-5	1	1
+427343	unknown virus	serotype	333924	AP-RNA-10	2	2
+427343	unknown virus	serotype	333924	AP-RNA-12	1	1
+427343	unknown virus	serotype	333924	AP-RNA-2	1	1
+427343	unknown virus	serotype	333924	AP-RNA-7	3	3
+427343	unknown virus	serotype	333924	AP-RNA-8	2	2
+427343	unknown virus	serotype	333924	AP-RNA-9	88	88
+430048	unknown virus	no rank	329641	AP-DNA-14	1	1
+430048	unknown virus	no rank	329641	AP-DNA-2	2	2
+430048	unknown virus	no rank	329641	AP-DNA-3	1	1
+430048	unknown virus	no rank	329641	AP-DNA-1	1	1
+430048	unknown virus	no rank	329641	AP-RNA-1	1	1
+430048	unknown virus	no rank	329641	AP-RNA-13	1	1
+430048	unknown virus	no rank	329641	AP-RNA-4	2	2
+430048	unknown virus	no rank	329641	AP-RNA-6	1	1
+430048	unknown virus	no rank	329641	AP-RNA-7	1	1
+440266	unknown virus	no rank	1891765	AP-DNA-10	3	3
+440266	unknown virus	no rank	1891765	AP-DNA-14	2	2
+440266	unknown virus	no rank	1891765	AP-DNA-2	10	10
+440266	unknown virus	no rank	1891765	AP-RNA-3	1	1
+440266	unknown virus	no rank	1891765	AP-DNA-12	4	4
+440266	unknown virus	no rank	1891765	AP-DNA-4	2	2
+440266	unknown virus	no rank	1891765	AP-DNA-3	6	6
+440266	unknown virus	no rank	1891765	AP-DNA-1	10	10
+440266	unknown virus	no rank	1891765	AP-DNA-5	2	2
+440266	unknown virus	no rank	1891765	AP-RNA-11	2	2
+440266	unknown virus	no rank	1891765	AP-RNA-12	1	1
+440266	unknown virus	no rank	1891765	AP-RNA-2	3	3
+440266	unknown virus	no rank	1891765	AP-RNA-6	1	1
+440266	unknown virus	no rank	1891765	AP-RNA-8	1	1
+444473	unknown virus	no rank	329641	AP-DNA-11	1	1
+444473	unknown virus	no rank	329641	AP-DNA-13	1	1
+444473	unknown virus	no rank	329641	AP-RNA-5	1	1
+444473	unknown virus	no rank	329641	AP-DNA-4	1	1
+444473	unknown virus	no rank	329641	AP-RNA-1	1	1
+444473	unknown virus	no rank	329641	AP-RNA-6	1	1
+463676	unknown virus	species	12059	AP-RNA-5	0	3
+463676	unknown virus	species	12059	AP-RNA-1	0	12
+463676	unknown virus	species	12059	AP-RNA-10	0	5
+463676	unknown virus	species	12059	AP-RNA-11	0	2
+463676	unknown virus	species	12059	AP-RNA-13	0	1
+463676	unknown virus	species	12059	AP-RNA-2	0	5
+463676	unknown virus	species	12059	AP-RNA-8	0	15
+464095	unknown virus	order	2732506	AP-RNA-3	0	1
+464095	unknown virus	order	2732506	AP-RNA-5	0	3
+464095	unknown virus	order	2732506	AP-RNA-1	0	13
+464095	unknown virus	order	2732506	AP-RNA-10	0	11
+464095	unknown virus	order	2732506	AP-RNA-11	0	2
+464095	unknown virus	order	2732506	AP-RNA-13	0	1
+464095	unknown virus	order	2732506	AP-RNA-2	0	5
+464095	unknown virus	order	2732506	AP-RNA-4	0	1
+464095	unknown virus	order	2732506	AP-RNA-6	0	3
+464095	unknown virus	order	2732506	AP-RNA-8	0	17
+464095	unknown virus	order	2732506	AP-RNA-9	0	4
+471358	unknown virus	no rank	333753	AP-DNA-13	1	1
+471358	unknown virus	no rank	333753	AP-DNA-6	1	1
+471358	unknown virus	no rank	333753	AP-RNA-3	1	1
+471358	unknown virus	no rank	333753	AP-DNA-4	3	3
+471358	unknown virus	no rank	333753	AP-DNA-3	4	4
+471358	unknown virus	no rank	333753	AP-DNA-1	6	6
+471358	unknown virus	no rank	333753	AP-RNA-1	2	2
+479952	unknown virus	no rank	150080	AP-RNA-1	1	1
+493803	unknown virus	no rank	1891726	AP-DNA-10	1	1
+493803	unknown virus	no rank	1891726	AP-DNA-13	5	5
+493803	unknown virus	no rank	1891726	AP-DNA-14	2	2
+493803	unknown virus	no rank	1891726	AP-DNA-7	1	1
+493803	unknown virus	no rank	1891726	AP-RNA-3	1	1
+493803	unknown virus	no rank	1891726	AP-RNA-5	1	1
+493803	unknown virus	no rank	1891726	AP-DNA-8	1	1
+493803	unknown virus	no rank	1891726	AP-DNA-5	1	1
+493803	unknown virus	no rank	1891726	AP-RNA-12	2	2
+493803	unknown virus	no rank	1891726	AP-RNA-13	4	4
+493803	unknown virus	no rank	1891726	AP-RNA-2	2	2
+493803	unknown virus	no rank	1891726	AP-RNA-7	1	1
+509154	unknown virus	no rank	61673	AP-DNA-11	1	1
+509154	unknown virus	no rank	61673	AP-DNA-7	1	1
+509154	unknown virus	no rank	61673	AP-DNA-1	1	1
+518628	unknown virus	serotype	333924	AP-DNA-10	1	1
+518628	unknown virus	serotype	333924	AP-DNA-13	0	1
+518628	unknown virus	serotype	333924	AP-DNA-2	2	2
+518628	unknown virus	serotype	333924	AP-DNA-12	1	1
+518628	unknown virus	serotype	333924	AP-DNA-4	1	4
+518628	unknown virus	serotype	333924	AP-DNA-8	24	59
+518628	unknown virus	serotype	333924	AP-DNA-9	1	2
+518628	unknown virus	serotype	333924	AP-DNA-1	2	4
+518628	unknown virus	serotype	333924	AP-DNA-5	0	1
+518628	unknown virus	serotype	333924	AP-RNA-13	0	2
+518628	unknown virus	serotype	333924	AP-RNA-2	0	2
+518628	unknown virus	serotype	333924	AP-RNA-4	2	5
+518628	unknown virus	serotype	333924	AP-RNA-8	10	27
+518628	unknown virus	serotype	333924	AP-RNA-9	1	1
+518629	unknown virus	serotype	333924	AP-DNA-10	3	3
+518629	unknown virus	serotype	333924	AP-DNA-2	1	1
+518629	unknown virus	serotype	333924	AP-DNA-6	1	1
+518629	unknown virus	serotype	333924	AP-RNA-5	1	1
+518629	unknown virus	serotype	333924	AP-DNA-4	1	1
+518629	unknown virus	serotype	333924	AP-DNA-3	2	2
+518629	unknown virus	serotype	333924	AP-DNA-1	3	3
+518629	unknown virus	serotype	333924	AP-RNA-1	1	1
+518629	unknown virus	serotype	333924	AP-DNA-5	13	13
+518629	unknown virus	serotype	333924	AP-RNA-7	1	1
+518629	unknown virus	serotype	333924	AP-RNA-8	1	1
+518629	unknown virus	serotype	333924	AP-RNA-9	1	1
+518629	unknown virus	serotype	333924	AP-DNA-16	2	2
+518630	unknown virus	serotype	333924	AP-DNA-10	1	1
+518630	unknown virus	serotype	333924	AP-DNA-11	1	1
+518630	unknown virus	serotype	333924	AP-DNA-6	2	2
+518630	unknown virus	serotype	333924	AP-DNA-4	1	1
+518630	unknown virus	serotype	333924	AP-DNA-8	2	2
+518630	unknown virus	serotype	333924	AP-DNA-9	1	1
+518630	unknown virus	serotype	333924	AP-DNA-1	3	3
+518630	unknown virus	serotype	333924	AP-DNA-5	1	1
+518630	unknown virus	serotype	333924	AP-RNA-11	1	1
+518630	unknown virus	serotype	333924	AP-RNA-6	1	1
+518630	unknown virus	serotype	333924	AP-RNA-8	1	1
+526119	unknown virus	no rank	249588	AP-RNA-11	0	1
+548681	unknown virus	order	2731363	AP-DNA-10	0	829
+548681	unknown virus	order	2731363	AP-DNA-11	0	344
+548681	unknown virus	order	2731363	AP-DNA-13	0	406
+548681	unknown virus	order	2731363	AP-DNA-14	0	51
+548681	unknown virus	order	2731363	AP-DNA-2	0	1930
+548681	unknown virus	order	2731363	AP-DNA-6	0	288
+548681	unknown virus	order	2731363	AP-DNA-7	0	278
+548681	unknown virus	order	2731363	AP-RNA-3	0	58
+548681	unknown virus	order	2731363	AP-RNA-5	0	22
+548681	unknown virus	order	2731363	AP-DNA-12	0	208
+548681	unknown virus	order	2731363	AP-DNA-4	0	185
+548681	unknown virus	order	2731363	AP-DNA-8	0	131
+548681	unknown virus	order	2731363	AP-DNA-9	0	417
+548681	unknown virus	order	2731363	AP-DNA-3	0	770
+548681	unknown virus	order	2731363	AP-DNA-1	0	1648
+548681	unknown virus	order	2731363	AP-RNA-1	0	133
+548681	unknown virus	order	2731363	AP-DNA-15	0	4
+548681	unknown virus	order	2731363	AP-DNA-5	0	308
+548681	unknown virus	order	2731363	AP-RNA-10	0	28
+548681	unknown virus	order	2731363	AP-RNA-11	0	16
+548681	unknown virus	order	2731363	AP-RNA-12	0	14
+548681	unknown virus	order	2731363	AP-RNA-13	0	29
+548681	unknown virus	order	2731363	AP-RNA-14	0	6
+548681	unknown virus	order	2731363	AP-RNA-2	0	167
+548681	unknown virus	order	2731363	AP-RNA-4	0	24
+548681	unknown virus	order	2731363	AP-RNA-6	0	26
+548681	unknown virus	order	2731363	AP-RNA-7	0	16
+548681	unknown virus	order	2731363	AP-RNA-8	0	13
+548681	unknown virus	order	2731363	AP-RNA-9	0	25
+563190	unknown virus	no rank	518628	AP-DNA-13	1	1
+563190	unknown virus	no rank	518628	AP-DNA-4	3	3
+563190	unknown virus	no rank	518628	AP-DNA-8	35	35
+563190	unknown virus	no rank	518628	AP-DNA-9	1	1
+563190	unknown virus	no rank	518628	AP-DNA-1	2	2
+563190	unknown virus	no rank	518628	AP-DNA-5	1	1
+563190	unknown virus	no rank	518628	AP-RNA-13	2	2
+563190	unknown virus	no rank	518628	AP-RNA-2	2	2
+563190	unknown virus	no rank	518628	AP-RNA-4	3	3
+563190	unknown virus	no rank	518628	AP-RNA-8	17	17
+568715	unknown virus	species	526119	AP-RNA-11	0	1
+573977	unknown virus	no rank	1511872	AP-RNA-10	0	8
+573977	unknown virus	no rank	1511872	AP-RNA-11	0	1
+585097	unknown virus	serotype	129951	AP-DNA-1	1	1
+587347	unknown virus	serotype	337051	AP-RNA-3	1	1
+587347	unknown virus	serotype	337051	AP-DNA-12	1	1
+587347	unknown virus	serotype	337051	AP-DNA-8	1	1
+587348	unknown virus	serotype	337051	AP-DNA-14	1	1
+587349	unknown virus	serotype	333924	AP-DNA-6	1	1
+587349	unknown virus	serotype	333924	AP-DNA-9	2	2
+587349	unknown virus	serotype	333924	AP-DNA-3	1	1
+587349	unknown virus	serotype	333924	AP-DNA-1	1	1
+587349	unknown virus	serotype	333924	AP-DNA-5	1	1
+587349	unknown virus	serotype	333924	AP-RNA-2	1	1
+587349	unknown virus	serotype	333924	AP-RNA-4	1	1
+587350	unknown virus	serotype	337051	AP-DNA-2	1	1
+587350	unknown virus	serotype	337051	AP-DNA-6	1	1
+587350	unknown virus	serotype	337051	AP-DNA-12	1	1
+587350	unknown virus	serotype	337051	AP-DNA-4	1	1
+587350	unknown virus	serotype	337051	AP-DNA-1	1	1
+587350	unknown virus	serotype	337051	AP-DNA-5	2	2
+587350	unknown virus	serotype	337051	AP-RNA-8	1	1
+587351	unknown virus	serotype	333924	AP-DNA-8	1	1
+587351	unknown virus	serotype	333924	AP-RNA-6	1	1
+627439	unknown virus	no rank	166124	AP-RNA-12	1	1
+638313	unknown virus	no rank	1511871	AP-RNA-2	1	1
+641809	unknown virus	no rank	114727	AP-RNA-2	1	1
+673323	unknown virus	serotype	337039	AP-DNA-10	1	1
+687329	unknown virus	family	10239	AP-DNA-10	0	3
+687329	unknown virus	family	10239	AP-DNA-11	0	4
+687329	unknown virus	family	10239	AP-DNA-13	0	1
+687329	unknown virus	family	10239	AP-DNA-14	0	1
+687329	unknown virus	family	10239	AP-DNA-2	0	1
+687329	unknown virus	family	10239	AP-RNA-3	0	4
+687329	unknown virus	family	10239	AP-RNA-5	0	2
+687329	unknown virus	family	10239	AP-DNA-12	0	5
+687329	unknown virus	family	10239	AP-DNA-4	0	3
+687329	unknown virus	family	10239	AP-DNA-8	0	1
+687329	unknown virus	family	10239	AP-DNA-3	0	8
+687329	unknown virus	family	10239	AP-DNA-1	0	5
+687329	unknown virus	family	10239	AP-DNA-5	0	2
+687329	unknown virus	family	10239	AP-RNA-10	0	3
+687329	unknown virus	family	10239	AP-RNA-11	0	6
+687329	unknown virus	family	10239	AP-RNA-12	0	3
+687329	unknown virus	family	10239	AP-RNA-13	0	1
+687329	unknown virus	family	10239	AP-RNA-2	0	7
+687329	unknown virus	family	10239	AP-RNA-4	0	4
+687329	unknown virus	family	10239	AP-RNA-6	0	1
+687329	unknown virus	family	10239	AP-RNA-7	0	1
+687329	unknown virus	family	10239	AP-RNA-8	0	3
+687331	unknown virus	genus	687329	AP-DNA-10	0	2
+687331	unknown virus	genus	687329	AP-DNA-11	0	3
+687331	unknown virus	genus	687329	AP-DNA-14	0	1
+687331	unknown virus	genus	687329	AP-DNA-2	0	1
+687331	unknown virus	genus	687329	AP-RNA-3	0	3
+687331	unknown virus	genus	687329	AP-RNA-5	0	2
+687331	unknown virus	genus	687329	AP-DNA-12	0	1
+687331	unknown virus	genus	687329	AP-DNA-4	0	1
+687331	unknown virus	genus	687329	AP-DNA-3	0	5
+687331	unknown virus	genus	687329	AP-DNA-1	0	3
+687331	unknown virus	genus	687329	AP-RNA-11	0	1
+687331	unknown virus	genus	687329	AP-RNA-2	0	4
+687331	unknown virus	genus	687329	AP-RNA-4	0	1
+687331	unknown virus	genus	687329	AP-RNA-6	0	1
+687331	unknown virus	genus	687329	AP-RNA-8	0	2
+687332	unknown virus	genus	687329	AP-DNA-10	0	1
+687332	unknown virus	genus	687329	AP-DNA-11	0	1
+687332	unknown virus	genus	687329	AP-DNA-13	0	1
+687332	unknown virus	genus	687329	AP-RNA-3	0	1
+687332	unknown virus	genus	687329	AP-DNA-12	0	2
+687332	unknown virus	genus	687329	AP-DNA-3	0	3
+687332	unknown virus	genus	687329	AP-DNA-1	0	1
+687332	unknown virus	genus	687329	AP-RNA-10	0	3
+687332	unknown virus	genus	687329	AP-RNA-11	0	4
+687332	unknown virus	genus	687329	AP-RNA-12	0	2
+687332	unknown virus	genus	687329	AP-RNA-13	0	1
+687332	unknown virus	genus	687329	AP-RNA-2	0	3
+687332	unknown virus	genus	687329	AP-RNA-7	0	1
+687333	unknown virus	genus	687329	AP-DNA-12	0	1
+687333	unknown virus	genus	687329	AP-DNA-8	0	1
+687333	unknown virus	genus	687329	AP-RNA-11	0	1
+687333	unknown virus	genus	687329	AP-RNA-12	0	1
+687333	unknown virus	genus	687329	AP-RNA-4	0	1
+687340	unknown virus	species	687331	AP-RNA-5	1	1
+687342	unknown virus	species	687331	AP-DNA-1	1	1
+687342	unknown virus	species	687331	AP-RNA-6	1	1
+687344	unknown virus	species	687331	AP-RNA-3	1	1
+687344	unknown virus	species	687331	AP-DNA-12	1	1
+687344	unknown virus	species	687331	AP-DNA-3	1	1
+687344	unknown virus	species	687331	AP-RNA-4	1	1
+687346	unknown virus	species	687331	AP-DNA-14	1	1
+687346	unknown virus	species	687331	AP-RNA-5	1	1
+687347	unknown virus	species	687331	AP-DNA-11	2	2
+687349	unknown virus	species	687331	AP-DNA-3	1	1
+687352	unknown virus	species	687331	AP-DNA-3	1	1
+687352	unknown virus	species	687331	AP-RNA-8	2	2
+687355	unknown virus	species	687331	AP-DNA-11	1	1
+687355	unknown virus	species	687331	AP-RNA-3	1	1
+687355	unknown virus	species	687331	AP-DNA-1	1	1
+687356	unknown virus	species	687331	AP-RNA-2	1	1
+687357	unknown virus	species	687331	AP-DNA-2	1	1
+687357	unknown virus	species	687331	AP-RNA-11	1	1
+687358	unknown virus	species	687331	AP-RNA-3	1	1
+687358	unknown virus	species	687331	AP-DNA-4	1	1
+687358	unknown virus	species	687331	AP-DNA-3	1	1
+687359	unknown virus	species	687331	AP-DNA-3	1	1
+687359	unknown virus	species	687331	AP-DNA-1	1	1
+687359	unknown virus	species	687331	AP-RNA-2	1	1
+687360	unknown virus	species	687331	AP-DNA-10	1	1
+687361	unknown virus	species	687331	AP-DNA-10	1	1
+687361	unknown virus	species	687331	AP-RNA-2	1	1
+687363	unknown virus	species	687331	AP-RNA-2	1	1
+687369	unknown virus	species	687332	AP-RNA-11	1	1
+687369	unknown virus	species	687332	AP-RNA-2	1	1
+687369	unknown virus	species	687332	AP-RNA-7	1	1
+687371	unknown virus	species	687332	AP-RNA-12	1	1
+687373	unknown virus	species	687332	AP-DNA-12	2	2
+687373	unknown virus	species	687332	AP-DNA-1	1	1
+687373	unknown virus	species	687332	AP-RNA-12	1	1
+687373	unknown virus	species	687332	AP-RNA-2	1	1
+687375	unknown virus	species	687332	AP-RNA-10	1	1
+687377	unknown virus	species	687332	AP-DNA-10	1	1
+687379	unknown virus	species	687333	AP-RNA-11	1	1
+687379	unknown virus	species	687333	AP-RNA-4	1	1
+689403	unknown virus	no rank	1511871	AP-DNA-11	1	1
+689403	unknown virus	no rank	1511871	AP-DNA-13	1	1
+689403	unknown virus	no rank	1511871	AP-DNA-2	3	3
+689403	unknown virus	no rank	1511871	AP-DNA-6	1	1
+689403	unknown virus	no rank	1511871	AP-DNA-3	1	1
+689403	unknown virus	no rank	1511871	AP-DNA-1	1	1
+689403	unknown virus	no rank	1511871	AP-RNA-12	1	1
+689403	unknown virus	no rank	1511871	AP-RNA-4	1	1
+693996	unknown virus	genus	2501931	AP-RNA-13	0	1
+694002	unknown virus	genus	2501931	AP-RNA-1	0	20
+694002	unknown virus	genus	2501931	AP-RNA-12	0	50
+694002	unknown virus	genus	2501931	AP-RNA-13	0	5
+694002	unknown virus	genus	2501931	AP-RNA-14	0	1
+694002	unknown virus	genus	2501931	AP-RNA-2	0	14
+694002	unknown virus	genus	2501931	AP-RNA-4	0	1
+694003	unknown virus	species	2509481	AP-RNA-12	0	50
+694003	unknown virus	species	2509481	AP-RNA-13	0	5
+694003	unknown virus	species	2509481	AP-RNA-14	0	1
+694003	unknown virus	species	2509481	AP-RNA-2	0	2
+696746	human papillomavirus 115	serotype	334207	AP-DNA-10	1	1
+696746	human papillomavirus 115	serotype	334207	AP-DNA-14	3	3
+696746	human papillomavirus 115	serotype	334207	AP-DNA-6	2	2
+696746	human papillomavirus 115	serotype	334207	AP-RNA-5	5	5
+696746	human papillomavirus 115	serotype	334207	AP-DNA-9	2	2
+696746	human papillomavirus 115	serotype	334207	AP-DNA-5	16	16
+696746	human papillomavirus 115	serotype	334207	AP-RNA-12	2	2
+696746	human papillomavirus 115	serotype	334207	AP-RNA-13	1	1
+696746	human papillomavirus 115	serotype	334207	AP-RNA-4	1	1
+696746	human papillomavirus 115	serotype	334207	AP-RNA-6	2	2
+720708	Human papillomavirus 117	serotype	337039	AP-DNA-2	4	4
+720708	Human papillomavirus 117	serotype	337039	AP-DNA-3	1	1
+720708	Human papillomavirus 117	serotype	337039	AP-RNA-12	1	1
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-10	0	4
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-2	0	3
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-7	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-12	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-4	0	3
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-8	0	1
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-9	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-3	0	1
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-1	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-1	0	3
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-15	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-DNA-5	0	1
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-10	0	1
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-11	0	1
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-12	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-13	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-2	0	3
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-4	0	5
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-6	0	2
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-7	0	1
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-8	0	4
+735504	unclassified Gammapapillomavirus	no rank	325455	AP-RNA-9	0	2
+743811	human papillomavirus 150	serotype	334209	AP-DNA-1	2	2
+743811	human papillomavirus 150	serotype	334209	AP-DNA-5	2	2
+743811	human papillomavirus 150	serotype	334209	AP-RNA-2	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-10	5	5
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-11	2	2
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-13	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-14	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-2	2	2
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-6	2	2
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-7	4	4
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-5	2	2
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-12	19	19
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-8	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-9	102	102
+743812	Human papillomavirus 151	serotype	333924	AP-DNA-1	3	3
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-10	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-11	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-12	14	14
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-2	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-6	3	3
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-7	2	2
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-8	1	1
+743812	Human papillomavirus 151	serotype	333924	AP-RNA-9	44	44
+746832	Human papillomavirus 127	serotype	1513257	AP-DNA-13	1	1
+746832	Human papillomavirus 127	serotype	1513257	AP-DNA-6	1	1
+746832	Human papillomavirus 127	serotype	1513257	AP-DNA-7	1	1
+746832	Human papillomavirus 127	serotype	1513257	AP-DNA-4	1	1
+746832	Human papillomavirus 127	serotype	1513257	AP-DNA-8	1	1
+746832	Human papillomavirus 127	serotype	1513257	AP-DNA-9	1	1
+746832	Human papillomavirus 127	serotype	1513257	AP-RNA-4	1	1
+765051	human papillomavirus 119	serotype	1175850	AP-DNA-14	1	1
+765051	human papillomavirus 119	serotype	1175850	AP-DNA-4	1	1
+765051	human papillomavirus 119	serotype	1175850	AP-RNA-1	1	1
+765051	human papillomavirus 119	serotype	1175850	AP-DNA-5	1	1
+765051	human papillomavirus 119	serotype	1175850	AP-RNA-12	1	1
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-10	1	1
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-2	2	2
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-6	2	2
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-4	3	3
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-8	1	1
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-3	2	2
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-1	3	3
+765052	Human papillomavirus 120	serotype	333924	AP-DNA-5	1	1
+765052	Human papillomavirus 120	serotype	333924	AP-RNA-10	2	2
+765052	Human papillomavirus 120	serotype	333924	AP-RNA-2	1	1
+765052	Human papillomavirus 120	serotype	333924	AP-RNA-4	1	1
+765054	Human papillomavirus 122	serotype	333924	AP-DNA-7	1	1
+765054	Human papillomavirus 122	serotype	333924	AP-DNA-9	1	1
+765054	Human papillomavirus 122	serotype	333924	AP-DNA-1	3	3
+765054	Human papillomavirus 122	serotype	333924	AP-RNA-1	2	2
+765054	Human papillomavirus 122	serotype	333924	AP-RNA-2	2	2
+765054	Human papillomavirus 122	serotype	333924	AP-RNA-4	1	1
+765054	Human papillomavirus 122	serotype	333924	AP-RNA-6	1	1
+765054	Human papillomavirus 122	serotype	333924	AP-RNA-8	2	2
+765054	Human papillomavirus 122	serotype	333924	AP-RNA-9	1	1
+765055	Human papillomavirus 123	serotype	1175849	AP-DNA-8	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-10	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-11	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-13	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-14	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-7	3	3
+765056	human papillomavirus 124	serotype	337051	AP-RNA-3	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-3	3	3
+765056	human papillomavirus 124	serotype	337051	AP-DNA-1	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-15	3	3
+765056	human papillomavirus 124	serotype	337051	AP-DNA-5	2	2
+765056	human papillomavirus 124	serotype	337051	AP-RNA-13	1	1
+765056	human papillomavirus 124	serotype	337051	AP-RNA-7	1	1
+765056	human papillomavirus 124	serotype	337051	AP-DNA-16	4	4
+858367	Astrovirus MLB1 HK05	no rank	568715	AP-RNA-11	1	1
+862909	Trichodysplasia spinulosa-associated polyomavirus	no rank	1891727	AP-DNA-2	3	3
+862909	Trichodysplasia spinulosa-associated polyomavirus	no rank	1891727	AP-DNA-7	2	2
+862909	Trichodysplasia spinulosa-associated polyomavirus	no rank	1891727	AP-RNA-3	1	1
+862909	Trichodysplasia spinulosa-associated polyomavirus	no rank	1891727	AP-DNA-1	2	2
+862909	Trichodysplasia spinulosa-associated polyomavirus	no rank	1891727	AP-RNA-13	1	1
+862909	Trichodysplasia spinulosa-associated polyomavirus	no rank	1891727	AP-RNA-2	4	4
+909328	Human papillomavirus 149	serotype	1175849	AP-DNA-11	1	1
+909329	Human papillomavirus 130	serotype	1175852	AP-DNA-6	1	1
+909329	Human papillomavirus 130	serotype	1175852	AP-RNA-2	1	1
+909329	Human papillomavirus 130	serotype	1175852	AP-RNA-7	1	1
+909330	Human papillomavirus type 131	serotype	1513259	AP-DNA-3	1	1
+909331	Human papillomavirus 132	serotype	1513257	AP-DNA-6	4	4
+909331	Human papillomavirus 132	serotype	1513257	AP-RNA-6	1	1
+909332	Human papillomavirus 133	serotype	1175852	AP-DNA-9	1	1
+909332	Human papillomavirus 133	serotype	1175852	AP-RNA-7	1	1
+909333	Human papillomavirus 134	serotype	1175849	AP-DNA-6	2	2
+909333	Human papillomavirus 134	serotype	1175849	AP-RNA-5	3	3
+909333	Human papillomavirus 134	serotype	1175849	AP-DNA-8	1	1
+909333	Human papillomavirus 134	serotype	1175849	AP-DNA-3	1	1
+909333	Human papillomavirus 134	serotype	1175849	AP-DNA-1	1	1
+909333	Human papillomavirus 134	serotype	1175849	AP-RNA-1	1	1
+909333	Human papillomavirus 134	serotype	1175849	AP-RNA-12	1	1
+909333	Human papillomavirus 134	serotype	1175849	AP-RNA-2	1	1
+915426	Human papillomavirus 109	serotype	1175849	AP-DNA-10	1	1
+915426	Human papillomavirus 109	serotype	1175849	AP-DNA-9	4	4
+915426	Human papillomavirus 109	serotype	1175849	AP-RNA-9	1	1
+915427	Human papillomavirus type 112	serotype	1175850	AP-DNA-11	1	1
+915427	Human papillomavirus type 112	serotype	1175850	AP-RNA-3	1	1
+915429	Human papillomavirus 121	serotype	1175852	AP-DNA-9	1	1
+915429	Human papillomavirus 121	serotype	1175852	AP-RNA-9	1	1
+927771	human papillomavirus 118	serotype	337051	AP-DNA-10	3	3
+927771	human papillomavirus 118	serotype	337051	AP-DNA-11	1	1
+927771	human papillomavirus 118	serotype	337051	AP-DNA-13	1	1
+927771	human papillomavirus 118	serotype	337051	AP-DNA-2	1	1
+927771	human papillomavirus 118	serotype	337051	AP-DNA-7	2	2
+927771	human papillomavirus 118	serotype	337051	AP-RNA-3	2	2
+927771	human papillomavirus 118	serotype	337051	AP-RNA-5	11	11
+927771	human papillomavirus 118	serotype	337051	AP-DNA-8	1	1
+927771	human papillomavirus 118	serotype	337051	AP-DNA-3	1	1
+927771	human papillomavirus 118	serotype	337051	AP-DNA-5	2	2
+927771	human papillomavirus 118	serotype	337051	AP-RNA-11	2	2
+927771	human papillomavirus 118	serotype	337051	AP-RNA-12	3	3
+927771	human papillomavirus 118	serotype	337051	AP-RNA-13	1	1
+927771	human papillomavirus 118	serotype	337051	AP-RNA-6	1	1
+931209	Human papillomavirus type 128	serotype	1513258	AP-DNA-10	1	1
+931209	Human papillomavirus type 128	serotype	1513258	AP-DNA-2	0	1
+931209	Human papillomavirus type 128	serotype	1513258	AP-RNA-5	2	2
+931209	Human papillomavirus type 128	serotype	1513258	AP-DNA-8	1	1
+931209	Human papillomavirus type 128	serotype	1513258	AP-DNA-3	0	1
+931210	Human papillomavirus type 129	serotype	1175851	AP-DNA-10	4	4
+931210	Human papillomavirus type 129	serotype	1175851	AP-DNA-7	1	1
+931210	Human papillomavirus type 129	serotype	1175851	AP-DNA-4	1	1
+931210	Human papillomavirus type 129	serotype	1175851	AP-DNA-3	1	1
+931210	Human papillomavirus type 129	serotype	1175851	AP-RNA-1	1	1
+931210	Human papillomavirus type 129	serotype	1175851	AP-DNA-5	1	1
+931210	Human papillomavirus type 129	serotype	1175851	AP-RNA-4	1	1
+931210	Human papillomavirus type 129	serotype	1175851	AP-RNA-8	1	1
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-10	4	4
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-11	1	1
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-2	2	2
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-6	1	1
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-7	8	8
+942038	Human papillomavirus 148	serotype	1513257	AP-RNA-5	5	5
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-12	1	1
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-4	1	1
+942038	Human papillomavirus 148	serotype	1513257	AP-DNA-5	2	2
+942038	Human papillomavirus 148	serotype	1513257	AP-RNA-7	1	1
+942038	Human papillomavirus 148	serotype	1513257	AP-RNA-9	3	3
+944644	Marseilleviridae	family	2732555	AP-RNA-5	0	1
+944644	Marseilleviridae	family	2732555	AP-RNA-4	0	1
+944645	Senegalvirus marseillevirus	species	1513458	AP-RNA-5	1	1
+944645	Senegalvirus marseillevirus	species	1513458	AP-RNA-4	1	1
+990302	Human papillomavirus 152	serotype	337051	AP-DNA-10	1	1
+990302	Human papillomavirus 152	serotype	337051	AP-DNA-13	1	1
+990302	Human papillomavirus 152	serotype	337051	AP-DNA-12	1	1
+990302	Human papillomavirus 152	serotype	337051	AP-DNA-3	2	2
+990302	Human papillomavirus 152	serotype	337051	AP-DNA-15	4	4
+990302	Human papillomavirus 152	serotype	337051	AP-RNA-14	1	1
+990302	Human papillomavirus 152	serotype	337051	AP-RNA-6	1	1
+1033850	rhinovirus A103	serotype	147711	AP-RNA-4	1	1
+1055684	Human papillomavirus 126	serotype	1513256	AP-DNA-11	1	1
+1055684	Human papillomavirus 126	serotype	1513256	AP-DNA-7	1	1
+1055684	Human papillomavirus 126	serotype	1513256	AP-RNA-4	1	1
+1055684	Human papillomavirus 126	serotype	1513256	AP-RNA-9	1	1
+1070408	Human papillomavirus 135	serotype	1513260	AP-RNA-4	1	1
+1070409	Human papillomavirus 136	serotype	1513256	AP-DNA-2	1	1
+1070409	Human papillomavirus 136	serotype	1513256	AP-DNA-9	1	1
+1070409	Human papillomavirus 136	serotype	1513256	AP-RNA-8	1	1
+1070410	Human papillomavirus type 137	serotype	1513261	AP-DNA-10	1	1
+1070410	Human papillomavirus type 137	serotype	1513261	AP-DNA-11	2	2
+1070410	Human papillomavirus type 137	serotype	1513261	AP-DNA-2	2	2
+1070410	Human papillomavirus type 137	serotype	1513261	AP-DNA-6	1	1
+1070410	Human papillomavirus type 137	serotype	1513261	AP-DNA-4	1	1
+1070410	Human papillomavirus type 137	serotype	1513261	AP-RNA-10	1	1
+1070410	Human papillomavirus type 137	serotype	1513261	AP-RNA-11	1	1
+1070410	Human papillomavirus type 137	serotype	1513261	AP-RNA-2	1	1
+1070410	Human papillomavirus type 137	serotype	1513261	AP-RNA-6	5	5
+1070413	Human papillomavirus 140	serotype	1513256	AP-RNA-1	1	1
+1070415	Human papillomavirus 142	serotype	1175852	AP-DNA-9	3	3
+1070415	Human papillomavirus 142	serotype	1175852	AP-RNA-4	1	1
+1070416	Human papillomavirus 143	serotype	337051	AP-DNA-13	1	1
+1070416	Human papillomavirus 143	serotype	337051	AP-DNA-6	3	3
+1070416	Human papillomavirus 143	serotype	337051	AP-DNA-7	1	1
+1070416	Human papillomavirus 143	serotype	337051	AP-DNA-5	1	1
+1070416	Human papillomavirus 143	serotype	337051	AP-RNA-4	1	1
+1070416	Human papillomavirus 143	serotype	337051	AP-RNA-6	4	4
+1070416	Human papillomavirus 143	serotype	337051	AP-RNA-7	2	2
+1070416	Human papillomavirus 143	serotype	337051	AP-RNA-8	1	1
+1070416	Human papillomavirus 143	serotype	337051	AP-RNA-9	1	1
+1070418	Human papillomavirus 145	serotype	333924	AP-RNA-3	1	1
+1070418	Human papillomavirus 145	serotype	333924	AP-DNA-3	2	2
+1070418	Human papillomavirus 145	serotype	333924	AP-DNA-1	28	28
+1070418	Human papillomavirus 145	serotype	333924	AP-RNA-1	8	8
+1070419	Human papillomavirus 146	serotype	1513260	AP-DNA-2	1	1
+1070419	Human papillomavirus 146	serotype	1513260	AP-DNA-6	1	1
+1070419	Human papillomavirus 146	serotype	1513260	AP-RNA-5	1	1
+1070419	Human papillomavirus 146	serotype	1513260	AP-DNA-4	5	5
+1070419	Human papillomavirus 146	serotype	1513260	AP-DNA-8	1	1
+1070419	Human papillomavirus 146	serotype	1513260	AP-DNA-3	1	1
+1070419	Human papillomavirus 146	serotype	1513260	AP-RNA-12	1	1
+1070419	Human papillomavirus 146	serotype	1513260	AP-RNA-14	1	1
+1070419	Human papillomavirus 146	serotype	1513260	AP-RNA-4	5	5
+1070420	human papillomavirus 147	serotype	1175850	AP-DNA-7	1	1
+1070420	human papillomavirus 147	serotype	1175850	AP-RNA-3	1	1
+1070420	human papillomavirus 147	serotype	1175850	AP-DNA-1	1	1
+1070420	human papillomavirus 147	serotype	1175850	AP-DNA-5	2	2
+1070420	human papillomavirus 147	serotype	1175850	AP-RNA-7	2	2
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-DNA-2	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-DNA-4	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-DNA-3	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-RNA-1	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-DNA-5	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-RNA-12	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-RNA-2	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-RNA-6	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-RNA-7	1	1
+1108925	Human bocavirus isolate SH1	no rank	329641	AP-RNA-8	1	1
+1108926	Human bocavirus isolate SH2	no rank	329641	AP-DNA-13	1	1
+1108926	Human bocavirus isolate SH2	no rank	329641	AP-RNA-5	2	2
+1108926	Human bocavirus isolate SH2	no rank	329641	AP-DNA-9	1	1
+1108926	Human bocavirus isolate SH2	no rank	329641	AP-DNA-1	1	1
+1108926	Human bocavirus isolate SH2	no rank	329641	AP-DNA-5	1	1
+1108926	Human bocavirus isolate SH2	no rank	329641	AP-RNA-12	1	1
+1108926	Human bocavirus isolate SH2	no rank	329641	AP-RNA-9	1	1
+1108927	Human bocavirus isolate SH3	no rank	573977	AP-RNA-10	8	8
+1108927	Human bocavirus isolate SH3	no rank	573977	AP-RNA-11	1	1
+1110710	human papillomavirus 153	serotype	1513258	AP-DNA-5	1	1
+1165934	Human papillomavirus 155	serotype	1175849	AP-DNA-1	1	1
+1175849	Gammapapillomavirus 7	species	325455	AP-DNA-10	0	1
+1175849	Gammapapillomavirus 7	species	325455	AP-DNA-11	0	1
+1175849	Gammapapillomavirus 7	species	325455	AP-DNA-6	0	2
+1175849	Gammapapillomavirus 7	species	325455	AP-RNA-5	0	3
+1175849	Gammapapillomavirus 7	species	325455	AP-DNA-8	0	2
+1175849	Gammapapillomavirus 7	species	325455	AP-DNA-9	0	4
+1175849	Gammapapillomavirus 7	species	325455	AP-DNA-3	0	1
+1175849	Gammapapillomavirus 7	species	325455	AP-DNA-1	0	2
+1175849	Gammapapillomavirus 7	species	325455	AP-RNA-1	0	1
+1175849	Gammapapillomavirus 7	species	325455	AP-RNA-12	0	1
+1175849	Gammapapillomavirus 7	species	325455	AP-RNA-2	0	1
+1175849	Gammapapillomavirus 7	species	325455	AP-RNA-9	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-DNA-11	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-DNA-14	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-DNA-7	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-RNA-3	0	2
+1175850	Gammapapillomavirus 8	species	325455	AP-DNA-4	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-DNA-1	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-RNA-1	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-DNA-5	0	3
+1175850	Gammapapillomavirus 8	species	325455	AP-RNA-12	0	1
+1175850	Gammapapillomavirus 8	species	325455	AP-RNA-7	0	2
+1175851	Gammapapillomavirus 9	species	325455	AP-DNA-10	0	4
+1175851	Gammapapillomavirus 9	species	325455	AP-DNA-7	0	1
+1175851	Gammapapillomavirus 9	species	325455	AP-DNA-4	0	1
+1175851	Gammapapillomavirus 9	species	325455	AP-DNA-3	0	1
+1175851	Gammapapillomavirus 9	species	325455	AP-RNA-1	0	1
+1175851	Gammapapillomavirus 9	species	325455	AP-DNA-5	0	1
+1175851	Gammapapillomavirus 9	species	325455	AP-RNA-4	0	1
+1175851	Gammapapillomavirus 9	species	325455	AP-RNA-8	0	1
+1175852	Gammapapillomavirus 10	species	325455	AP-DNA-6	0	1
+1175852	Gammapapillomavirus 10	species	325455	AP-DNA-9	0	5
+1175852	Gammapapillomavirus 10	species	325455	AP-RNA-2	0	1
+1175852	Gammapapillomavirus 10	species	325455	AP-RNA-4	0	1
+1175852	Gammapapillomavirus 10	species	325455	AP-RNA-7	0	2
+1175852	Gammapapillomavirus 10	species	325455	AP-RNA-9	0	1
+1195796	Human papillomavirus 154	serotype	1513256	AP-DNA-7	1	1
+1195796	Human papillomavirus 154	serotype	1513256	AP-DNA-12	1	1
+1195796	Human papillomavirus 154	serotype	1513256	AP-DNA-8	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-10	3	3
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-11	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-2	7	7
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-6	2	2
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-7	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-3	3	3
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-5	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-8	4	4
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-9	5	5
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-3	3	3
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-1	9	9
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-1	4	4
+1203539	MW polyomavirus	no rank	1208309	AP-DNA-5	2	2
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-11	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-12	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-13	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-2	4	4
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-4	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-7	2	2
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-8	1	1
+1203539	MW polyomavirus	no rank	1208309	AP-RNA-9	1	1
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-10	7	10
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-11	8	9
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-13	13	13
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-14	4	4
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-2	41	48
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-6	12	14
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-7	19	20
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-3	20	23
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-5	10	11
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-12	10	10
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-4	7	7
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-8	8	12
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-9	6	11
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-3	41	44
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-1	39	48
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-1	11	15
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-DNA-5	9	11
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-11	6	7
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-12	5	6
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-13	5	6
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-2	18	22
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-4	16	17
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-6	7	7
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-7	10	12
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-8	10	11
+1208309	Deltapolyomavirus decihominis	species	1891715	AP-RNA-9	2	3
+1209820	Human papillomavirus 159	serotype	333924	AP-DNA-10	6	6
+1209820	Human papillomavirus 159	serotype	333924	AP-DNA-13	1	1
+1209820	Human papillomavirus 159	serotype	333924	AP-DNA-9	1	1
+1209820	Human papillomavirus 159	serotype	333924	AP-DNA-3	1	1
+1209820	Human papillomavirus 159	serotype	333924	AP-DNA-1	5	5
+1209820	Human papillomavirus 159	serotype	333924	AP-RNA-1	5	5
+1209820	Human papillomavirus 159	serotype	333924	AP-RNA-6	1	1
+1209820	Human papillomavirus 159	serotype	333924	AP-RNA-8	1	1
+1209820	Human papillomavirus 159	serotype	333924	AP-RNA-9	1	1
+1219376	rhinovirus C2	serotype	463676	AP-RNA-8	15	15
+1219381	rhinovirus A101	serotype	147711	AP-RNA-10	4	4
+1219381	rhinovirus A101	serotype	147711	AP-RNA-9	3	3
+1219405	rhinovirus C32	serotype	463676	AP-RNA-11	1	1
+1219419	rhinovirus C10	serotype	463676	AP-RNA-5	3	3
+1231709	MX polyomavirus	species	1723728	AP-DNA-10	6	6
+1231709	MX polyomavirus	species	1723728	AP-DNA-11	4	4
+1231709	MX polyomavirus	species	1723728	AP-DNA-13	5	5
+1231709	MX polyomavirus	species	1723728	AP-DNA-14	1	1
+1231709	MX polyomavirus	species	1723728	AP-DNA-2	24	24
+1231709	MX polyomavirus	species	1723728	AP-DNA-6	5	5
+1231709	MX polyomavirus	species	1723728	AP-DNA-7	8	8
+1231709	MX polyomavirus	species	1723728	AP-RNA-3	3	3
+1231709	MX polyomavirus	species	1723728	AP-RNA-5	3	3
+1231709	MX polyomavirus	species	1723728	AP-DNA-12	1	1
+1231709	MX polyomavirus	species	1723728	AP-DNA-4	8	8
+1231709	MX polyomavirus	species	1723728	AP-DNA-8	8	8
+1231709	MX polyomavirus	species	1723728	AP-DNA-9	3	3
+1231709	MX polyomavirus	species	1723728	AP-DNA-3	21	21
+1231709	MX polyomavirus	species	1723728	AP-DNA-1	16	16
+1231709	MX polyomavirus	species	1723728	AP-RNA-1	14	14
+1231709	MX polyomavirus	species	1723728	AP-DNA-15	2	2
+1231709	MX polyomavirus	species	1723728	AP-DNA-5	5	5
+1231709	MX polyomavirus	species	1723728	AP-RNA-12	4	4
+1231709	MX polyomavirus	species	1723728	AP-RNA-13	2	2
+1231709	MX polyomavirus	species	1723728	AP-RNA-2	8	8
+1231709	MX polyomavirus	species	1723728	AP-RNA-4	4	4
+1231709	MX polyomavirus	species	1723728	AP-RNA-6	1	1
+1231709	MX polyomavirus	species	1723728	AP-RNA-7	8	8
+1231709	MX polyomavirus	species	1723728	AP-RNA-8	5	5
+1239565	Mamastrovirus 1	species	249588	AP-RNA-5	1	2
+1239565	Mamastrovirus 1	species	249588	AP-RNA-4	1	1
+1240004	rhinovirus C11	serotype	463676	AP-RNA-10	5	5
+1240004	rhinovirus C11	serotype	463676	AP-RNA-11	1	1
+1248396	Human papillomavirus type 156	serotype	1513263	AP-DNA-10	3	3
+1248396	Human papillomavirus type 156	serotype	1513263	AP-RNA-6	1	1
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-11	1	1
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-2	20	20
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-6	1	1
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-7	1	1
+1277649	STL polyomavirus	no rank	1891745	AP-RNA-5	1	1
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-9	2	2
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-3	7	7
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-1	8	8
+1277649	STL polyomavirus	no rank	1891745	AP-RNA-1	3	3
+1277649	STL polyomavirus	no rank	1891745	AP-DNA-5	4	4
+1277649	STL polyomavirus	no rank	1891745	AP-RNA-11	1	1
+1277649	STL polyomavirus	no rank	1891745	AP-RNA-12	2	2
+1277649	STL polyomavirus	no rank	1891745	AP-RNA-2	40	40
+1277649	STL polyomavirus	no rank	1891745	AP-RNA-8	2	2
+1277649	STL polyomavirus	no rank	1891745	AP-RNA-9	2	2
+1288116	Human papillomavirus type XS2	no rank	337039	AP-DNA-14	2	2
+1288116	Human papillomavirus type XS2	no rank	337039	AP-DNA-2	1	1
+1288116	Human papillomavirus type XS2	no rank	337039	AP-RNA-6	1	1
+1297549	Human papillomavirus type 78	no rank	337039	AP-DNA-11	1	1
+1297549	Human papillomavirus type 78	no rank	337039	AP-DNA-7	2	2
+1315259	human papillomavirus 166	serotype	1513264	AP-DNA-9	1	1
+1315262	human papillomavirus 163	serotype	1513265	AP-DNA-13	2	2
+1315262	human papillomavirus 163	serotype	1513265	AP-DNA-3	1	1
+1315262	human papillomavirus 163	serotype	1513265	AP-RNA-12	1	1
+1315262	human papillomavirus 163	serotype	1513265	AP-RNA-8	1	1
+1315264	Human papillomavirus type 161	serotype	1513264	AP-RNA-7	1	1
+1415628	Gyrovirus Tu789	no rank	2844803	AP-DNA-1	1	1
+1418031	rhinovirus C5	serotype	463676	AP-RNA-1	8	8
+1418031	rhinovirus C5	serotype	463676	AP-RNA-2	1	1
+1418041	rhinovirus C36	serotype	463676	AP-RNA-1	1	1
+1418043	rhinovirus C19	serotype	463676	AP-RNA-2	2	2
+1418062	rhinovirus C20	serotype	463676	AP-RNA-1	2	2
+1418062	rhinovirus C20	serotype	463676	AP-RNA-2	1	1
+1420545	Human papillomavirus 167	serotype	1961678	AP-DNA-2	1	1
+1420545	Human papillomavirus 167	serotype	1961678	AP-DNA-3	1	1
+1420545	Human papillomavirus 167	serotype	1961678	AP-RNA-6	1	1
+1420545	Human papillomavirus 167	serotype	1961678	AP-RNA-9	1	1
+1434782	Human papillomavirus 175	serotype	1961680	AP-DNA-7	2	2
+1434782	Human papillomavirus 175	serotype	1961680	AP-RNA-3	1	1
+1434782	Human papillomavirus 175	serotype	1961680	AP-DNA-8	1	1
+1434782	Human papillomavirus 175	serotype	1961680	AP-DNA-3	1	1
+1434782	Human papillomavirus 175	serotype	1961680	AP-RNA-1	1	1
+1434986	Human papillomavirus 171	serotype	1513256	AP-RNA-10	2	2
+1434987	Human papillomavirus 172	serotype	1961679	AP-DNA-6	1	1
+1434987	Human papillomavirus 172	serotype	1961679	AP-DNA-7	2	2
+1434987	Human papillomavirus 172	serotype	1961679	AP-DNA-12	2	2
+1434987	Human papillomavirus 172	serotype	1961679	AP-DNA-1	1	1
+1434988	Human papillomavirus 173	serotype	333926	AP-DNA-2	1	1
+1434988	Human papillomavirus 173	serotype	333926	AP-DNA-6	1	1
+1434988	Human papillomavirus 173	serotype	333926	AP-DNA-7	1	1
+1434988	Human papillomavirus 173	serotype	333926	AP-DNA-1	1	1
+1435148	Enterovirus A120	serotype	138948	AP-RNA-8	1	1
+1472342	Human papillomavirus 179	serotype	1513260	AP-DNA-7	1	1
+1472342	Human papillomavirus 179	serotype	1513260	AP-RNA-5	1	1
+1472342	Human papillomavirus 179	serotype	1513260	AP-DNA-4	4	4
+1472342	Human papillomavirus 179	serotype	1513260	AP-DNA-8	1	1
+1472342	Human papillomavirus 179	serotype	1513260	AP-DNA-3	1	1
+1472342	Human papillomavirus 179	serotype	1513260	AP-RNA-4	1	1
+1472342	Human papillomavirus 179	serotype	1513260	AP-DNA-16	3	3
+1472343	Human papillomavirus 184	serotype	1961682	AP-DNA-12	2	2
+1472343	Human papillomavirus 184	serotype	1961682	AP-DNA-8	2	2
+1472343	Human papillomavirus 184	serotype	1961682	AP-RNA-1	1	1
+1472343	Human papillomavirus 184	serotype	1961682	AP-RNA-13	1	1
+1472343	Human papillomavirus 184	serotype	1961682	AP-RNA-4	1	1
+1478160	Human papillomavirus 178	serotype	1961681	AP-DNA-11	1	1
+1478160	Human papillomavirus 178	serotype	1961681	AP-DNA-6	1	1
+1478160	Human papillomavirus 178	serotype	1961681	AP-RNA-5	1	1
+1478160	Human papillomavirus 178	serotype	1961681	AP-RNA-8	1	1
+1478160	Human papillomavirus 178	serotype	1961681	AP-RNA-9	1	1
+1488574	Human genital-associated circular DNA virus-1	no rank	1985428	AP-RNA-1	1	1
+1488574	Human genital-associated circular DNA virus-1	no rank	1985428	AP-RNA-6	1	1
+1488574	Human genital-associated circular DNA virus-1	no rank	1985428	AP-RNA-8	1	1
+1507401	Bocaparvovirus	genus	40119	AP-DNA-11	0	2
+1507401	Bocaparvovirus	genus	40119	AP-DNA-13	0	4
+1507401	Bocaparvovirus	genus	40119	AP-DNA-14	0	1
+1507401	Bocaparvovirus	genus	40119	AP-DNA-2	0	6
+1507401	Bocaparvovirus	genus	40119	AP-DNA-6	0	1
+1507401	Bocaparvovirus	genus	40119	AP-RNA-5	0	3
+1507401	Bocaparvovirus	genus	40119	AP-DNA-4	0	2
+1507401	Bocaparvovirus	genus	40119	AP-DNA-9	0	1
+1507401	Bocaparvovirus	genus	40119	AP-DNA-3	0	3
+1507401	Bocaparvovirus	genus	40119	AP-DNA-1	0	4
+1507401	Bocaparvovirus	genus	40119	AP-RNA-1	0	4
+1507401	Bocaparvovirus	genus	40119	AP-DNA-5	0	2
+1507401	Bocaparvovirus	genus	40119	AP-RNA-10	0	9
+1507401	Bocaparvovirus	genus	40119	AP-RNA-11	0	1
+1507401	Bocaparvovirus	genus	40119	AP-RNA-12	0	3
+1507401	Bocaparvovirus	genus	40119	AP-RNA-13	0	1
+1507401	Bocaparvovirus	genus	40119	AP-RNA-2	0	2
+1507401	Bocaparvovirus	genus	40119	AP-RNA-4	0	3
+1507401	Bocaparvovirus	genus	40119	AP-RNA-6	0	3
+1507401	Bocaparvovirus	genus	40119	AP-RNA-7	0	3
+1507401	Bocaparvovirus	genus	40119	AP-RNA-8	0	1
+1507401	Bocaparvovirus	genus	40119	AP-RNA-9	0	1
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-11	0	1
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-13	0	3
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-14	0	1
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-2	0	3
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-5	0	3
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-4	0	2
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-9	0	1
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-3	0	2
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-1	0	3
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-1	0	4
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-DNA-5	0	2
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-12	0	2
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-13	0	1
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-2	0	1
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-4	0	2
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-6	0	3
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-7	0	3
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-8	0	1
+1507402	unclassified Bocaparvovirus	no rank	1507401	AP-RNA-9	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-DNA-11	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-DNA-13	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-DNA-2	0	3
+1511871	Primate bocaparvovirus 1	species	1507401	AP-DNA-6	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-DNA-3	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-DNA-1	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-RNA-12	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-RNA-2	0	1
+1511871	Primate bocaparvovirus 1	species	1507401	AP-RNA-4	0	1
+1511872	Primate bocaparvovirus 2	species	1507401	AP-RNA-10	0	9
+1511872	Primate bocaparvovirus 2	species	1507401	AP-RNA-11	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-DNA-11	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-DNA-2	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-DNA-7	0	2
+1513256	Gammapapillomavirus 11	species	325455	AP-DNA-12	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-DNA-8	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-DNA-9	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-RNA-1	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-RNA-10	0	2
+1513256	Gammapapillomavirus 11	species	325455	AP-RNA-4	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-RNA-8	0	1
+1513256	Gammapapillomavirus 11	species	325455	AP-RNA-9	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-10	0	4
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-11	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-13	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-2	0	2
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-6	0	6
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-7	0	9
+1513257	Gammapapillomavirus 12	species	325455	AP-RNA-5	0	5
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-12	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-4	0	2
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-8	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-9	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-DNA-5	0	2
+1513257	Gammapapillomavirus 12	species	325455	AP-RNA-4	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-RNA-6	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-RNA-7	0	1
+1513257	Gammapapillomavirus 12	species	325455	AP-RNA-9	0	3
+1513258	Gammapapillomavirus 13	species	325455	AP-DNA-10	0	1
+1513258	Gammapapillomavirus 13	species	325455	AP-DNA-2	0	1
+1513258	Gammapapillomavirus 13	species	325455	AP-RNA-5	0	2
+1513258	Gammapapillomavirus 13	species	325455	AP-DNA-8	0	1
+1513258	Gammapapillomavirus 13	species	325455	AP-DNA-3	0	1
+1513258	Gammapapillomavirus 13	species	325455	AP-DNA-5	0	1
+1513259	Gammapapillomavirus 14	species	325455	AP-DNA-3	0	1
+1513260	Gammapapillomavirus 15	species	325455	AP-DNA-2	0	1
+1513260	Gammapapillomavirus 15	species	325455	AP-DNA-6	0	1
+1513260	Gammapapillomavirus 15	species	325455	AP-DNA-7	0	1
+1513260	Gammapapillomavirus 15	species	325455	AP-RNA-5	0	2
+1513260	Gammapapillomavirus 15	species	325455	AP-DNA-4	0	9
+1513260	Gammapapillomavirus 15	species	325455	AP-DNA-8	0	2
+1513260	Gammapapillomavirus 15	species	325455	AP-DNA-3	0	2
+1513260	Gammapapillomavirus 15	species	325455	AP-RNA-12	0	1
+1513260	Gammapapillomavirus 15	species	325455	AP-RNA-14	0	1
+1513260	Gammapapillomavirus 15	species	325455	AP-RNA-4	0	7
+1513260	Gammapapillomavirus 15	species	325455	AP-DNA-16	0	3
+1513261	Gammapapillomavirus 16	species	325455	AP-DNA-10	0	1
+1513261	Gammapapillomavirus 16	species	325455	AP-DNA-11	0	2
+1513261	Gammapapillomavirus 16	species	325455	AP-DNA-2	0	2
+1513261	Gammapapillomavirus 16	species	325455	AP-DNA-6	0	1
+1513261	Gammapapillomavirus 16	species	325455	AP-DNA-4	0	1
+1513261	Gammapapillomavirus 16	species	325455	AP-RNA-10	0	1
+1513261	Gammapapillomavirus 16	species	325455	AP-RNA-11	0	1
+1513261	Gammapapillomavirus 16	species	325455	AP-RNA-2	0	1
+1513261	Gammapapillomavirus 16	species	325455	AP-RNA-6	0	5
+1513263	Gammapapillomavirus 18	species	325455	AP-DNA-10	0	3
+1513263	Gammapapillomavirus 18	species	325455	AP-RNA-6	0	1
+1513264	Gammapapillomavirus 19	species	325455	AP-DNA-9	0	1
+1513264	Gammapapillomavirus 19	species	325455	AP-RNA-7	0	1
+1513265	Gammapapillomavirus 20	species	325455	AP-DNA-13	0	2
+1513265	Gammapapillomavirus 20	species	325455	AP-DNA-3	0	1
+1513265	Gammapapillomavirus 20	species	325455	AP-RNA-12	0	1
+1513265	Gammapapillomavirus 20	species	325455	AP-RNA-8	0	1
+1513458	Marseillevirus	genus	944644	AP-RNA-5	0	1
+1513458	Marseillevirus	genus	944644	AP-RNA-4	0	1
+1516081	MSSI2.225 virus	no rank	2004487	AP-RNA-5	1	1
+1516081	MSSI2.225 virus	no rank	2004487	AP-RNA-11	1	1
+1516081	MSSI2.225 virus	no rank	2004487	AP-RNA-2	1	1
+1535289	unclassified Betatorquevirus	no rank	687332	AP-DNA-11	0	1
+1535289	unclassified Betatorquevirus	no rank	687332	AP-DNA-13	0	1
+1535289	unclassified Betatorquevirus	no rank	687332	AP-RNA-3	0	1
+1535289	unclassified Betatorquevirus	no rank	687332	AP-DNA-3	0	2
+1535289	unclassified Betatorquevirus	no rank	687332	AP-RNA-10	0	2
+1535289	unclassified Betatorquevirus	no rank	687332	AP-RNA-11	0	3
+1535289	unclassified Betatorquevirus	no rank	687332	AP-RNA-13	0	1
+1535291	Torque teno mini virus ALH8	no rank	2846493	AP-RNA-2	1	1
+1542134	Human papillomavirus 197	serotype	1961681	AP-DNA-7	2	2
+1542134	Human papillomavirus 197	serotype	1961681	AP-RNA-4	1	1
+1542744	Gemycircularvirus	genus	1910928	AP-RNA-5	0	1
+1542744	Gemycircularvirus	genus	1910928	AP-RNA-12	0	1
+1542744	Gemycircularvirus	genus	1910928	AP-RNA-2	0	4
+1542744	Gemycircularvirus	genus	1910928	AP-RNA-4	0	1
+1647924	Human papillomavirus KC5	species	735504	AP-DNA-9	1	1
+1647924	Human papillomavirus KC5	species	735504	AP-DNA-3	1	1
+1647924	Human papillomavirus KC5	species	735504	AP-DNA-15	2	2
+1647924	Human papillomavirus KC5	species	735504	AP-RNA-10	1	1
+1647924	Human papillomavirus KC5	species	735504	AP-RNA-4	2	2
+1673681	Gemycircularvirus C1c	no rank	2004960	AP-RNA-3	1	1
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-10	0	6
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-11	0	4
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-13	0	5
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-14	0	1
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-2	0	24
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-6	0	5
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-7	0	8
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-3	0	3
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-5	0	3
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-12	0	1
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-4	0	8
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-8	0	8
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-9	0	3
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-3	0	21
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-1	0	16
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-1	0	14
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-15	0	2
+1723728	unclassified Polyomaviridae	no rank	151341	AP-DNA-5	0	5
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-12	0	4
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-13	0	2
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-2	0	8
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-4	0	4
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-6	0	1
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-7	0	8
+1723728	unclassified Polyomaviridae	no rank	151341	AP-RNA-8	0	5
+1792832	Human gemycircularvirus GeTz1	no rank	2004961	AP-RNA-2	10	10
+1803956	Parechovirus A	species	138954	AP-RNA-10	0	1
+1846251	Papillomavirus JL74	no rank	931209	AP-DNA-2	1	1
+1846251	Papillomavirus JL74	no rank	931209	AP-DNA-3	1	1
+1862824	Gemycircularvirus HV-GcV1	species	1910929	AP-RNA-5	1	1
+1862824	Gemycircularvirus HV-GcV1	species	1910929	AP-RNA-12	1	1
+1862824	Gemycircularvirus HV-GcV1	species	1910929	AP-RNA-2	4	4
+1862824	Gemycircularvirus HV-GcV1	species	1910929	AP-RNA-4	1	1
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-DNA-10	1	1
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-DNA-7	1	1
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-3	1	1
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-1	6	6
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-10	2	2
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-11	3	3
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-12	2	2
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-13	1	1
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-2	2	2
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-4	2	2
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-6	1	1
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-7	3	3
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-8	22	22
+1862825	Gemycircularvirus HV-GcV2	no rank	2004962	AP-RNA-9	1	1
+1868215	Orthopneumovirus	genus	11244	AP-RNA-13	0	13
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-10	0	1
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-13	0	5
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-14	0	2
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-2	0	3
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-7	0	3
+1891713	Alphapolyomavirus	genus	151341	AP-RNA-3	0	2
+1891713	Alphapolyomavirus	genus	151341	AP-RNA-5	0	1
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-8	0	1
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-1	0	2
+1891713	Alphapolyomavirus	genus	151341	AP-DNA-5	0	1
+1891713	Alphapolyomavirus	genus	151341	AP-RNA-12	0	2
+1891713	Alphapolyomavirus	genus	151341	AP-RNA-13	0	5
+1891713	Alphapolyomavirus	genus	151341	AP-RNA-14	0	1
+1891713	Alphapolyomavirus	genus	151341	AP-RNA-2	0	6
+1891713	Alphapolyomavirus	genus	151341	AP-RNA-7	0	1
+1891714	Betapolyomavirus	genus	151341	AP-DNA-10	0	25
+1891714	Betapolyomavirus	genus	151341	AP-DNA-11	0	2
+1891714	Betapolyomavirus	genus	151341	AP-DNA-13	0	2
+1891714	Betapolyomavirus	genus	151341	AP-DNA-14	0	2
+1891714	Betapolyomavirus	genus	151341	AP-DNA-2	0	15
+1891714	Betapolyomavirus	genus	151341	AP-DNA-6	0	6
+1891714	Betapolyomavirus	genus	151341	AP-DNA-7	0	17
+1891714	Betapolyomavirus	genus	151341	AP-RNA-3	0	5
+1891714	Betapolyomavirus	genus	151341	AP-DNA-12	0	4
+1891714	Betapolyomavirus	genus	151341	AP-DNA-4	0	4
+1891714	Betapolyomavirus	genus	151341	AP-DNA-8	0	16
+1891714	Betapolyomavirus	genus	151341	AP-DNA-3	0	25
+1891714	Betapolyomavirus	genus	151341	AP-DNA-1	0	15
+1891714	Betapolyomavirus	genus	151341	AP-DNA-5	0	8
+1891714	Betapolyomavirus	genus	151341	AP-RNA-10	0	6
+1891714	Betapolyomavirus	genus	151341	AP-RNA-11	0	2
+1891714	Betapolyomavirus	genus	151341	AP-RNA-12	0	1
+1891714	Betapolyomavirus	genus	151341	AP-RNA-2	0	5
+1891714	Betapolyomavirus	genus	151341	AP-RNA-4	0	2
+1891714	Betapolyomavirus	genus	151341	AP-RNA-6	0	4
+1891714	Betapolyomavirus	genus	151341	AP-RNA-7	0	4
+1891714	Betapolyomavirus	genus	151341	AP-RNA-8	0	9
+1891714	Betapolyomavirus	genus	151341	AP-RNA-9	0	2
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-10	0	10
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-11	0	10
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-13	0	13
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-14	0	4
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-2	0	68
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-6	0	15
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-7	0	21
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-3	0	23
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-5	0	12
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-12	0	10
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-4	0	7
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-8	0	12
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-9	0	13
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-3	0	51
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-1	0	56
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-1	0	18
+1891715	Deltapolyomavirus	genus	151341	AP-DNA-5	0	15
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-11	0	8
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-12	0	8
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-13	0	6
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-2	0	62
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-4	0	17
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-6	0	7
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-7	0	12
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-8	0	13
+1891715	Deltapolyomavirus	genus	151341	AP-RNA-9	0	5
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-DNA-10	0	1
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-DNA-13	0	5
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-DNA-14	0	2
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-DNA-7	0	1
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-RNA-3	0	1
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-RNA-5	0	1
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-DNA-8	0	1
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-DNA-5	0	1
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-RNA-12	0	2
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-RNA-13	0	4
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-RNA-2	0	2
+1891726	Alphapolyomavirus quintihominis	species	1891713	AP-RNA-7	0	1
+1891727	Alphapolyomavirus octihominis	species	1891713	AP-DNA-2	0	3
+1891727	Alphapolyomavirus octihominis	species	1891713	AP-DNA-7	0	2
+1891727	Alphapolyomavirus octihominis	species	1891713	AP-RNA-3	0	1
+1891727	Alphapolyomavirus octihominis	species	1891713	AP-DNA-1	0	2
+1891727	Alphapolyomavirus octihominis	species	1891713	AP-RNA-13	0	1
+1891727	Alphapolyomavirus octihominis	species	1891713	AP-RNA-2	0	4
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-11	0	1
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-2	0	20
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-6	0	1
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-7	0	1
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-RNA-5	0	1
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-9	0	2
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-3	0	7
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-1	0	8
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-RNA-1	0	3
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-DNA-5	0	4
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-RNA-11	0	1
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-RNA-12	0	2
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-RNA-2	0	40
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-RNA-8	0	2
+1891745	Deltapolyomavirus undecihominis	species	1891715	AP-RNA-9	0	2
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-10	21	21
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-11	2	2
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-7	1	1
+1891762	Betapolyomavirus hominis	species	1891714	AP-RNA-3	1	1
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-4	1	1
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-8	15	15
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-3	5	5
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-1	1	1
+1891762	Betapolyomavirus hominis	species	1891714	AP-DNA-5	1	1
+1891762	Betapolyomavirus hominis	species	1891714	AP-RNA-10	6	6
+1891762	Betapolyomavirus hominis	species	1891714	AP-RNA-8	7	7
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-10	0	1
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-13	0	2
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-2	0	5
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-6	0	6
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-7	0	16
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-RNA-3	0	3
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-4	0	1
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-8	0	1
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-3	0	14
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-1	0	4
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-DNA-5	0	5
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-RNA-2	0	2
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-RNA-4	0	2
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-RNA-6	0	3
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-RNA-7	0	4
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-RNA-8	0	1
+1891764	Betapolyomavirus tertihominis	species	1891714	AP-RNA-9	0	2
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-10	0	3
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-14	0	2
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-2	0	10
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-RNA-3	0	1
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-12	0	4
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-4	0	2
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-3	0	6
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-1	0	10
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-DNA-5	0	2
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-RNA-11	0	2
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-RNA-12	0	1
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-RNA-2	0	3
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-RNA-6	0	1
+1891765	Betapolyomavirus quartihominis	species	1891714	AP-RNA-8	0	1
+1904876	Human DNA virus	species	12429	AP-DNA-7	2	2
+1904876	Human DNA virus	species	12429	AP-RNA-10	1	1
+1910928	Genomoviridae	family	2732539	AP-DNA-10	0	1
+1910928	Genomoviridae	family	2732539	AP-DNA-7	0	1
+1910928	Genomoviridae	family	2732539	AP-RNA-3	0	2
+1910928	Genomoviridae	family	2732539	AP-RNA-5	0	2
+1910928	Genomoviridae	family	2732539	AP-DNA-3	0	6
+1910928	Genomoviridae	family	2732539	AP-RNA-1	0	7
+1910928	Genomoviridae	family	2732539	AP-RNA-10	0	4
+1910928	Genomoviridae	family	2732539	AP-RNA-11	0	5
+1910928	Genomoviridae	family	2732539	AP-RNA-12	0	3
+1910928	Genomoviridae	family	2732539	AP-RNA-13	0	2
+1910928	Genomoviridae	family	2732539	AP-RNA-2	0	17
+1910928	Genomoviridae	family	2732539	AP-RNA-4	0	3
+1910928	Genomoviridae	family	2732539	AP-RNA-6	0	2
+1910928	Genomoviridae	family	2732539	AP-RNA-7	0	4
+1910928	Genomoviridae	family	2732539	AP-RNA-8	0	24
+1910928	Genomoviridae	family	2732539	AP-RNA-9	0	1
+1910929	unclassified Gemycircularvirus	no rank	1542744	AP-RNA-5	0	1
+1910929	unclassified Gemycircularvirus	no rank	1542744	AP-RNA-12	0	1
+1910929	unclassified Gemycircularvirus	no rank	1542744	AP-RNA-2	0	4
+1910929	unclassified Gemycircularvirus	no rank	1542744	AP-RNA-4	0	1
+1941236	Gemykibivirus	genus	1910928	AP-DNA-10	0	1
+1941236	Gemykibivirus	genus	1910928	AP-DNA-7	0	1
+1941236	Gemykibivirus	genus	1910928	AP-RNA-3	0	2
+1941236	Gemykibivirus	genus	1910928	AP-RNA-5	0	1
+1941236	Gemykibivirus	genus	1910928	AP-RNA-1	0	6
+1941236	Gemykibivirus	genus	1910928	AP-RNA-10	0	2
+1941236	Gemykibivirus	genus	1910928	AP-RNA-11	0	4
+1941236	Gemykibivirus	genus	1910928	AP-RNA-12	0	2
+1941236	Gemykibivirus	genus	1910928	AP-RNA-13	0	1
+1941236	Gemykibivirus	genus	1910928	AP-RNA-2	0	13
+1941236	Gemykibivirus	genus	1910928	AP-RNA-4	0	2
+1941236	Gemykibivirus	genus	1910928	AP-RNA-6	0	1
+1941236	Gemykibivirus	genus	1910928	AP-RNA-7	0	3
+1941236	Gemykibivirus	genus	1910928	AP-RNA-8	0	22
+1941236	Gemykibivirus	genus	1910928	AP-RNA-9	0	1
+1961678	Gammapapillomavirus 21	species	325455	AP-DNA-2	0	1
+1961678	Gammapapillomavirus 21	species	325455	AP-DNA-3	0	1
+1961678	Gammapapillomavirus 21	species	325455	AP-RNA-6	0	1
+1961678	Gammapapillomavirus 21	species	325455	AP-RNA-9	0	1
+1961679	Gammapapillomavirus 22	species	325455	AP-DNA-6	0	1
+1961679	Gammapapillomavirus 22	species	325455	AP-DNA-7	0	2
+1961679	Gammapapillomavirus 22	species	325455	AP-DNA-12	0	2
+1961679	Gammapapillomavirus 22	species	325455	AP-DNA-1	0	1
+1961680	Gammapapillomavirus 23	species	325455	AP-DNA-7	0	2
+1961680	Gammapapillomavirus 23	species	325455	AP-RNA-3	0	1
+1961680	Gammapapillomavirus 23	species	325455	AP-DNA-8	0	1
+1961680	Gammapapillomavirus 23	species	325455	AP-DNA-3	0	1
+1961680	Gammapapillomavirus 23	species	325455	AP-RNA-1	0	1
+1961681	Gammapapillomavirus 24	species	325455	AP-DNA-11	0	1
+1961681	Gammapapillomavirus 24	species	325455	AP-DNA-6	0	1
+1961681	Gammapapillomavirus 24	species	325455	AP-DNA-7	0	2
+1961681	Gammapapillomavirus 24	species	325455	AP-RNA-5	0	1
+1961681	Gammapapillomavirus 24	species	325455	AP-RNA-4	0	1
+1961681	Gammapapillomavirus 24	species	325455	AP-RNA-8	0	1
+1961681	Gammapapillomavirus 24	species	325455	AP-RNA-9	0	1
+1961682	Gammapapillomavirus 25	species	325455	AP-DNA-12	0	2
+1961682	Gammapapillomavirus 25	species	325455	AP-DNA-8	0	2
+1961682	Gammapapillomavirus 25	species	325455	AP-RNA-1	0	1
+1961682	Gammapapillomavirus 25	species	325455	AP-RNA-13	0	1
+1961682	Gammapapillomavirus 25	species	325455	AP-RNA-4	0	1
+1965344	LI polyomavirus	no rank	2734294	AP-RNA-14	1	1
+1985366	Gemygorvirus	genus	1910928	AP-RNA-1	0	1
+1985366	Gemygorvirus	genus	1910928	AP-RNA-6	0	1
+1985366	Gemygorvirus	genus	1910928	AP-RNA-8	0	1
+1985370	Gemyvongvirus	genus	1910928	AP-DNA-3	0	6
+1985370	Gemyvongvirus	genus	1910928	AP-RNA-10	0	2
+1985370	Gemyvongvirus	genus	1910928	AP-RNA-11	0	1
+1985370	Gemyvongvirus	genus	1910928	AP-RNA-13	0	1
+1985370	Gemyvongvirus	genus	1910928	AP-RNA-7	0	1
+1985370	Gemyvongvirus	genus	1910928	AP-RNA-8	0	1
+1985415	Human associated gemyvongvirus 1	no rank	2844646	AP-DNA-3	6	6
+1985415	Human associated gemyvongvirus 1	no rank	2844646	AP-RNA-10	2	2
+1985415	Human associated gemyvongvirus 1	no rank	2844646	AP-RNA-11	1	1
+1985415	Human associated gemyvongvirus 1	no rank	2844646	AP-RNA-13	1	1
+1985415	Human associated gemyvongvirus 1	no rank	2844646	AP-RNA-7	1	1
+1985415	Human associated gemyvongvirus 1	no rank	2844646	AP-RNA-8	1	1
+1985428	Sewage derived gemygorvirus 1	no rank	2844554	AP-RNA-1	0	1
+1985428	Sewage derived gemygorvirus 1	no rank	2844554	AP-RNA-6	0	1
+1985428	Sewage derived gemygorvirus 1	no rank	2844554	AP-RNA-8	0	1
+2004487	Human associated gemykibivirus 1	no rank	2844581	AP-RNA-5	0	1
+2004487	Human associated gemykibivirus 1	no rank	2844581	AP-RNA-11	0	1
+2004487	Human associated gemykibivirus 1	no rank	2844581	AP-RNA-2	0	1
+2004960	Human associated gemykibivirus 3	no rank	2844583	AP-RNA-3	0	1
+2004961	Human associated gemykibivirus 4	no rank	2844584	AP-RNA-2	0	10
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-DNA-10	0	1
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-DNA-7	0	1
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-3	0	1
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-1	0	6
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-10	0	2
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-11	0	3
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-12	0	2
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-13	0	1
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-2	0	2
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-4	0	2
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-6	0	1
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-7	0	3
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-8	0	22
+2004962	Human associated gemykibivirus 5	no rank	2844585	AP-RNA-9	0	1
+2032983	rhinovirus C53	serotype	463676	AP-RNA-1	1	1
+2032983	rhinovirus C53	serotype	463676	AP-RNA-2	1	1
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-10	4	4
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-2	3	3
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-7	2	2
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-12	2	2
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-4	3	3
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-8	1	1
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-9	1	1
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-1	2	2
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-1	3	3
+2049444	Gammapapillomavirus sp.	species	735504	AP-DNA-5	1	1
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-11	1	1
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-12	2	2
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-13	2	2
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-2	3	3
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-4	3	3
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-6	2	2
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-7	1	1
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-8	4	4
+2049444	Gammapapillomavirus sp.	species	735504	AP-RNA-9	2	2
+2065036	Torque teno mini virus 10	species	687332	AP-DNA-3	1	1
+2065049	Torque teno midi virus 8	species	687333	AP-RNA-12	1	1
+2065050	Torque teno midi virus 9	species	687333	AP-DNA-8	1	1
+2065053	Torque teno midi virus 12	species	687333	AP-DNA-12	1	1
+2093789	Human papillomavirus type 203	species	173087	AP-DNA-13	2	2
+2093789	Human papillomavirus type 203	species	173087	AP-DNA-3	1	1
+2169561	Ortervirales	order	2732514	AP-DNA-10	0	6
+2169561	Ortervirales	order	2732514	AP-DNA-11	0	7
+2169561	Ortervirales	order	2732514	AP-DNA-13	0	5
+2169561	Ortervirales	order	2732514	AP-DNA-14	0	3
+2169561	Ortervirales	order	2732514	AP-DNA-6	0	1
+2169561	Ortervirales	order	2732514	AP-DNA-7	0	2
+2169561	Ortervirales	order	2732514	AP-RNA-3	0	1
+2169561	Ortervirales	order	2732514	AP-DNA-12	0	12
+2169561	Ortervirales	order	2732514	AP-DNA-9	0	1
+2169561	Ortervirales	order	2732514	AP-DNA-3	0	2
+2169561	Ortervirales	order	2732514	AP-DNA-1	0	3
+2169561	Ortervirales	order	2732514	AP-DNA-15	0	1
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-10	0	296
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-11	0	75
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-13	0	43
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-14	0	21
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-2	0	260
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-6	0	167
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-7	0	124
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-3	0	66
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-5	0	61
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-12	0	258
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-4	0	238
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-8	0	158
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-9	0	403
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-3	0	273
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-1	0	445
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-1	0	116
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-15	0	10
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-5	0	163
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-10	0	104
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-11	0	28
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-12	0	187
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-13	0	34
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-14	0	10
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-2	0	89
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-4	0	151
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-6	0	67
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-7	0	47
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-8	0	87
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-9	0	165
+2169595	Firstpapillomavirinae	subfamily	151340	AP-DNA-16	0	20
+2169595	Firstpapillomavirinae	subfamily	151340	AP-RNA-15	0	1
+2233536	Pigeon torque teno virus	no rank	68887	AP-DNA-5	2	2
+2497569	Negarnaviricota	phylum	2732396	AP-RNA-5	0	6
+2497569	Negarnaviricota	phylum	2732396	AP-RNA-11	0	5
+2497569	Negarnaviricota	phylum	2732396	AP-RNA-13	0	15
+2497569	Negarnaviricota	phylum	2732396	AP-RNA-2	0	1
+2497569	Negarnaviricota	phylum	2732396	AP-RNA-4	0	5
+2497569	Negarnaviricota	phylum	2732396	AP-DNA-16	0	2
+2497570	Haploviricotina	subphylum	2497569	AP-RNA-5	0	6
+2497570	Haploviricotina	subphylum	2497569	AP-RNA-11	0	5
+2497570	Haploviricotina	subphylum	2497569	AP-RNA-13	0	13
+2497570	Haploviricotina	subphylum	2497569	AP-RNA-4	0	5
+2497571	Polyploviricotina	subphylum	2497569	AP-RNA-13	0	2
+2497571	Polyploviricotina	subphylum	2497569	AP-RNA-2	0	1
+2497571	Polyploviricotina	subphylum	2497569	AP-DNA-16	0	2
+2497574	Monjiviricetes	class	2497570	AP-RNA-5	0	6
+2497574	Monjiviricetes	class	2497570	AP-RNA-11	0	5
+2497574	Monjiviricetes	class	2497570	AP-RNA-13	0	13
+2497574	Monjiviricetes	class	2497570	AP-RNA-4	0	5
+2497577	Insthoviricetes	class	2497571	AP-RNA-13	0	2
+2497577	Insthoviricetes	class	2497571	AP-RNA-2	0	1
+2497577	Insthoviricetes	class	2497571	AP-DNA-16	0	2
+2499399	Cornidovirineae	suborder	76804	AP-RNA-1	0	20
+2499399	Cornidovirineae	suborder	76804	AP-RNA-12	0	50
+2499399	Cornidovirineae	suborder	76804	AP-RNA-13	0	6
+2499399	Cornidovirineae	suborder	76804	AP-RNA-14	0	1
+2499399	Cornidovirineae	suborder	76804	AP-RNA-2	0	14
+2499399	Cornidovirineae	suborder	76804	AP-RNA-4	0	1
+2499411	Articulavirales	order	2497577	AP-RNA-13	0	2
+2499411	Articulavirales	order	2497577	AP-RNA-2	0	1
+2499411	Articulavirales	order	2497577	AP-DNA-16	0	2
+2501931	Orthocoronavirinae	subfamily	11118	AP-RNA-1	0	20
+2501931	Orthocoronavirinae	subfamily	11118	AP-RNA-12	0	50
+2501931	Orthocoronavirinae	subfamily	11118	AP-RNA-13	0	6
+2501931	Orthocoronavirinae	subfamily	11118	AP-RNA-14	0	1
+2501931	Orthocoronavirinae	subfamily	11118	AP-RNA-2	0	14
+2501931	Orthocoronavirinae	subfamily	11118	AP-RNA-4	0	1
+2509480	Duvinacovirus	subgenus	693996	AP-RNA-13	0	1
+2509481	Embecovirus	subgenus	694002	AP-RNA-1	0	20
+2509481	Embecovirus	subgenus	694002	AP-RNA-12	0	50
+2509481	Embecovirus	subgenus	694002	AP-RNA-13	0	5
+2509481	Embecovirus	subgenus	694002	AP-RNA-14	0	1
+2509481	Embecovirus	subgenus	694002	AP-RNA-2	0	14
+2509481	Embecovirus	subgenus	694002	AP-RNA-4	0	1
+2559587	Riboviria	clade	10239	AP-DNA-10	0	8
+2559587	Riboviria	clade	10239	AP-DNA-11	0	10
+2559587	Riboviria	clade	10239	AP-DNA-13	0	8
+2559587	Riboviria	clade	10239	AP-DNA-14	0	3
+2559587	Riboviria	clade	10239	AP-DNA-2	0	3
+2559587	Riboviria	clade	10239	AP-DNA-6	0	1
+2559587	Riboviria	clade	10239	AP-DNA-7	0	3
+2559587	Riboviria	clade	10239	AP-RNA-3	0	3
+2559587	Riboviria	clade	10239	AP-RNA-5	0	11
+2559587	Riboviria	clade	10239	AP-DNA-12	0	14
+2559587	Riboviria	clade	10239	AP-DNA-8	0	3
+2559587	Riboviria	clade	10239	AP-DNA-9	0	1
+2559587	Riboviria	clade	10239	AP-DNA-3	0	2
+2559587	Riboviria	clade	10239	AP-DNA-1	0	5
+2559587	Riboviria	clade	10239	AP-RNA-1	0	33
+2559587	Riboviria	clade	10239	AP-DNA-15	0	1
+2559587	Riboviria	clade	10239	AP-DNA-5	0	1
+2559587	Riboviria	clade	10239	AP-RNA-10	0	11
+2559587	Riboviria	clade	10239	AP-RNA-11	0	8
+2559587	Riboviria	clade	10239	AP-RNA-12	0	50
+2559587	Riboviria	clade	10239	AP-RNA-13	0	22
+2559587	Riboviria	clade	10239	AP-RNA-14	0	1
+2559587	Riboviria	clade	10239	AP-RNA-2	0	20
+2559587	Riboviria	clade	10239	AP-RNA-4	0	8
+2559587	Riboviria	clade	10239	AP-RNA-6	0	3
+2559587	Riboviria	clade	10239	AP-RNA-8	0	17
+2559587	Riboviria	clade	10239	AP-RNA-9	0	4
+2559587	Riboviria	clade	10239	AP-DNA-16	0	2
+2560076	Orthoparamyxovirinae	subfamily	11158	AP-RNA-5	0	6
+2560076	Orthoparamyxovirinae	subfamily	11158	AP-RNA-11	0	5
+2560076	Orthoparamyxovirinae	subfamily	11158	AP-RNA-4	0	4
+2731341	Duplodnaviria	clade	10239	AP-DNA-10	0	829
+2731341	Duplodnaviria	clade	10239	AP-DNA-11	0	344
+2731341	Duplodnaviria	clade	10239	AP-DNA-13	0	406
+2731341	Duplodnaviria	clade	10239	AP-DNA-14	0	51
+2731341	Duplodnaviria	clade	10239	AP-DNA-2	0	1930
+2731341	Duplodnaviria	clade	10239	AP-DNA-6	0	288
+2731341	Duplodnaviria	clade	10239	AP-DNA-7	0	278
+2731341	Duplodnaviria	clade	10239	AP-RNA-3	0	58
+2731341	Duplodnaviria	clade	10239	AP-RNA-5	0	22
+2731341	Duplodnaviria	clade	10239	AP-DNA-12	0	208
+2731341	Duplodnaviria	clade	10239	AP-DNA-4	0	185
+2731341	Duplodnaviria	clade	10239	AP-DNA-8	0	131
+2731341	Duplodnaviria	clade	10239	AP-DNA-9	0	417
+2731341	Duplodnaviria	clade	10239	AP-DNA-3	0	770
+2731341	Duplodnaviria	clade	10239	AP-DNA-1	0	1648
+2731341	Duplodnaviria	clade	10239	AP-RNA-1	0	133
+2731341	Duplodnaviria	clade	10239	AP-DNA-15	0	4
+2731341	Duplodnaviria	clade	10239	AP-DNA-5	0	308
+2731341	Duplodnaviria	clade	10239	AP-RNA-10	0	28
+2731341	Duplodnaviria	clade	10239	AP-RNA-11	0	16
+2731341	Duplodnaviria	clade	10239	AP-RNA-12	0	14
+2731341	Duplodnaviria	clade	10239	AP-RNA-13	0	29
+2731341	Duplodnaviria	clade	10239	AP-RNA-14	0	6
+2731341	Duplodnaviria	clade	10239	AP-RNA-2	0	167
+2731341	Duplodnaviria	clade	10239	AP-RNA-4	0	24
+2731341	Duplodnaviria	clade	10239	AP-RNA-6	0	26
+2731341	Duplodnaviria	clade	10239	AP-RNA-7	0	16
+2731341	Duplodnaviria	clade	10239	AP-RNA-8	0	13
+2731341	Duplodnaviria	clade	10239	AP-RNA-9	0	25
+2731342	Monodnaviria	clade	10239	AP-DNA-10	0	339
+2731342	Monodnaviria	clade	10239	AP-DNA-11	0	93
+2731342	Monodnaviria	clade	10239	AP-DNA-13	0	74
+2731342	Monodnaviria	clade	10239	AP-DNA-14	0	31
+2731342	Monodnaviria	clade	10239	AP-DNA-2	0	376
+2731342	Monodnaviria	clade	10239	AP-DNA-6	0	194
+2731342	Monodnaviria	clade	10239	AP-DNA-7	0	174
+2731342	Monodnaviria	clade	10239	AP-RNA-3	0	101
+2731342	Monodnaviria	clade	10239	AP-RNA-5	0	82
+2731342	Monodnaviria	clade	10239	AP-DNA-12	0	273
+2731342	Monodnaviria	clade	10239	AP-DNA-4	0	259
+2731342	Monodnaviria	clade	10239	AP-DNA-8	0	195
+2731342	Monodnaviria	clade	10239	AP-DNA-9	0	420
+2731342	Monodnaviria	clade	10239	AP-DNA-3	0	380
+2731342	Monodnaviria	clade	10239	AP-DNA-1	0	538
+2731342	Monodnaviria	clade	10239	AP-RNA-1	0	159
+2731342	Monodnaviria	clade	10239	AP-DNA-15	0	12
+2731342	Monodnaviria	clade	10239	AP-DNA-5	0	194
+2731342	Monodnaviria	clade	10239	AP-RNA-10	0	123
+2731342	Monodnaviria	clade	10239	AP-RNA-11	0	44
+2731342	Monodnaviria	clade	10239	AP-RNA-12	0	208
+2731342	Monodnaviria	clade	10239	AP-RNA-13	0	50
+2731342	Monodnaviria	clade	10239	AP-RNA-14	0	11
+2731342	Monodnaviria	clade	10239	AP-RNA-2	0	189
+2731342	Monodnaviria	clade	10239	AP-RNA-4	0	180
+2731342	Monodnaviria	clade	10239	AP-RNA-6	0	84
+2731342	Monodnaviria	clade	10239	AP-RNA-7	0	79
+2731342	Monodnaviria	clade	10239	AP-RNA-8	0	139
+2731342	Monodnaviria	clade	10239	AP-RNA-9	0	174
+2731342	Monodnaviria	clade	10239	AP-DNA-16	0	20
+2731342	Monodnaviria	clade	10239	AP-RNA-15	0	1
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-10	0	829
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-11	0	344
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-13	0	406
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-14	0	51
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-2	0	1930
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-6	0	288
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-7	0	278
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-3	0	58
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-5	0	22
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-12	0	208
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-4	0	185
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-8	0	131
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-9	0	417
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-3	0	770
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-1	0	1648
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-1	0	133
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-15	0	4
+2731360	Heunggongvirae	kingdom	2731341	AP-DNA-5	0	308
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-10	0	28
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-11	0	16
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-12	0	14
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-13	0	29
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-14	0	6
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-2	0	167
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-4	0	24
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-6	0	26
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-7	0	16
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-8	0	13
+2731360	Heunggongvirae	kingdom	2731341	AP-RNA-9	0	25
+2731361	Peploviricota	phylum	2731360	AP-DNA-10	0	829
+2731361	Peploviricota	phylum	2731360	AP-DNA-11	0	344
+2731361	Peploviricota	phylum	2731360	AP-DNA-13	0	406
+2731361	Peploviricota	phylum	2731360	AP-DNA-14	0	51
+2731361	Peploviricota	phylum	2731360	AP-DNA-2	0	1930
+2731361	Peploviricota	phylum	2731360	AP-DNA-6	0	288
+2731361	Peploviricota	phylum	2731360	AP-DNA-7	0	278
+2731361	Peploviricota	phylum	2731360	AP-RNA-3	0	58
+2731361	Peploviricota	phylum	2731360	AP-RNA-5	0	22
+2731361	Peploviricota	phylum	2731360	AP-DNA-12	0	208
+2731361	Peploviricota	phylum	2731360	AP-DNA-4	0	185
+2731361	Peploviricota	phylum	2731360	AP-DNA-8	0	131
+2731361	Peploviricota	phylum	2731360	AP-DNA-9	0	417
+2731361	Peploviricota	phylum	2731360	AP-DNA-3	0	770
+2731361	Peploviricota	phylum	2731360	AP-DNA-1	0	1648
+2731361	Peploviricota	phylum	2731360	AP-RNA-1	0	133
+2731361	Peploviricota	phylum	2731360	AP-DNA-15	0	4
+2731361	Peploviricota	phylum	2731360	AP-DNA-5	0	308
+2731361	Peploviricota	phylum	2731360	AP-RNA-10	0	28
+2731361	Peploviricota	phylum	2731360	AP-RNA-11	0	16
+2731361	Peploviricota	phylum	2731360	AP-RNA-12	0	14
+2731361	Peploviricota	phylum	2731360	AP-RNA-13	0	29
+2731361	Peploviricota	phylum	2731360	AP-RNA-14	0	6
+2731361	Peploviricota	phylum	2731360	AP-RNA-2	0	167
+2731361	Peploviricota	phylum	2731360	AP-RNA-4	0	24
+2731361	Peploviricota	phylum	2731360	AP-RNA-6	0	26
+2731361	Peploviricota	phylum	2731360	AP-RNA-7	0	16
+2731361	Peploviricota	phylum	2731360	AP-RNA-8	0	13
+2731361	Peploviricota	phylum	2731360	AP-RNA-9	0	25
+2731363	Herviviricetes	class	2731361	AP-DNA-10	0	829
+2731363	Herviviricetes	class	2731361	AP-DNA-11	0	344
+2731363	Herviviricetes	class	2731361	AP-DNA-13	0	406
+2731363	Herviviricetes	class	2731361	AP-DNA-14	0	51
+2731363	Herviviricetes	class	2731361	AP-DNA-2	0	1930
+2731363	Herviviricetes	class	2731361	AP-DNA-6	0	288
+2731363	Herviviricetes	class	2731361	AP-DNA-7	0	278
+2731363	Herviviricetes	class	2731361	AP-RNA-3	0	58
+2731363	Herviviricetes	class	2731361	AP-RNA-5	0	22
+2731363	Herviviricetes	class	2731361	AP-DNA-12	0	208
+2731363	Herviviricetes	class	2731361	AP-DNA-4	0	185
+2731363	Herviviricetes	class	2731361	AP-DNA-8	0	131
+2731363	Herviviricetes	class	2731361	AP-DNA-9	0	417
+2731363	Herviviricetes	class	2731361	AP-DNA-3	0	770
+2731363	Herviviricetes	class	2731361	AP-DNA-1	0	1648
+2731363	Herviviricetes	class	2731361	AP-RNA-1	0	133
+2731363	Herviviricetes	class	2731361	AP-DNA-15	0	4
+2731363	Herviviricetes	class	2731361	AP-DNA-5	0	308
+2731363	Herviviricetes	class	2731361	AP-RNA-10	0	28
+2731363	Herviviricetes	class	2731361	AP-RNA-11	0	16
+2731363	Herviviricetes	class	2731361	AP-RNA-12	0	14
+2731363	Herviviricetes	class	2731361	AP-RNA-13	0	29
+2731363	Herviviricetes	class	2731361	AP-RNA-14	0	6
+2731363	Herviviricetes	class	2731361	AP-RNA-2	0	167
+2731363	Herviviricetes	class	2731361	AP-RNA-4	0	24
+2731363	Herviviricetes	class	2731361	AP-RNA-6	0	26
+2731363	Herviviricetes	class	2731361	AP-RNA-7	0	16
+2731363	Herviviricetes	class	2731361	AP-RNA-8	0	13
+2731363	Herviviricetes	class	2731361	AP-RNA-9	0	25
+2732004	Varidnaviria	clade	10239	AP-DNA-10	0	19
+2732004	Varidnaviria	clade	10239	AP-DNA-11	0	9
+2732004	Varidnaviria	clade	10239	AP-DNA-13	0	6
+2732004	Varidnaviria	clade	10239	AP-DNA-14	0	5
+2732004	Varidnaviria	clade	10239	AP-DNA-2	0	80
+2732004	Varidnaviria	clade	10239	AP-DNA-6	0	6
+2732004	Varidnaviria	clade	10239	AP-DNA-7	0	34
+2732004	Varidnaviria	clade	10239	AP-RNA-3	0	5
+2732004	Varidnaviria	clade	10239	AP-RNA-5	0	3
+2732004	Varidnaviria	clade	10239	AP-DNA-12	0	6
+2732004	Varidnaviria	clade	10239	AP-DNA-4	0	9
+2732004	Varidnaviria	clade	10239	AP-DNA-8	0	24
+2732004	Varidnaviria	clade	10239	AP-DNA-9	0	6
+2732004	Varidnaviria	clade	10239	AP-DNA-3	0	22
+2732004	Varidnaviria	clade	10239	AP-DNA-1	0	335
+2732004	Varidnaviria	clade	10239	AP-RNA-1	0	35
+2732004	Varidnaviria	clade	10239	AP-DNA-5	0	1
+2732004	Varidnaviria	clade	10239	AP-RNA-13	0	1
+2732004	Varidnaviria	clade	10239	AP-RNA-2	0	7
+2732004	Varidnaviria	clade	10239	AP-RNA-4	0	2
+2732004	Varidnaviria	clade	10239	AP-RNA-7	0	3
+2732004	Varidnaviria	clade	10239	AP-RNA-8	0	5
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-10	0	19
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-11	0	9
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-13	0	6
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-14	0	5
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-2	0	80
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-6	0	6
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-7	0	34
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-3	0	5
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-5	0	3
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-12	0	6
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-4	0	9
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-8	0	24
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-9	0	6
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-3	0	22
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-1	0	335
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-1	0	35
+2732005	Bamfordvirae	kingdom	2732004	AP-DNA-5	0	1
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-13	0	1
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-2	0	7
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-4	0	2
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-7	0	3
+2732005	Bamfordvirae	kingdom	2732004	AP-RNA-8	0	5
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-10	0	4
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-11	0	2
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-13	0	1
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-14	0	2
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-2	0	7
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-6	0	2
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-7	0	3
+2732007	Nucleocytoviricota	phylum	2732005	AP-RNA-3	0	1
+2732007	Nucleocytoviricota	phylum	2732005	AP-RNA-5	0	2
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-12	0	2
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-4	0	5
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-8	0	1
+2732007	Nucleocytoviricota	phylum	2732005	AP-DNA-9	0	1
+2732007	Nucleocytoviricota	phylum	2732005	AP-RNA-4	0	1
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-10	0	15
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-11	0	7
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-13	0	5
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-14	0	3
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-2	0	73
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-6	0	4
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-7	0	31
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-3	0	4
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-5	0	1
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-12	0	4
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-4	0	4
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-8	0	23
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-9	0	5
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-3	0	22
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-1	0	335
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-1	0	35
+2732008	Preplasmiviricota	phylum	2732005	AP-DNA-5	0	1
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-13	0	1
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-2	0	7
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-4	0	1
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-7	0	3
+2732008	Preplasmiviricota	phylum	2732005	AP-RNA-8	0	5
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-10	0	339
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-11	0	93
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-13	0	74
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-14	0	31
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-2	0	376
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-6	0	194
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-7	0	174
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-3	0	101
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-5	0	82
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-12	0	273
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-4	0	259
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-8	0	195
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-9	0	420
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-3	0	380
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-1	0	538
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-1	0	159
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-15	0	12
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-5	0	194
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-10	0	123
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-11	0	44
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-12	0	208
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-13	0	50
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-14	0	11
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-2	0	189
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-4	0	180
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-6	0	84
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-7	0	79
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-8	0	139
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-9	0	174
+2732092	Shotokuvirae	kingdom	2731342	AP-DNA-16	0	20
+2732092	Shotokuvirae	kingdom	2731342	AP-RNA-15	0	1
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-10	0	2
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-11	0	3
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-13	0	3
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-2	0	3
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-7	0	1
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-3	0	2
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-5	0	11
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-12	0	2
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-8	0	3
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-1	0	2
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-1	0	33
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-5	0	1
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-10	0	11
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-11	0	8
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-12	0	50
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-13	0	22
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-14	0	1
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-2	0	20
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-4	0	8
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-6	0	3
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-8	0	17
+2732396	Orthornavirae	kingdom	2559587	AP-RNA-9	0	4
+2732396	Orthornavirae	kingdom	2559587	AP-DNA-16	0	2
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-10	0	6
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-11	0	7
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-13	0	5
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-14	0	3
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-6	0	1
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-7	0	2
+2732397	Pararnavirae	kingdom	2559587	AP-RNA-3	0	1
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-12	0	12
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-9	0	1
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-3	0	2
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-1	0	3
+2732397	Pararnavirae	kingdom	2559587	AP-DNA-15	0	1
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-10	0	2
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-11	0	3
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-13	0	3
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-2	0	3
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-7	0	1
+2732406	Kitrinoviricota	phylum	2732396	AP-RNA-3	0	1
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-12	0	2
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-8	0	3
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-1	0	2
+2732406	Kitrinoviricota	phylum	2732396	AP-DNA-5	0	1
+2732408	Pisuviricota	phylum	2732396	AP-RNA-3	0	1
+2732408	Pisuviricota	phylum	2732396	AP-RNA-5	0	5
+2732408	Pisuviricota	phylum	2732396	AP-RNA-1	0	33
+2732408	Pisuviricota	phylum	2732396	AP-RNA-10	0	11
+2732408	Pisuviricota	phylum	2732396	AP-RNA-11	0	3
+2732408	Pisuviricota	phylum	2732396	AP-RNA-12	0	50
+2732408	Pisuviricota	phylum	2732396	AP-RNA-13	0	7
+2732408	Pisuviricota	phylum	2732396	AP-RNA-14	0	1
+2732408	Pisuviricota	phylum	2732396	AP-RNA-2	0	19
+2732408	Pisuviricota	phylum	2732396	AP-RNA-4	0	3
+2732408	Pisuviricota	phylum	2732396	AP-RNA-6	0	3
+2732408	Pisuviricota	phylum	2732396	AP-RNA-8	0	17
+2732408	Pisuviricota	phylum	2732396	AP-RNA-9	0	4
+2732409	Artverviricota	phylum	2732397	AP-DNA-10	0	6
+2732409	Artverviricota	phylum	2732397	AP-DNA-11	0	7
+2732409	Artverviricota	phylum	2732397	AP-DNA-13	0	5
+2732409	Artverviricota	phylum	2732397	AP-DNA-14	0	3
+2732409	Artverviricota	phylum	2732397	AP-DNA-6	0	1
+2732409	Artverviricota	phylum	2732397	AP-DNA-7	0	2
+2732409	Artverviricota	phylum	2732397	AP-RNA-3	0	1
+2732409	Artverviricota	phylum	2732397	AP-DNA-12	0	12
+2732409	Artverviricota	phylum	2732397	AP-DNA-9	0	1
+2732409	Artverviricota	phylum	2732397	AP-DNA-3	0	2
+2732409	Artverviricota	phylum	2732397	AP-DNA-1	0	3
+2732409	Artverviricota	phylum	2732397	AP-DNA-15	0	1
+2732415	Cossaviricota	phylum	2732092	AP-DNA-10	0	338
+2732415	Cossaviricota	phylum	2732092	AP-DNA-11	0	93
+2732415	Cossaviricota	phylum	2732092	AP-DNA-13	0	74
+2732415	Cossaviricota	phylum	2732092	AP-DNA-14	0	31
+2732415	Cossaviricota	phylum	2732092	AP-DNA-2	0	376
+2732415	Cossaviricota	phylum	2732092	AP-DNA-6	0	194
+2732415	Cossaviricota	phylum	2732092	AP-DNA-7	0	173
+2732415	Cossaviricota	phylum	2732092	AP-RNA-3	0	99
+2732415	Cossaviricota	phylum	2732092	AP-RNA-5	0	80
+2732415	Cossaviricota	phylum	2732092	AP-DNA-12	0	273
+2732415	Cossaviricota	phylum	2732092	AP-DNA-4	0	259
+2732415	Cossaviricota	phylum	2732092	AP-DNA-8	0	195
+2732415	Cossaviricota	phylum	2732092	AP-DNA-9	0	420
+2732415	Cossaviricota	phylum	2732092	AP-DNA-3	0	374
+2732415	Cossaviricota	phylum	2732092	AP-DNA-1	0	538
+2732415	Cossaviricota	phylum	2732092	AP-RNA-1	0	152
+2732415	Cossaviricota	phylum	2732092	AP-DNA-15	0	12
+2732415	Cossaviricota	phylum	2732092	AP-DNA-5	0	194
+2732415	Cossaviricota	phylum	2732092	AP-RNA-10	0	119
+2732415	Cossaviricota	phylum	2732092	AP-RNA-11	0	39
+2732415	Cossaviricota	phylum	2732092	AP-RNA-12	0	205
+2732415	Cossaviricota	phylum	2732092	AP-RNA-13	0	48
+2732415	Cossaviricota	phylum	2732092	AP-RNA-14	0	11
+2732415	Cossaviricota	phylum	2732092	AP-RNA-2	0	172
+2732415	Cossaviricota	phylum	2732092	AP-RNA-4	0	177
+2732415	Cossaviricota	phylum	2732092	AP-RNA-6	0	82
+2732415	Cossaviricota	phylum	2732092	AP-RNA-7	0	75
+2732415	Cossaviricota	phylum	2732092	AP-RNA-8	0	115
+2732415	Cossaviricota	phylum	2732092	AP-RNA-9	0	173
+2732415	Cossaviricota	phylum	2732092	AP-DNA-16	0	20
+2732415	Cossaviricota	phylum	2732092	AP-RNA-15	0	1
+2732416	Cressdnaviricota	phylum	2732092	AP-DNA-10	0	1
+2732416	Cressdnaviricota	phylum	2732092	AP-DNA-7	0	1
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-3	0	2
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-5	0	2
+2732416	Cressdnaviricota	phylum	2732092	AP-DNA-3	0	6
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-1	0	7
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-10	0	4
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-11	0	5
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-12	0	3
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-13	0	2
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-2	0	17
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-4	0	3
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-6	0	2
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-7	0	4
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-8	0	24
+2732416	Cressdnaviricota	phylum	2732092	AP-RNA-9	0	1
+2732421	Papovaviricetes	class	2732415	AP-DNA-10	0	338
+2732421	Papovaviricetes	class	2732415	AP-DNA-11	0	91
+2732421	Papovaviricetes	class	2732415	AP-DNA-13	0	70
+2732421	Papovaviricetes	class	2732415	AP-DNA-14	0	30
+2732421	Papovaviricetes	class	2732415	AP-DNA-2	0	370
+2732421	Papovaviricetes	class	2732415	AP-DNA-6	0	193
+2732421	Papovaviricetes	class	2732415	AP-DNA-7	0	173
+2732421	Papovaviricetes	class	2732415	AP-RNA-3	0	99
+2732421	Papovaviricetes	class	2732415	AP-RNA-5	0	77
+2732421	Papovaviricetes	class	2732415	AP-DNA-12	0	273
+2732421	Papovaviricetes	class	2732415	AP-DNA-4	0	257
+2732421	Papovaviricetes	class	2732415	AP-DNA-8	0	195
+2732421	Papovaviricetes	class	2732415	AP-DNA-9	0	419
+2732421	Papovaviricetes	class	2732415	AP-DNA-3	0	371
+2732421	Papovaviricetes	class	2732415	AP-DNA-1	0	534
+2732421	Papovaviricetes	class	2732415	AP-RNA-1	0	148
+2732421	Papovaviricetes	class	2732415	AP-DNA-15	0	12
+2732421	Papovaviricetes	class	2732415	AP-DNA-5	0	192
+2732421	Papovaviricetes	class	2732415	AP-RNA-10	0	110
+2732421	Papovaviricetes	class	2732415	AP-RNA-11	0	38
+2732421	Papovaviricetes	class	2732415	AP-RNA-12	0	202
+2732421	Papovaviricetes	class	2732415	AP-RNA-13	0	47
+2732421	Papovaviricetes	class	2732415	AP-RNA-14	0	11
+2732421	Papovaviricetes	class	2732415	AP-RNA-2	0	170
+2732421	Papovaviricetes	class	2732415	AP-RNA-4	0	174
+2732421	Papovaviricetes	class	2732415	AP-RNA-6	0	79
+2732421	Papovaviricetes	class	2732415	AP-RNA-7	0	72
+2732421	Papovaviricetes	class	2732415	AP-RNA-8	0	114
+2732421	Papovaviricetes	class	2732415	AP-RNA-9	0	172
+2732421	Papovaviricetes	class	2732415	AP-DNA-16	0	20
+2732421	Papovaviricetes	class	2732415	AP-RNA-15	0	1
+2732422	Quintoviricetes	class	2732415	AP-DNA-11	0	2
+2732422	Quintoviricetes	class	2732415	AP-DNA-13	0	4
+2732422	Quintoviricetes	class	2732415	AP-DNA-14	0	1
+2732422	Quintoviricetes	class	2732415	AP-DNA-2	0	6
+2732422	Quintoviricetes	class	2732415	AP-DNA-6	0	1
+2732422	Quintoviricetes	class	2732415	AP-RNA-5	0	3
+2732422	Quintoviricetes	class	2732415	AP-DNA-4	0	2
+2732422	Quintoviricetes	class	2732415	AP-DNA-9	0	1
+2732422	Quintoviricetes	class	2732415	AP-DNA-3	0	3
+2732422	Quintoviricetes	class	2732415	AP-DNA-1	0	4
+2732422	Quintoviricetes	class	2732415	AP-RNA-1	0	4
+2732422	Quintoviricetes	class	2732415	AP-DNA-5	0	2
+2732422	Quintoviricetes	class	2732415	AP-RNA-10	0	9
+2732422	Quintoviricetes	class	2732415	AP-RNA-11	0	1
+2732422	Quintoviricetes	class	2732415	AP-RNA-12	0	3
+2732422	Quintoviricetes	class	2732415	AP-RNA-13	0	1
+2732422	Quintoviricetes	class	2732415	AP-RNA-2	0	2
+2732422	Quintoviricetes	class	2732415	AP-RNA-4	0	3
+2732422	Quintoviricetes	class	2732415	AP-RNA-6	0	3
+2732422	Quintoviricetes	class	2732415	AP-RNA-7	0	3
+2732422	Quintoviricetes	class	2732415	AP-RNA-8	0	1
+2732422	Quintoviricetes	class	2732415	AP-RNA-9	0	1
+2732424	Repensiviricetes	class	2732416	AP-DNA-10	0	1
+2732424	Repensiviricetes	class	2732416	AP-DNA-7	0	1
+2732424	Repensiviricetes	class	2732416	AP-RNA-3	0	2
+2732424	Repensiviricetes	class	2732416	AP-RNA-5	0	2
+2732424	Repensiviricetes	class	2732416	AP-DNA-3	0	6
+2732424	Repensiviricetes	class	2732416	AP-RNA-1	0	7
+2732424	Repensiviricetes	class	2732416	AP-RNA-10	0	4
+2732424	Repensiviricetes	class	2732416	AP-RNA-11	0	5
+2732424	Repensiviricetes	class	2732416	AP-RNA-12	0	3
+2732424	Repensiviricetes	class	2732416	AP-RNA-13	0	2
+2732424	Repensiviricetes	class	2732416	AP-RNA-2	0	17
+2732424	Repensiviricetes	class	2732416	AP-RNA-4	0	3
+2732424	Repensiviricetes	class	2732416	AP-RNA-6	0	2
+2732424	Repensiviricetes	class	2732416	AP-RNA-7	0	4
+2732424	Repensiviricetes	class	2732416	AP-RNA-8	0	24
+2732424	Repensiviricetes	class	2732416	AP-RNA-9	0	1
+2732462	Flasuviricetes	class	2732406	AP-DNA-10	0	2
+2732462	Flasuviricetes	class	2732406	AP-DNA-11	0	3
+2732462	Flasuviricetes	class	2732406	AP-DNA-13	0	3
+2732462	Flasuviricetes	class	2732406	AP-DNA-2	0	3
+2732462	Flasuviricetes	class	2732406	AP-DNA-7	0	1
+2732462	Flasuviricetes	class	2732406	AP-RNA-3	0	1
+2732462	Flasuviricetes	class	2732406	AP-DNA-12	0	2
+2732462	Flasuviricetes	class	2732406	AP-DNA-8	0	3
+2732462	Flasuviricetes	class	2732406	AP-DNA-1	0	2
+2732462	Flasuviricetes	class	2732406	AP-DNA-5	0	1
+2732506	Pisoniviricetes	class	2732408	AP-RNA-3	0	1
+2732506	Pisoniviricetes	class	2732408	AP-RNA-5	0	3
+2732506	Pisoniviricetes	class	2732408	AP-RNA-1	0	33
+2732506	Pisoniviricetes	class	2732408	AP-RNA-10	0	11
+2732506	Pisoniviricetes	class	2732408	AP-RNA-11	0	2
+2732506	Pisoniviricetes	class	2732408	AP-RNA-12	0	50
+2732506	Pisoniviricetes	class	2732408	AP-RNA-13	0	7
+2732506	Pisoniviricetes	class	2732408	AP-RNA-14	0	1
+2732506	Pisoniviricetes	class	2732408	AP-RNA-2	0	19
+2732506	Pisoniviricetes	class	2732408	AP-RNA-4	0	2
+2732506	Pisoniviricetes	class	2732408	AP-RNA-6	0	3
+2732506	Pisoniviricetes	class	2732408	AP-RNA-8	0	17
+2732506	Pisoniviricetes	class	2732408	AP-RNA-9	0	4
+2732507	Stelpaviricetes	class	2732408	AP-RNA-5	0	2
+2732507	Stelpaviricetes	class	2732408	AP-RNA-11	0	1
+2732507	Stelpaviricetes	class	2732408	AP-RNA-4	0	1
+2732514	Revtraviricetes	class	2732409	AP-DNA-10	0	6
+2732514	Revtraviricetes	class	2732409	AP-DNA-11	0	7
+2732514	Revtraviricetes	class	2732409	AP-DNA-13	0	5
+2732514	Revtraviricetes	class	2732409	AP-DNA-14	0	3
+2732514	Revtraviricetes	class	2732409	AP-DNA-6	0	1
+2732514	Revtraviricetes	class	2732409	AP-DNA-7	0	2
+2732514	Revtraviricetes	class	2732409	AP-RNA-3	0	1
+2732514	Revtraviricetes	class	2732409	AP-DNA-12	0	12
+2732514	Revtraviricetes	class	2732409	AP-DNA-9	0	1
+2732514	Revtraviricetes	class	2732409	AP-DNA-3	0	2
+2732514	Revtraviricetes	class	2732409	AP-DNA-1	0	3
+2732514	Revtraviricetes	class	2732409	AP-DNA-15	0	1
+2732523	Megaviricetes	class	2732007	AP-RNA-5	0	1
+2732523	Megaviricetes	class	2732007	AP-RNA-4	0	1
+2732525	Pokkesviricetes	class	2732007	AP-DNA-10	0	4
+2732525	Pokkesviricetes	class	2732007	AP-DNA-11	0	2
+2732525	Pokkesviricetes	class	2732007	AP-DNA-13	0	1
+2732525	Pokkesviricetes	class	2732007	AP-DNA-14	0	2
+2732525	Pokkesviricetes	class	2732007	AP-DNA-2	0	7
+2732525	Pokkesviricetes	class	2732007	AP-DNA-6	0	2
+2732525	Pokkesviricetes	class	2732007	AP-DNA-7	0	3
+2732525	Pokkesviricetes	class	2732007	AP-RNA-3	0	1
+2732525	Pokkesviricetes	class	2732007	AP-RNA-5	0	1
+2732525	Pokkesviricetes	class	2732007	AP-DNA-12	0	2
+2732525	Pokkesviricetes	class	2732007	AP-DNA-4	0	5
+2732525	Pokkesviricetes	class	2732007	AP-DNA-8	0	1
+2732525	Pokkesviricetes	class	2732007	AP-DNA-9	0	1
+2732527	Chitovirales	order	2732525	AP-DNA-10	0	4
+2732527	Chitovirales	order	2732525	AP-DNA-11	0	2
+2732527	Chitovirales	order	2732525	AP-DNA-13	0	1
+2732527	Chitovirales	order	2732525	AP-DNA-14	0	2
+2732527	Chitovirales	order	2732525	AP-DNA-2	0	7
+2732527	Chitovirales	order	2732525	AP-DNA-6	0	2
+2732527	Chitovirales	order	2732525	AP-DNA-7	0	3
+2732527	Chitovirales	order	2732525	AP-RNA-3	0	1
+2732527	Chitovirales	order	2732525	AP-RNA-5	0	1
+2732527	Chitovirales	order	2732525	AP-DNA-12	0	2
+2732527	Chitovirales	order	2732525	AP-DNA-4	0	5
+2732527	Chitovirales	order	2732525	AP-DNA-8	0	1
+2732527	Chitovirales	order	2732525	AP-DNA-9	0	1
+2732529	Tectiliviricetes	class	2732008	AP-DNA-10	0	15
+2732529	Tectiliviricetes	class	2732008	AP-DNA-11	0	7
+2732529	Tectiliviricetes	class	2732008	AP-DNA-13	0	5
+2732529	Tectiliviricetes	class	2732008	AP-DNA-14	0	3
+2732529	Tectiliviricetes	class	2732008	AP-DNA-2	0	73
+2732529	Tectiliviricetes	class	2732008	AP-DNA-6	0	4
+2732529	Tectiliviricetes	class	2732008	AP-DNA-7	0	31
+2732529	Tectiliviricetes	class	2732008	AP-RNA-3	0	4
+2732529	Tectiliviricetes	class	2732008	AP-RNA-5	0	1
+2732529	Tectiliviricetes	class	2732008	AP-DNA-12	0	4
+2732529	Tectiliviricetes	class	2732008	AP-DNA-4	0	4
+2732529	Tectiliviricetes	class	2732008	AP-DNA-8	0	23
+2732529	Tectiliviricetes	class	2732008	AP-DNA-9	0	5
+2732529	Tectiliviricetes	class	2732008	AP-DNA-3	0	22
+2732529	Tectiliviricetes	class	2732008	AP-DNA-1	0	335
+2732529	Tectiliviricetes	class	2732008	AP-RNA-1	0	35
+2732529	Tectiliviricetes	class	2732008	AP-DNA-5	0	1
+2732529	Tectiliviricetes	class	2732008	AP-RNA-13	0	1
+2732529	Tectiliviricetes	class	2732008	AP-RNA-2	0	7
+2732529	Tectiliviricetes	class	2732008	AP-RNA-4	0	1
+2732529	Tectiliviricetes	class	2732008	AP-RNA-7	0	3
+2732529	Tectiliviricetes	class	2732008	AP-RNA-8	0	5
+2732532	Sepolyvirales	order	2732421	AP-DNA-10	0	42
+2732532	Sepolyvirales	order	2732421	AP-DNA-11	0	16
+2732532	Sepolyvirales	order	2732421	AP-DNA-13	0	25
+2732532	Sepolyvirales	order	2732421	AP-DNA-14	0	9
+2732532	Sepolyvirales	order	2732421	AP-DNA-2	0	110
+2732532	Sepolyvirales	order	2732421	AP-DNA-6	0	26
+2732532	Sepolyvirales	order	2732421	AP-DNA-7	0	49
+2732532	Sepolyvirales	order	2732421	AP-RNA-3	0	33
+2732532	Sepolyvirales	order	2732421	AP-RNA-5	0	16
+2732532	Sepolyvirales	order	2732421	AP-DNA-12	0	15
+2732532	Sepolyvirales	order	2732421	AP-DNA-4	0	19
+2732532	Sepolyvirales	order	2732421	AP-DNA-8	0	37
+2732532	Sepolyvirales	order	2732421	AP-DNA-9	0	16
+2732532	Sepolyvirales	order	2732421	AP-DNA-3	0	97
+2732532	Sepolyvirales	order	2732421	AP-DNA-1	0	89
+2732532	Sepolyvirales	order	2732421	AP-RNA-1	0	32
+2732532	Sepolyvirales	order	2732421	AP-DNA-15	0	2
+2732532	Sepolyvirales	order	2732421	AP-DNA-5	0	29
+2732532	Sepolyvirales	order	2732421	AP-RNA-10	0	6
+2732532	Sepolyvirales	order	2732421	AP-RNA-11	0	10
+2732532	Sepolyvirales	order	2732421	AP-RNA-12	0	15
+2732532	Sepolyvirales	order	2732421	AP-RNA-13	0	13
+2732532	Sepolyvirales	order	2732421	AP-RNA-14	0	1
+2732532	Sepolyvirales	order	2732421	AP-RNA-2	0	81
+2732532	Sepolyvirales	order	2732421	AP-RNA-4	0	23
+2732532	Sepolyvirales	order	2732421	AP-RNA-6	0	12
+2732532	Sepolyvirales	order	2732421	AP-RNA-7	0	25
+2732532	Sepolyvirales	order	2732421	AP-RNA-8	0	27
+2732532	Sepolyvirales	order	2732421	AP-RNA-9	0	7
+2732533	Zurhausenvirales	order	2732421	AP-DNA-10	0	296
+2732533	Zurhausenvirales	order	2732421	AP-DNA-11	0	75
+2732533	Zurhausenvirales	order	2732421	AP-DNA-13	0	45
+2732533	Zurhausenvirales	order	2732421	AP-DNA-14	0	21
+2732533	Zurhausenvirales	order	2732421	AP-DNA-2	0	260
+2732533	Zurhausenvirales	order	2732421	AP-DNA-6	0	167
+2732533	Zurhausenvirales	order	2732421	AP-DNA-7	0	124
+2732533	Zurhausenvirales	order	2732421	AP-RNA-3	0	66
+2732533	Zurhausenvirales	order	2732421	AP-RNA-5	0	61
+2732533	Zurhausenvirales	order	2732421	AP-DNA-12	0	258
+2732533	Zurhausenvirales	order	2732421	AP-DNA-4	0	238
+2732533	Zurhausenvirales	order	2732421	AP-DNA-8	0	158
+2732533	Zurhausenvirales	order	2732421	AP-DNA-9	0	403
+2732533	Zurhausenvirales	order	2732421	AP-DNA-3	0	274
+2732533	Zurhausenvirales	order	2732421	AP-DNA-1	0	445
+2732533	Zurhausenvirales	order	2732421	AP-RNA-1	0	116
+2732533	Zurhausenvirales	order	2732421	AP-DNA-15	0	10
+2732533	Zurhausenvirales	order	2732421	AP-DNA-5	0	163
+2732533	Zurhausenvirales	order	2732421	AP-RNA-10	0	104
+2732533	Zurhausenvirales	order	2732421	AP-RNA-11	0	28
+2732533	Zurhausenvirales	order	2732421	AP-RNA-12	0	187
+2732533	Zurhausenvirales	order	2732421	AP-RNA-13	0	34
+2732533	Zurhausenvirales	order	2732421	AP-RNA-14	0	10
+2732533	Zurhausenvirales	order	2732421	AP-RNA-2	0	89
+2732533	Zurhausenvirales	order	2732421	AP-RNA-4	0	151
+2732533	Zurhausenvirales	order	2732421	AP-RNA-6	0	67
+2732533	Zurhausenvirales	order	2732421	AP-RNA-7	0	47
+2732533	Zurhausenvirales	order	2732421	AP-RNA-8	0	87
+2732533	Zurhausenvirales	order	2732421	AP-RNA-9	0	165
+2732533	Zurhausenvirales	order	2732421	AP-DNA-16	0	20
+2732533	Zurhausenvirales	order	2732421	AP-RNA-15	0	1
+2732534	Piccovirales	order	2732422	AP-DNA-11	0	2
+2732534	Piccovirales	order	2732422	AP-DNA-13	0	4
+2732534	Piccovirales	order	2732422	AP-DNA-14	0	1
+2732534	Piccovirales	order	2732422	AP-DNA-2	0	6
+2732534	Piccovirales	order	2732422	AP-DNA-6	0	1
+2732534	Piccovirales	order	2732422	AP-RNA-5	0	3
+2732534	Piccovirales	order	2732422	AP-DNA-4	0	2
+2732534	Piccovirales	order	2732422	AP-DNA-9	0	1
+2732534	Piccovirales	order	2732422	AP-DNA-3	0	3
+2732534	Piccovirales	order	2732422	AP-DNA-1	0	4
+2732534	Piccovirales	order	2732422	AP-RNA-1	0	4
+2732534	Piccovirales	order	2732422	AP-DNA-5	0	2
+2732534	Piccovirales	order	2732422	AP-RNA-10	0	9
+2732534	Piccovirales	order	2732422	AP-RNA-11	0	1
+2732534	Piccovirales	order	2732422	AP-RNA-12	0	3
+2732534	Piccovirales	order	2732422	AP-RNA-13	0	1
+2732534	Piccovirales	order	2732422	AP-RNA-2	0	2
+2732534	Piccovirales	order	2732422	AP-RNA-4	0	3
+2732534	Piccovirales	order	2732422	AP-RNA-6	0	3
+2732534	Piccovirales	order	2732422	AP-RNA-7	0	3
+2732534	Piccovirales	order	2732422	AP-RNA-8	0	1
+2732534	Piccovirales	order	2732422	AP-RNA-9	0	1
+2732539	Geplafuvirales	order	2732424	AP-DNA-10	0	1
+2732539	Geplafuvirales	order	2732424	AP-DNA-7	0	1
+2732539	Geplafuvirales	order	2732424	AP-RNA-3	0	2
+2732539	Geplafuvirales	order	2732424	AP-RNA-5	0	2
+2732539	Geplafuvirales	order	2732424	AP-DNA-3	0	6
+2732539	Geplafuvirales	order	2732424	AP-RNA-1	0	7
+2732539	Geplafuvirales	order	2732424	AP-RNA-10	0	4
+2732539	Geplafuvirales	order	2732424	AP-RNA-11	0	5
+2732539	Geplafuvirales	order	2732424	AP-RNA-12	0	3
+2732539	Geplafuvirales	order	2732424	AP-RNA-13	0	2
+2732539	Geplafuvirales	order	2732424	AP-RNA-2	0	17
+2732539	Geplafuvirales	order	2732424	AP-RNA-4	0	3
+2732539	Geplafuvirales	order	2732424	AP-RNA-6	0	2
+2732539	Geplafuvirales	order	2732424	AP-RNA-7	0	4
+2732539	Geplafuvirales	order	2732424	AP-RNA-8	0	24
+2732539	Geplafuvirales	order	2732424	AP-RNA-9	0	1
+2732545	Amarillovirales	order	2732462	AP-DNA-10	0	2
+2732545	Amarillovirales	order	2732462	AP-DNA-11	0	3
+2732545	Amarillovirales	order	2732462	AP-DNA-13	0	3
+2732545	Amarillovirales	order	2732462	AP-DNA-2	0	3
+2732545	Amarillovirales	order	2732462	AP-DNA-7	0	1
+2732545	Amarillovirales	order	2732462	AP-RNA-3	0	1
+2732545	Amarillovirales	order	2732462	AP-DNA-12	0	2
+2732545	Amarillovirales	order	2732462	AP-DNA-8	0	3
+2732545	Amarillovirales	order	2732462	AP-DNA-1	0	2
+2732545	Amarillovirales	order	2732462	AP-DNA-5	0	1
+2732551	Stellavirales	order	2732507	AP-RNA-5	0	2
+2732551	Stellavirales	order	2732507	AP-RNA-11	0	1
+2732551	Stellavirales	order	2732507	AP-RNA-4	0	1
+2732555	Pimascovirales	order	2732523	AP-RNA-5	0	1
+2732555	Pimascovirales	order	2732523	AP-RNA-4	0	1
+2732559	Rowavirales	order	2732529	AP-DNA-10	0	15
+2732559	Rowavirales	order	2732529	AP-DNA-11	0	7
+2732559	Rowavirales	order	2732529	AP-DNA-13	0	5
+2732559	Rowavirales	order	2732529	AP-DNA-14	0	3
+2732559	Rowavirales	order	2732529	AP-DNA-2	0	73
+2732559	Rowavirales	order	2732529	AP-DNA-6	0	4
+2732559	Rowavirales	order	2732529	AP-DNA-7	0	31
+2732559	Rowavirales	order	2732529	AP-RNA-3	0	4
+2732559	Rowavirales	order	2732529	AP-RNA-5	0	1
+2732559	Rowavirales	order	2732529	AP-DNA-12	0	4
+2732559	Rowavirales	order	2732529	AP-DNA-4	0	4
+2732559	Rowavirales	order	2732529	AP-DNA-8	0	23
+2732559	Rowavirales	order	2732529	AP-DNA-9	0	5
+2732559	Rowavirales	order	2732529	AP-DNA-3	0	22
+2732559	Rowavirales	order	2732529	AP-DNA-1	0	335
+2732559	Rowavirales	order	2732529	AP-RNA-1	0	35
+2732559	Rowavirales	order	2732529	AP-DNA-5	0	1
+2732559	Rowavirales	order	2732529	AP-RNA-13	0	1
+2732559	Rowavirales	order	2732529	AP-RNA-2	0	7
+2732559	Rowavirales	order	2732529	AP-RNA-4	0	1
+2732559	Rowavirales	order	2732529	AP-RNA-7	0	3
+2732559	Rowavirales	order	2732529	AP-RNA-8	0	5
+2734294	Alphapolyomavirus quardecihominis	species	1891713	AP-RNA-14	0	1
+2734523	Cardiovirus D	species	12103	AP-RNA-10	0	1
+2734523	Cardiovirus D	species	12103	AP-RNA-9	0	1
+2773471	human bocavirus 2c	no rank	1511872	AP-RNA-10	1	1
+2777131	rhinovirus C51	no rank	463676	AP-RNA-13	1	1
+2779847	cardiovirus D1	no rank	2734523	AP-RNA-10	1	1
+2779847	cardiovirus D1	no rank	2734523	AP-RNA-9	1	1
+2844554	Gemygorvirus sewopo1	species	1985366	AP-RNA-1	0	1
+2844554	Gemygorvirus sewopo1	species	1985366	AP-RNA-6	0	1
+2844554	Gemygorvirus sewopo1	species	1985366	AP-RNA-8	0	1
+2844581	Gemykibivirus humas1	species	1941236	AP-RNA-5	0	1
+2844581	Gemykibivirus humas1	species	1941236	AP-RNA-11	0	1
+2844581	Gemykibivirus humas1	species	1941236	AP-RNA-2	0	1
+2844583	Gemykibivirus humas3	species	1941236	AP-RNA-3	0	1
+2844584	Gemykibivirus humas4	species	1941236	AP-RNA-2	0	10
+2844585	Gemykibivirus humas5	species	1941236	AP-DNA-10	0	1
+2844585	Gemykibivirus humas5	species	1941236	AP-DNA-7	0	1
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-3	0	1
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-1	0	6
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-10	0	2
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-11	0	3
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-12	0	2
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-13	0	1
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-2	0	2
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-4	0	2
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-6	0	1
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-7	0	3
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-8	0	22
+2844585	Gemykibivirus humas5	species	1941236	AP-RNA-9	0	1
+2844646	Gemyvongvirus humas1	species	1985370	AP-DNA-3	0	6
+2844646	Gemyvongvirus humas1	species	1985370	AP-RNA-10	0	2
+2844646	Gemyvongvirus humas1	species	1985370	AP-RNA-11	0	1
+2844646	Gemyvongvirus humas1	species	1985370	AP-RNA-13	0	1
+2844646	Gemyvongvirus humas1	species	1985370	AP-RNA-7	0	1
+2844646	Gemyvongvirus humas1	species	1985370	AP-RNA-8	0	1
+2844803	Gyrovirus homsa2	species	227307	AP-DNA-1	0	1
+2846493	Torque teno mini virus 16	species	687332	AP-RNA-2	0	1
+2946627	Caphthovirinae	subfamily	12058	AP-RNA-10	0	1
+2946627	Caphthovirinae	subfamily	12058	AP-RNA-9	0	1
+2946630	Ensavirinae	subfamily	12058	AP-RNA-3	0	1
+2946630	Ensavirinae	subfamily	12058	AP-RNA-5	0	3
+2946630	Ensavirinae	subfamily	12058	AP-RNA-1	0	12
+2946630	Ensavirinae	subfamily	12058	AP-RNA-10	0	9
+2946630	Ensavirinae	subfamily	12058	AP-RNA-11	0	2
+2946630	Ensavirinae	subfamily	12058	AP-RNA-13	0	1
+2946630	Ensavirinae	subfamily	12058	AP-RNA-2	0	5
+2946630	Ensavirinae	subfamily	12058	AP-RNA-4	0	1
+2946630	Ensavirinae	subfamily	12058	AP-RNA-6	0	3
+2946630	Ensavirinae	subfamily	12058	AP-RNA-8	0	17
+2946630	Ensavirinae	subfamily	12058	AP-RNA-9	0	3
+2946640	Paavivirinae	subfamily	12058	AP-RNA-10	0	1
+2974724	Pangolin parainfluenza 3 virus	no rank	11216	AP-RNA-5	3	3
+2974724	Pangolin parainfluenza 3 virus	no rank	11216	AP-RNA-11	3	3
+2974724	Pangolin parainfluenza 3 virus	no rank	11216	AP-RNA-4	3	3
+3033760	unknown virus	no rank	377613	AP-DNA-2	1	1
+3033760	unknown virus	no rank	377613	AP-DNA-1	5	5
