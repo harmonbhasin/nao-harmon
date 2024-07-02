@@ -10,3 +10,4 @@
 2024-07-02 13:39:18	-	determined_carson	-	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
 2024-07-02 13:50:29	7.3s	thirsty_ramanujan	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
 2024-07-02 13:51:04	26m 26s	maniac_visvesvaraya	OK	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-07-02 14:39:30	-	maniac_mcclintock	-	4f0145a0b4156166dc7393af72357854	d31d6af6-4fb0-4da0-aa4b-78b9855164c4	nextflow run ../mgs-workflow/
