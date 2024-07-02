@@ -1,1 +1,5 @@
 #*/*/.nextflow*
+*/mgs-workflow/
+*/prepare-data/
+sampling-strategies/
+

@@ -1,3 +1,12 @@
 2024-06-28 12:07:03	14.8s	maniac_feynman	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
 2024-06-28 12:08:16	15.3s	tiny_laplace	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
 2024-06-28 12:09:07	6h 9m 13s	insane_mclean	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-06-28 19:11:49	-	gloomy_jennings	-	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-06-28 19:13:05	-	big_leavitt	-	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-06-28 19:14:30	6.9s	lonely_roentgen	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-06-28 19:58:25	6.8s	festering_kimura	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-07-01 13:25:38	9m 6s	infallible_carlsson	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-07-01 21:04:37	6h 43m 27s	infallible_roentgen	OK	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-07-02 13:39:18	-	determined_carson	-	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-07-02 13:50:29	7.3s	thirsty_ramanujan	ERR	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
+2024-07-02 13:51:04	26m 26s	maniac_visvesvaraya	OK	4f0145a0b4156166dc7393af72357854	2594228f-b380-4d4e-8113-65ee7f84826f	nextflow run ../mgs-workflow/ -resume
