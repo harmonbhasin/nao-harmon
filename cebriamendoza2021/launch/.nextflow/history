@@ -16,4 +16,4 @@
 2024-07-03 02:44:20	1m 53s	scruffy_brazil	ERR	4f0145a0b4156166dc7393af72357854	d31d6af6-4fb0-4da0-aa4b-78b9855164c4	nextflow run ../mgs-workflow/ -resume
 2024-07-03 11:41:15	35m 2s	desperate_lamport	ERR	4f0145a0b4156166dc7393af72357854	d31d6af6-4fb0-4da0-aa4b-78b9855164c4	nextflow run ../mgs-workflow/ -resume
 2024-07-03 12:17:30	6m 25s	nostalgic_kimura	OK	4f0145a0b4156166dc7393af72357854	d31d6af6-4fb0-4da0-aa4b-78b9855164c4	nextflow run ../mgs-workflow/ -resume
-2024-07-04 18:36:49	-	cheesy_spence	-	4f0145a0b4156166dc7393af72357854	9508707b-f08b-40fa-a5b3-dd54f39d7ce3	nextflow run ../mgs-workflow/
+2024-07-04 18:36:49	1h 50m 45s	cheesy_spence	OK	4f0145a0b4156166dc7393af72357854	9508707b-f08b-40fa-a5b3-dd54f39d7ce3	nextflow run ../mgs-workflow/
