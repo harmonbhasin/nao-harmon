@@ -4,3 +4,6 @@
 #sampling-strategies/
 */analysis/
 .DS_Store
+*/.DS_Store
+*/*/.DS_Store
+
