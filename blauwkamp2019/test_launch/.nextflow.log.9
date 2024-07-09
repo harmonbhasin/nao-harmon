@@ -1,0 +1,140 @@
+Jul-05 20:54:17.757 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ../mgs-workflow/ -resume
+Jul-05 20:54:17.855 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.2
+Jul-05 20:54:17.903 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/ec2-user/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
+Jul-05 20:54:17.922 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-05 20:54:17.923 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-05 20:54:17.926 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Jul-05 20:54:17.946 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-05 20:54:17.983 [main] DEBUG nextflow.scm.AssetManager - Project manifest does not exist: ../mgs-workflow/nextflow.config (No such file or directory)
+Jul-05 20:54:18.037 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/ec2-user/nao-harmon/blauwkamp2019/test_launch/nextflow.config
+Jul-05 20:54:18.042 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/ec2-user/nao-harmon/blauwkamp2019/test_launch/nextflow.config
+Jul-05 20:54:18.080 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/ec2-user/.nextflow/secrets/store.json
+Jul-05 20:54:18.085 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@3fbfa96] - activable => nextflow.secret.LocalSecretsProvider@3fbfa96
+Jul-05 20:54:18.092 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-05 20:54:18.930 [main] WARN  nextflow.config.ConfigBuilder - It appears you have never run this project before -- Option `-resume` is ignored
+Jul-05 20:54:18.964 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jul-05 20:54:18.999 [main] DEBUG nextflow.cli.CmdRun - Launching `../mgs-workflow/main.nf` [extravagant_torricelli] DSL2 - revision: fa520ee134
+Jul-05 20:54:19.001 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[nf-amazon@2.5.2]
+Jul-05 20:54:19.002 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-amazon@2.5.2, nf-wave@1.4.2]
+Jul-05 20:54:19.003 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-amazon version: 2.5.2
+Jul-05 20:54:19.030 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-amazon@2.5.2' resolved
+Jul-05 20:54:19.031 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-amazon@2.5.2'
+Jul-05 20:54:19.187 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-amazon@2.5.2
+Jul-05 20:54:19.214 [main] DEBUG nextflow.file.FileHelper - > Added 'S3FileSystemProvider' to list of installed providers [s3]
+Jul-05 20:54:19.214 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-wave version: 1.4.2
+Jul-05 20:54:19.228 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-wave@1.4.2' resolved
+Jul-05 20:54:19.228 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-wave@1.4.2'
+Jul-05 20:54:19.268 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-wave@1.4.2
+Jul-05 20:54:19.331 [main] DEBUG nextflow.Session - Session UUID: 5dbaec79-e305-4c5b-91ba-fed988193517
+Jul-05 20:54:19.332 [main] DEBUG nextflow.Session - Run name: extravagant_torricelli
+Jul-05 20:54:19.332 [main] DEBUG nextflow.Session - Executor pool size: 4
+Jul-05 20:54:19.354 [main] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Jul-05 20:54:19.373 [main] DEBUG nextflow.cloud.aws.config.AwsConfig - AWS S3 config properties: {socket_timeout=0, max_connections=1000, connection_timeout=0, max_error_retry=10}
+Jul-05 20:54:19.674 [main] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jul-05 20:54:20.150 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-05 20:54:20.157 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 20:54:20.175 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.2 build 5914
+  Created: 29-05-2024 06:19 UTC 
+  System: Linux 6.1.92-99.174.amzn2023.x86_64
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 17.0.10+7
+  Encoding: UTF-8 (UTF-8)
+  Process: 2804@ip-172-31-2-212.ec2.internal [172.31.2.212]
+  CPUs: 4 - Mem: 7.5 GB (6.6 GB) - Swap: 0 (0)
+Jul-05 20:54:20.522 [main] DEBUG nextflow.file.FileHelper - Can't check if specified path is NFS (1): s3://nao-harmon/blauwkamp2019/work
+
+Jul-05 20:54:20.523 [main] DEBUG nextflow.Session - Work-dir: s3://nao-harmon/blauwkamp2019/work [null]
+Jul-05 20:54:20.584 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[AwsBatchExecutor]
+Jul-05 20:54:20.599 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-05 20:54:20.603 [main] DEBUG nextflow.Session - Observer factory: WaveFactory
+Jul-05 20:54:20.604 [main] DEBUG io.seqera.wave.plugin.WaveFactory - Detected Fusion enabled -- Enabling bundle project resources -- Disabling upload of remote bin directory
+Jul-05 20:54:20.633 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-05 20:54:20.651 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Jul-05 20:54:20.722 [main] DEBUG nextflow.Session - Session start
+Jul-05 20:54:20.926 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-05 20:54:23.486 [main] WARN  nextflow.NextflowMeta$Preview - WORKFLOW OUTPUT DSL IS A PREVIEW FEATURE - SYNTAX AND FUNCTIONALITY CAN CHANGE IN FUTURE RELEASES
+Jul-05 20:54:26.073 [main] WARN  nextflow.NextflowMeta$Preview - WORKFLOW OUTPUT DSL IS A PREVIEW FEATURE - SYNTAX AND FUNCTIONALITY CAN CHANGE IN FUTURE RELEASES
+Jul-05 20:54:26.091 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_12fececdc99ae95d: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/getNcbiTaxonomy/main.nf
+  Script_6538d4130d5c427e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/processBowtie2Sam/main.nf
+  Script_52ecccce68a001d4: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/main.nf
+  Script_e55dc4f619d66f32: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/countHvClades/main.nf
+  Script_0217e8de93d6f331: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/getHvDescendents/main.nf
+  Script_d806d4949c378518: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/combineMappedBowtie2Reads/main.nf
+  Script_dc67d424e0a3410d: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/../../../subworkflows/local/qc/main.nf
+  Script_78cd07a30743b6fe: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/getNcbiTaxonomy/../../../modules/local/extractNcbiTaxonomy/main.nf
+  Script_c3e08e889904ca62: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../subworkflows/local/taxonomy/../../../modules/local/mergeTsvs/main.nf
+  Script_70cfee0291a505cf: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/raw/../../../subworkflows/local/qc/../../../modules/local/fastqc/main.nf
+  Script_b1d8e322b24e4f4a: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/clean/../../../modules/local/fastpSE/main.nf
+  Script_ffe96a45204d8208: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/main.nf
+  Script_e60d7c9cd2b87cb9: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/raw/../../../modules/local/concatGzippedSE/main.nf
+  Script_865e7003c88fa44f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../subworkflows/local/taxonomy/../../../modules/local/labelKrakenReports/main.nf
+  Script_9185f7fb15b36e69: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/clean/../../../subworkflows/local/qc/../../../modules/local/summarizeMultiqcSingle/main.nf
+  Script_d08fe058d16c5d27: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../subworkflows/local/taxonomy/../../../modules/local/bracken/main.nf
+  Script_538b53b4c729e676: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeContaminantIndex/../../../modules/local/concatenateFasta/main.nf
+  Script_a9797a0ac13f16b0: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/makeHvFasta/main.nf
+  Script_bd4977bdbc003380: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/bbmap/main.nf
+  Script_2326a1be77dc0a39: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/index.nf
+  Script_244fbef344b730f8: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/finalizeHumanVirusDB/main.nf
+  Script_e43b1e18520a03ed: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/raw/main.nf
+  Script_f1837dc1ff801559: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/downloadHumanVirusDB/main.nf
+  Script_2f355245a51aa5a1: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/collapseHV/main.nf
+  Script_8a6306367b16d960: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/raw/../../../modules/local/truncateConcat/main.nf
+  Script_a4277bd17897ad08: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/run.nf
+  Script_94210ae7422252c5: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/filterHV/main.nf
+  Script_d5749af87ee8718f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/getNcbiTaxonomy/../../../modules/local/downloadNcbiTaxonomy/main.nf
+  Script_07815b3dca5c7483: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/processKrakenHV/main.nf
+  Script_9324ba8fa1e429a7: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/processOutput/../../../modules/local/summarizeComposition/main.nf
+  Script_a657cb898eaf5a5f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/processOutput/main.nf
+  Script_172186b2e1295138: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/../../../modules/local/blast/main.nf
+  Script_5fb50cd1a205cc57: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/dustmasker/main.nf
+  Script_7e89e381055479f9: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/subsetReads/main.nf
+  Script_b4837bdb95ff6594: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/clean/main.nf
+  Script_b8898727cf4ed13a: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/expandHumanVirusDB/main.nf
+  Script_c6761d1c14dba9b4: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/makeHumanVirusIdMapping/main.nf
+  Script_be26732f1a44329c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/main.nf
+  Script_f790ebd5de3ac718: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanIndex/main.nf
+  Script_a1a6fa14aa22ae4c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/main.nf
+  Script_3b449dc557dfabd6: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/downloadHumanVirusGenomes/main.nf
+  Script_0a594d4d981f0c36: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/bbmerge/main.nf
+  Script_13b56875e785f126: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/main.nf
+  Script_668b27f2a92a9c0a: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/../../../subworkflows/local/qc/../../../modules/local/multiqc/main.nf
+  Script_07bf828da2c1d9d7: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/../../../modules/local/pairBlast/main.nf
+  Script_77fd5bdb4ce9dc87: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/../../../modules/local/filterBlast/main.nf
+  Script_9ca3482a0a48237f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeContaminantIndex/main.nf
+  Script_3f3ef519936a3103: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/main.nf
+  Script_f4c9a5d912ae9281: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../modules/local/joinRiboRef/main.nf
+  Script_aee3d516895d6e59: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../modules/local/makeTotalVirusDB/main.nf
+  Script_ee8077a3e60a1a2b: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/dedup/../../../modules/local/clumpify/main.nf
+  Script_41000d48160fadac: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../modules/local/downloadBlastDB/main.nf
+  Script_3aab582628346b32: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/joinFastq/main.nf
+  Script_16731353f0b23e94: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/filterHumanVirusGenomes/main.nf
+  Script_1f2e26979aabf9eb: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/kraken/main.nf
+  Script_5436df11a38d3b59: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/../../../modules/local/bbduk/main.nf
+  Script_15b3c0bfd2963f2c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/mergeSamKraken/main.nf
+  Script_0c70fed698e5667e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/extractUnconcReadIDs/main.nf
+  Script_213a53c5bff4dbd8: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/extractUnconcReads/main.nf
+  Script_7e406a86d8e7a87c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/extractTarball/main.nf
+  Script_5ed4e1a324c84d34: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/dedup/main.nf
+  Script_7ac9d8158af3209b: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/labelBrackenReports/main.nf
+  Script_2593b8ffc2550189: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/main.nf
+  Script_f754ccea1855f97d: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeContaminantIndex/../../../modules/local/downloadGenome/main.nf
+  Script_ebb40894672f9e4f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/bowtie2/main.nf
+Jul-05 20:54:26.091 [main] DEBUG nextflow.Session - Session aborted -- Cause: Cannot find a component with name 'SINGLE' in module: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/single.nf
+Jul-05 20:54:26.098 [main] ERROR nextflow.cli.Launcher - @unknown
+nextflow.exception.MissingModuleComponentException: Cannot find a component with name 'SINGLE' in module: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/single.nf
+	at nextflow.script.ScriptMeta.addModule(ScriptMeta.groovy:302)
+	at nextflow.script.ScriptMeta.addModule(ScriptMeta.groovy:293)
+	at nextflow.script.IncludeDef.load0(IncludeDef.groovy:115)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script_52ecccce68a001d4.runScript(Script_52ecccce68a001d4:3)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:159)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:209)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:236)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:243)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:138)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:372)
+	at nextflow.cli.Launcher.run(Launcher.groovy:503)
+	at nextflow.cli.Launcher.main(Launcher.groovy:657)

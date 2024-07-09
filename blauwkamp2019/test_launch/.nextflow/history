@@ -1,0 +1,10 @@
+2024-07-05 20:54:20	-	extravagant_torricelli	-	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 20:55:10	8m 38s	friendly_volta	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 21:41:55	9m 16s	clever_mirzakhani	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 21:52:53	1m 47s	golden_torricelli	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 21:58:45	3m 47s	stoic_albattani	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 22:28:05	-	adoring_thompson	-	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 22:29:07	7m 8s	suspicious_williams	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 22:47:54	8m 7s	gloomy_hilbert	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 23:04:15	4m 53s	fabulous_boyd	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-05 23:24:21	14m 7s	fervent_bell	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume

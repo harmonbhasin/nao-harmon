@@ -1,0 +1,720 @@
+Jul-05 23:04:13.573 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ../mgs-workflow/ -resume
+Jul-05 23:04:13.689 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.2
+Jul-05 23:04:13.713 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/ec2-user/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
+Jul-05 23:04:13.726 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-05 23:04:13.727 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-05 23:04:13.731 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Jul-05 23:04:13.745 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-05 23:04:13.769 [main] DEBUG nextflow.scm.AssetManager - Project manifest does not exist: ../mgs-workflow/nextflow.config (No such file or directory)
+Jul-05 23:04:13.801 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/ec2-user/nao-harmon/blauwkamp2019/test_launch/nextflow.config
+Jul-05 23:04:13.805 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/ec2-user/nao-harmon/blauwkamp2019/test_launch/nextflow.config
+Jul-05 23:04:13.838 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/ec2-user/.nextflow/secrets/store.json
+Jul-05 23:04:13.842 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@466d49f0] - activable => nextflow.secret.LocalSecretsProvider@466d49f0
+Jul-05 23:04:13.850 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-05 23:04:14.714 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jul-05 23:04:14.727 [main] DEBUG nextflow.cli.CmdRun - Launching `../mgs-workflow/main.nf` [fabulous_boyd] DSL2 - revision: fa520ee134
+Jul-05 23:04:14.729 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[nf-amazon@2.5.2]
+Jul-05 23:04:14.729 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-amazon@2.5.2, nf-wave@1.4.2]
+Jul-05 23:04:14.729 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-amazon version: 2.5.2
+Jul-05 23:04:14.740 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-amazon@2.5.2' resolved
+Jul-05 23:04:14.740 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-amazon@2.5.2'
+Jul-05 23:04:14.758 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-amazon@2.5.2
+Jul-05 23:04:14.771 [main] DEBUG nextflow.file.FileHelper - > Added 'S3FileSystemProvider' to list of installed providers [s3]
+Jul-05 23:04:14.771 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-wave version: 1.4.2
+Jul-05 23:04:14.774 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-wave@1.4.2' resolved
+Jul-05 23:04:14.774 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-wave@1.4.2'
+Jul-05 23:04:14.783 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-wave@1.4.2
+Jul-05 23:04:14.884 [main] DEBUG nextflow.Session - Session UUID: 5dbaec79-e305-4c5b-91ba-fed988193517
+Jul-05 23:04:14.884 [main] DEBUG nextflow.Session - Run name: fabulous_boyd
+Jul-05 23:04:14.885 [main] DEBUG nextflow.Session - Executor pool size: 4
+Jul-05 23:04:14.901 [main] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Jul-05 23:04:14.918 [main] DEBUG nextflow.cloud.aws.config.AwsConfig - AWS S3 config properties: {socket_timeout=0, max_connections=1000, connection_timeout=0, max_error_retry=10}
+Jul-05 23:04:15.163 [main] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jul-05 23:04:15.457 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-05 23:04:15.464 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 23:04:15.474 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.2 build 5914
+  Created: 29-05-2024 06:19 UTC 
+  System: Linux 6.1.92-99.174.amzn2023.x86_64
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 17.0.10+7
+  Encoding: UTF-8 (UTF-8)
+  Process: 8221@ip-172-31-2-212.ec2.internal [172.31.2.212]
+  CPUs: 4 - Mem: 7.5 GB (6.5 GB) - Swap: 0 (0)
+Jul-05 23:04:15.752 [main] DEBUG nextflow.file.FileHelper - Can't check if specified path is NFS (1): s3://nao-harmon/blauwkamp2019/work
+
+Jul-05 23:04:15.752 [main] DEBUG nextflow.Session - Work-dir: s3://nao-harmon/blauwkamp2019/work [null]
+Jul-05 23:04:15.831 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[AwsBatchExecutor]
+Jul-05 23:04:15.848 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-05 23:04:15.854 [main] DEBUG nextflow.Session - Observer factory: WaveFactory
+Jul-05 23:04:15.855 [main] DEBUG io.seqera.wave.plugin.WaveFactory - Detected Fusion enabled -- Enabling bundle project resources -- Disabling upload of remote bin directory
+Jul-05 23:04:15.894 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-05 23:04:15.903 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Jul-05 23:04:15.983 [main] DEBUG nextflow.Session - Session start
+Jul-05 23:04:16.141 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-05 23:04:19.075 [main] WARN  nextflow.NextflowMeta$Preview - WORKFLOW OUTPUT DSL IS A PREVIEW FEATURE - SYNTAX AND FUNCTIONALITY CAN CHANGE IN FUTURE RELEASES
+Jul-05 23:04:21.955 [main] WARN  nextflow.NextflowMeta$Preview - WORKFLOW OUTPUT DSL IS A PREVIEW FEATURE - SYNTAX AND FUNCTIONALITY CAN CHANGE IN FUTURE RELEASES
+Jul-05 23:04:22.114 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:seqtk` matches labels `single,seqtk` for process with name SINGLE:RAW:CONCAT_GZIPPED
+Jul-05 23:04:22.116 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,seqtk` for process with name SINGLE:RAW:CONCAT_GZIPPED
+Jul-05 23:04:22.125 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.126 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.128 [main] DEBUG nextflow.executor.Executor - [warm up] executor > awsbatch (fusion enabled)
+Jul-05 23:04:22.137 [main] DEBUG nextflow.util.ThrottlingExecutor - Creating throttling executor with opts: nextflow.util.ThrottlingExecutor$Options(poolName:AWSBatch-executor, limiter:RateLimiter[stableRate=50.0qps], poolSize:20, maxPoolSize:20, queueSize:5000, maxRetries:10, keepAlive:1m, autoThrottle:true, errorBurstDelay:1s, rampUpInterval:100, rampUpFactor:1.2, rampUpMaxRate:1.7976931348623157E308, backOffFactor:2.0, backOffMinRate:0.0166666667, retryDelay:1s)
+Jul-05 23:04:22.140 [main] DEBUG nextflow.util.ThrottlingExecutor - Creating throttling executor with opts: nextflow.util.ThrottlingExecutor$Options(poolName:AWSBatch-reaper, limiter:RateLimiter[stableRate=50.0qps], poolSize:20, maxPoolSize:20, queueSize:5000, maxRetries:10, keepAlive:1m, autoThrottle:true, errorBurstDelay:1s, rampUpInterval:100, rampUpFactor:1.2, rampUpMaxRate:1.7976931348623157E308, backOffFactor:2.0, backOffMinRate:0.0166666667, retryDelay:1s)
+Jul-05 23:04:22.141 [main] DEBUG n.cloud.aws.batch.AwsBatchExecutor - Creating parallel monitor for executor 'awsbatch' > pollInterval=10s; dumpInterval=5m
+Jul-05 23:04:22.145 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: awsbatch)
+Jul-05 23:04:22.148 [main] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jul-05 23:04:22.173 [main] DEBUG n.cloud.aws.batch.AwsBatchExecutor - [AWS BATCH] Executor options=AwsOptions(remoteBinDir:null, fetchInstanceType:false, region:us-east-1, jobRole:null, logsGroup:null, retryMode:standard, shareIdentifier:null, schedulingPriority:0, cliPath:null, volumes:[], maxParallelTransfers:4, maxTransferAttempts:5, maxSpotAttempts:5, delayBetweenAttempts:10s, storageClass:null, storageEncryption:null, storageKmsKeyId:null, s3Acl:null, debug:null, awsCli:aws --region us-east-1, fargateMode:false, s5cmdPath:null, executionRole:null)
+Jul-05 23:04:22.220 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastp` matches labels `large,fastp` for process with name SINGLE:CLEAN:FASTP
+Jul-05 23:04:22.221 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,fastp` for process with name SINGLE:CLEAN:FASTP
+Jul-05 23:04:22.223 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.223 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.232 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name SINGLE:CLEAN:QC:FASTQC
+Jul-05 23:04:22.234 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.234 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.246 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `single,MultiQC` for process with name SINGLE:CLEAN:QC:MULTIQC
+Jul-05 23:04:22.247 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,MultiQC` for process with name SINGLE:CLEAN:QC:MULTIQC
+Jul-05 23:04:22.250 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.250 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.257 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:R` matches labels `R,single` for process with name SINGLE:CLEAN:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.258 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `R,single` for process with name SINGLE:CLEAN:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.260 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.260 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.266 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `large,BBTools` for process with name SINGLE:DEDUP:CLUMPIFY_SINGLE
+Jul-05 23:04:22.267 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,BBTools` for process with name SINGLE:DEDUP:CLUMPIFY_SINGLE
+Jul-05 23:04:22.270 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.270 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.278 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name SINGLE:DEDUP:QC:FASTQC
+Jul-05 23:04:22.280 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.280 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.289 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `single,MultiQC` for process with name SINGLE:DEDUP:QC:MULTIQC
+Jul-05 23:04:22.290 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,MultiQC` for process with name SINGLE:DEDUP:QC:MULTIQC
+Jul-05 23:04:22.292 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.293 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.300 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:R` matches labels `R,single` for process with name SINGLE:DEDUP:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.300 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `R,single` for process with name SINGLE:DEDUP:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.302 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.302 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.312 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `large,BBTools` for process with name SINGLE:RIBO_INITIAL:BBDUK
+Jul-05 23:04:22.313 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,BBTools` for process with name SINGLE:RIBO_INITIAL:BBDUK
+Jul-05 23:04:22.316 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.316 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.325 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name SINGLE:RIBO_INITIAL:QC:FASTQC
+Jul-05 23:04:22.327 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.327 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.335 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `single,MultiQC` for process with name SINGLE:RIBO_INITIAL:QC:MULTIQC
+Jul-05 23:04:22.336 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,MultiQC` for process with name SINGLE:RIBO_INITIAL:QC:MULTIQC
+Jul-05 23:04:22.338 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.338 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.345 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:R` matches labels `R,single` for process with name SINGLE:RIBO_INITIAL:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.345 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `R,single` for process with name SINGLE:RIBO_INITIAL:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.347 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.347 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.357 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `large,BBTools` for process with name SINGLE:RIBO_SECONDARY:BBDUK
+Jul-05 23:04:22.357 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,BBTools` for process with name SINGLE:RIBO_SECONDARY:BBDUK
+Jul-05 23:04:22.360 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.360 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.367 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:FASTQC` matches labels `FASTQC` for process with name SINGLE:RIBO_SECONDARY:QC:FASTQC
+Jul-05 23:04:22.369 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.369 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.376 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:MultiQC` matches labels `single,MultiQC` for process with name SINGLE:RIBO_SECONDARY:QC:MULTIQC
+Jul-05 23:04:22.377 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `single,MultiQC` for process with name SINGLE:RIBO_SECONDARY:QC:MULTIQC
+Jul-05 23:04:22.379 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.379 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.386 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:R` matches labels `R,single` for process with name SINGLE:RIBO_SECONDARY:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.386 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `R,single` for process with name SINGLE:RIBO_SECONDARY:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.388 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.388 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.398 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Kraken2` matches labels `Kraken2` for process with name SINGLE:TAXONOMY_FULL:KRAKEN
+Jul-05 23:04:22.401 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.401 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.407 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS
+Jul-05 23:04:22.408 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS
+Jul-05 23:04:22.409 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.409 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.415 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:TAXONOMY_FULL:MERGE_KRAKEN_REPORTS
+Jul-05 23:04:22.416 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:TAXONOMY_FULL:MERGE_KRAKEN_REPORTS
+Jul-05 23:04:22.418 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.418 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.425 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bracken` matches labels `Bracken,single` for process with name SINGLE:TAXONOMY_FULL:BRACKEN
+Jul-05 23:04:22.426 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `Bracken,single` for process with name SINGLE:TAXONOMY_FULL:BRACKEN
+Jul-05 23:04:22.428 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.428 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.434 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name SINGLE:TAXONOMY_FULL:LABEL_BRACKEN_REPORTS
+Jul-05 23:04:22.434 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name SINGLE:TAXONOMY_FULL:LABEL_BRACKEN_REPORTS
+Jul-05 23:04:22.436 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.436 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.444 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:TAXONOMY_FULL:MERGE_BRACKEN
+Jul-05 23:04:22.444 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:TAXONOMY_FULL:MERGE_BRACKEN
+Jul-05 23:04:22.446 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.446 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.456 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bowtie2` matches labels `Bowtie2,large` for process with name SINGLE:HV:BOWTIE2_HV
+Jul-05 23:04:22.456 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `Bowtie2,large` for process with name SINGLE:HV:BOWTIE2_HV
+Jul-05 23:04:22.459 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.459 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.466 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,single` for process with name SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED
+Jul-05 23:04:22.467 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `pandas,single` for process with name SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED
+Jul-05 23:04:22.468 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.468 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.474 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:biopython` matches labels `biopython,single` for process with name SINGLE:HV:EXTRACT_UNCONC_READ_IDS
+Jul-05 23:04:22.474 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `biopython,single` for process with name SINGLE:HV:EXTRACT_UNCONC_READ_IDS
+Jul-05 23:04:22.475 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.476 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.493 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:seqtk` matches labels `seqtk,single` for process with name SINGLE:HV:EXTRACT_UNCONC_READS
+Jul-05 23:04:22.493 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `seqtk,single` for process with name SINGLE:HV:EXTRACT_UNCONC_READS
+Jul-05 23:04:22.495 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.495 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.501 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `BBTools,single` for process with name SINGLE:HV:COMBINE_MAPPED_BOWTIE2_READS
+Jul-05 23:04:22.502 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `BBTools,single` for process with name SINGLE:HV:COMBINE_MAPPED_BOWTIE2_READS
+Jul-05 23:04:22.503 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.503 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.510 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bowtie2` matches labels `Bowtie2,large` for process with name SINGLE:HV:BOWTIE2_HUMAN
+Jul-05 23:04:22.511 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `Bowtie2,large` for process with name SINGLE:HV:BOWTIE2_HUMAN
+Jul-05 23:04:22.513 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.513 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.522 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bowtie2` matches labels `Bowtie2,large` for process with name SINGLE:HV:BOWTIE2_OTHER
+Jul-05 23:04:22.523 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `Bowtie2,large` for process with name SINGLE:HV:BOWTIE2_OTHER
+Jul-05 23:04:22.525 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.525 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.535 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `max,BBTools` for process with name SINGLE:HV:BBMAP_HUMAN
+Jul-05 23:04:22.535 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `max,BBTools` for process with name SINGLE:HV:BBMAP_HUMAN
+Jul-05 23:04:22.537 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.537 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.545 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `max,BBTools` for process with name SINGLE:HV:BBMAP_OTHER
+Jul-05 23:04:22.546 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `max,BBTools` for process with name SINGLE:HV:BBMAP_OTHER
+Jul-05 23:04:22.547 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.547 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.555 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:BBTools` matches labels `large,BBTools` for process with name SINGLE:HV:TAXONOMY:CLUMPIFY_SINGLE
+Jul-05 23:04:22.555 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,BBTools` for process with name SINGLE:HV:TAXONOMY:CLUMPIFY_SINGLE
+Jul-05 23:04:22.557 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.557 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.563 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Kraken2` matches labels `Kraken2` for process with name SINGLE:HV:TAXONOMY:KRAKEN
+Jul-05 23:04:22.565 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.565 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.570 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name SINGLE:HV:TAXONOMY:LABEL_KRAKEN_REPORTS
+Jul-05 23:04:22.570 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name SINGLE:HV:TAXONOMY:LABEL_KRAKEN_REPORTS
+Jul-05 23:04:22.571 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.571 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.578 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:HV:TAXONOMY:MERGE_KRAKEN_REPORTS
+Jul-05 23:04:22.578 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:HV:TAXONOMY:MERGE_KRAKEN_REPORTS
+Jul-05 23:04:22.580 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.580 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.585 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:Bracken` matches labels `Bracken,single` for process with name SINGLE:HV:TAXONOMY:BRACKEN
+Jul-05 23:04:22.585 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `Bracken,single` for process with name SINGLE:HV:TAXONOMY:BRACKEN
+Jul-05 23:04:22.587 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.587 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.592 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name SINGLE:HV:TAXONOMY:LABEL_BRACKEN_REPORTS
+Jul-05 23:04:22.592 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name SINGLE:HV:TAXONOMY:LABEL_BRACKEN_REPORTS
+Jul-05 23:04:22.593 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.593 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.601 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:HV:TAXONOMY:MERGE_BRACKEN
+Jul-05 23:04:22.602 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:HV:TAXONOMY:MERGE_BRACKEN
+Jul-05 23:04:22.603 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.603 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.609 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,single` for process with name SINGLE:HV:PROCESS_KRAKEN_HV
+Jul-05 23:04:22.609 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `pandas,single` for process with name SINGLE:HV:PROCESS_KRAKEN_HV
+Jul-05 23:04:22.611 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.611 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.619 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:HV:MERGE_SAM_KRAKEN
+Jul-05 23:04:22.619 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:HV:MERGE_SAM_KRAKEN
+Jul-05 23:04:22.620 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.620 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.628 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:HV:MERGE_TSVS
+Jul-05 23:04:22.629 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:HV:MERGE_TSVS
+Jul-05 23:04:22.630 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.630 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.634 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:HV:FILTER_HV
+Jul-05 23:04:22.634 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:HV:FILTER_HV
+Jul-05 23:04:22.635 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.635 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.639 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:HV:COLLAPSE_HV
+Jul-05 23:04:22.640 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:HV:COLLAPSE_HV
+Jul-05 23:04:22.641 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.641 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.644 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:HV:MAKE_HV_FASTA
+Jul-05 23:04:22.644 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:HV:MAKE_HV_FASTA
+Jul-05 23:04:22.645 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.645 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.648 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:R` matches labels `R,max` for process with name SINGLE:HV:COUNT_HV_CLADES
+Jul-05 23:04:22.649 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `R,max` for process with name SINGLE:HV:COUNT_HV_CLADES
+Jul-05 23:04:22.650 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.650 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.679 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_BASIC
+Jul-05 23:04:22.679 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_BASIC
+Jul-05 23:04:22.682 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.682 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.687 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_ADAPT
+Jul-05 23:04:22.687 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_ADAPT
+Jul-05 23:04:22.688 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.688 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.694 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QBASE
+Jul-05 23:04:22.694 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QBASE
+Jul-05 23:04:22.695 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.695 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.700 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QSEQS
+Jul-05 23:04:22.700 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:max` matches labels `tidyverse,max` for process with name SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QSEQS
+Jul-05 23:04:22.702 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.702 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.727 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:tidyverse` matches labels `tidyverse,single` for process with name SINGLE:PROCESS_OUTPUT:SUMMARIZE_COMPOSITION_FULL
+Jul-05 23:04:22.727 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:single` matches labels `tidyverse,single` for process with name SINGLE:PROCESS_OUTPUT:SUMMARIZE_COMPOSITION_FULL
+Jul-05 23:04:22.729 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: awsbatch
+Jul-05 23:04:22.729 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'awsbatch'
+Jul-05 23:04:22.958 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: SINGLE:DEDUP:CLUMPIFY_SINGLE, SUBSET_READS_PAIRED_MERGED, SUMMARIZE_COMPOSITION, DUSTMASKER_FASTA_GZIPPED, SINGLE:CLEAN:QC:FASTQC, FILTER_BLAST, SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_ADAPT, EXPAND_HUMAN_VIRUS_DB, SINGLE:PROCESS_OUTPUT:SUMMARIZE_COMPOSITION_FULL, EXTRACT_BT2_INDEX_OTHER, PAIR_BLAST, SINGLE:HV:TAXONOMY:LABEL_KRAKEN_REPORTS, SINGLE:HV:BBMAP_HUMAN, DOWNLOAD_BLAST_DB, SINGLE:HV:FILTER_HV, SINGLE:HV:MAKE_HV_FASTA, CLUMPIFY_SINGLE, FILTER_HUMAN_VIRUS_GENOMES, DOWNLOAD_GENOME, DOWNLOAD_MOUSE, DOWNLOAD_CARP, PROCESS_KRAKEN_HV, SINGLE:RIBO_SECONDARY:QC:FASTQC, SINGLE:RIBO_INITIAL:QC:FASTQC, SINGLE:TAXONOMY_FULL:MERGE_KRAKEN_REPORTS, SINGLE:DEDUP:QC:MULTIQC, SINGLE:HV:MERGE_TSVS, COUNT_HV_CLADES, COMBINE_MAPPED_BOWTIE2_READS, BBMAP, FASTQC, SINGLE:TAXONOMY_FULL:LABEL_BRACKEN_REPORTS, MULTIQC, CONCATENATE_FASTA_GZIPPED_DIR, DOWNLOAD_NCBI_TAXONOMY, SINGLE:HV:TAXONOMY:MERGE_BRACKEN, MAKE_HV_FASTA, SUMMARIZE_MULTIQC_SINGLE, BOWTIE2_HV, SINGLE:CLEAN:QC:MULTIQC, SINGLE:RIBO_SECONDARY:QC:MULTIQC, BBDUK, EXTRACT_BT2_INDEX_HV, SINGLE:HV:EXTRACT_UNCONC_READS, MERGE_SAM_KRAKEN, SINGLE:HV:TAXONOMY:BRACKEN, SUMMARIZE_COMPOSITION_FULL, GET_HV_DESCENDENTS, SINGLE:HV:COMBINE_MAPPED_BOWTIE2_READS, PROCESS_BOWTIE2_SAM_PAIRED, BOWTIE2_OTHER, FINALIZE_HUMAN_VIRUS_DB, SINGLE:HV:MERGE_SAM_KRAKEN, BBMAP_INDEX, SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_BASIC, EXTRACT_UNCONC_READ_IDS, DOWNLOAD_HUMAN_VIRUS_DB, SINGLE:HV:TAXONOMY:CLUMPIFY_SINGLE, JOIN_RIBO_REF, SINGLE:HV:COLLAPSE_HV, BOWTIE2, SINGLE:DEDUP:QC:FASTQC, DOWNLOAD_COW, DOWNLOAD_PIG, SINGLE:RIBO_SECONDARY:QC:SUMMARIZE_MULTIQC_SINGLE, SINGLE:TAXONOMY_FULL:KRAKEN, BRACKEN, SINGLE:CLEAN:FASTP, BBMERGE, SINGLE:RIBO_INITIAL:QC:MULTIQC, SINGLE:RAW:CONCAT_GZIPPED, BLAST_PAIRED_NT, MERGE_MULTIQC_QSEQS, EXTRACT_TARBALL, SINGLE:TAXONOMY_FULL:BRACKEN, FASTP, SINGLE:RIBO_SECONDARY:BBDUK, SINGLE:CLEAN:QC:SUMMARIZE_MULTIQC_SINGLE, CONCAT_GZIPPED, DOWNLOAD_ECOLI, LABEL_BRACKEN_REPORTS, SINGLE:HV:TAXONOMY:MERGE_KRAKEN_REPORTS, EXTRACT_BT2_INDEX_HUMAN, MERGE_MULTIQC_QBASE, SINGLE:HV:BBMAP_OTHER, EXTRACT_UNCONC_READS, EXTRACT_BBM_INDEX_HUMAN, KRAKEN, BOWTIE2_HUMAN, SINGLE:HV:BOWTIE2_OTHER, SUBSET_READS_PAIRED, SINGLE:RIBO_INITIAL:BBDUK, DOWNLOAD_HUMAN_VIRUS_GENOMES, SINGLE:HV:TAXONOMY:KRAKEN, SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS, COLLAPSE_HV, FILTER_HV, MERGE_BRACKEN, BOWTIE2_INDEX, EXTRACT_NCBI_TAXONOMY, SINGLE:HV:BOWTIE2_HV, MAKE_TOTAL_VIRUS_DB, SINGLE:HV:EXTRACT_UNCONC_READ_IDS, SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QSEQS, EXTRACT_KRAKEN_DB, SINGLE:HV:COUNT_HV_CLADES, MAKE_HUMAN_VIRUS_ID_MAPPING, SINGLE:HV:PROCESS_KRAKEN_HV, BBMAP_OTHER, MERGE_KRAKEN_REPORTS, SINGLE:HV:TAXONOMY:LABEL_BRACKEN_REPORTS, SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED, BBMAP_HUMAN, LABEL_KRAKEN_REPORTS, MERGE_MULTIQC_ADAPT, CONCATENATE_FASTA_GZIPPED, SINGLE:HV:BOWTIE2_HUMAN, MERGE_TSVS, JOIN_FASTQ, EXTRACT_BBM_INDEX_OTHER, SINGLE:RIBO_INITIAL:QC:SUMMARIZE_MULTIQC_SINGLE, CLUMPIFY_PAIRED, SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QBASE, SINGLE:TAXONOMY_FULL:MERGE_BRACKEN, MERGE_MULTIQC_BASIC, SINGLE:DEDUP:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.959 [main] DEBUG nextflow.Session - Igniting dataflow network (59)
+Jul-05 23:04:22.965 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RAW:CONCAT_GZIPPED
+Jul-05 23:04:22.966 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:CLEAN:FASTP
+Jul-05 23:04:22.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:CLEAN:QC:FASTQC
+Jul-05 23:04:22.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:CLEAN:QC:MULTIQC
+Jul-05 23:04:22.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:CLEAN:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:DEDUP:CLUMPIFY_SINGLE
+Jul-05 23:04:22.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:DEDUP:QC:FASTQC
+Jul-05 23:04:22.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:DEDUP:QC:MULTIQC
+Jul-05 23:04:22.969 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:DEDUP:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.969 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_INITIAL:BBDUK
+Jul-05 23:04:22.970 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_INITIAL:QC:FASTQC
+Jul-05 23:04:22.970 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_INITIAL:QC:MULTIQC
+Jul-05 23:04:22.971 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_INITIAL:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.971 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_SECONDARY:BBDUK
+Jul-05 23:04:22.971 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_SECONDARY:QC:FASTQC
+Jul-05 23:04:22.972 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_SECONDARY:QC:MULTIQC
+Jul-05 23:04:22.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:RIBO_SECONDARY:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:22.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:TAXONOMY_FULL:KRAKEN
+Jul-05 23:04:22.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS
+Jul-05 23:04:22.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:TAXONOMY_FULL:MERGE_KRAKEN_REPORTS
+Jul-05 23:04:22.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:TAXONOMY_FULL:BRACKEN
+Jul-05 23:04:22.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:TAXONOMY_FULL:LABEL_BRACKEN_REPORTS
+Jul-05 23:04:22.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:TAXONOMY_FULL:MERGE_BRACKEN
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:BOWTIE2_HV
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:EXTRACT_UNCONC_READ_IDS
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:EXTRACT_UNCONC_READS
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:COMBINE_MAPPED_BOWTIE2_READS
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:BOWTIE2_HUMAN
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:BOWTIE2_OTHER
+Jul-05 23:04:22.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:BBMAP_HUMAN
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:BBMAP_OTHER
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:TAXONOMY:CLUMPIFY_SINGLE
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:TAXONOMY:KRAKEN
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:TAXONOMY:LABEL_KRAKEN_REPORTS
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:TAXONOMY:MERGE_KRAKEN_REPORTS
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:TAXONOMY:BRACKEN
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:TAXONOMY:LABEL_BRACKEN_REPORTS
+Jul-05 23:04:22.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:TAXONOMY:MERGE_BRACKEN
+Jul-05 23:04:22.976 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:PROCESS_KRAKEN_HV
+Jul-05 23:04:22.976 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:MERGE_SAM_KRAKEN
+Jul-05 23:04:22.976 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:MERGE_TSVS
+Jul-05 23:04:22.976 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:FILTER_HV
+Jul-05 23:04:22.976 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:COLLAPSE_HV
+Jul-05 23:04:22.976 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:MAKE_HV_FASTA
+Jul-05 23:04:22.977 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:HV:COUNT_HV_CLADES
+Jul-05 23:04:22.977 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_BASIC
+Jul-05 23:04:22.977 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_ADAPT
+Jul-05 23:04:22.977 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QBASE
+Jul-05 23:04:22.977 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QSEQS
+Jul-05 23:04:22.977 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SINGLE:PROCESS_OUTPUT:SUMMARIZE_COMPOSITION_FULL
+Jul-05 23:04:22.989 [PathVisitor-1] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Jul-05 23:04:22.990 [PathVisitor-1] DEBUG nextflow.cloud.aws.config.AwsConfig - AWS S3 config properties: {socket_timeout=0, max_connections=1000, connection_timeout=0, max_error_retry=10}
+Jul-05 23:04:22.990 [PathVisitor-1] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jul-05 23:04:22.992 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_12fececdc99ae95d: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/getNcbiTaxonomy/main.nf
+  Script_6538d4130d5c427e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/processBowtie2Sam/main.nf
+  Script_52ecccce68a001d4: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/main.nf
+  Script_e55dc4f619d66f32: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/countHvClades/main.nf
+  Script_0217e8de93d6f331: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/getHvDescendents/main.nf
+  Script_6b47baebf1c24a0e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/raw/main.nf
+  Script_78cd07a30743b6fe: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/getNcbiTaxonomy/../../../modules/local/extractNcbiTaxonomy/main.nf
+  Script_c3e08e889904ca62: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/mergeTsvs/main.nf
+  Script_70cfee0291a505cf: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/../../../subworkflows/local/qc/../../../modules/local/fastqc/main.nf
+  Script_e60d7c9cd2b87cb9: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/raw/../../../modules/local/concatGzippedSE/main.nf
+  Script_b1d8e322b24e4f4a: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/clean/../../../modules/local/fastpSE/main.nf
+  Script_865e7003c88fa44f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/labelKrakenReports/main.nf
+  Script_6901170a1dc1355b: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/single.nf
+  Script_d08fe058d16c5d27: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/bracken/main.nf
+  Script_538b53b4c729e676: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/concatenateFasta/main.nf
+  Script_a9797a0ac13f16b0: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/makeHvFasta/main.nf
+  Script_bd4977bdbc003380: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanIndex/../../../modules/local/bbmap/main.nf
+  Script_95a7b40e2770aa3e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/bowtie2SE/main.nf
+  Script_2326a1be77dc0a39: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/index.nf
+  Script_244fbef344b730f8: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/finalizeHumanVirusDB/main.nf
+  Script_f1837dc1ff801559: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/downloadHumanVirusDB/main.nf
+  Script_2f355245a51aa5a1: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/collapseHV/main.nf
+  Script_a4277bd17897ad08: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/run.nf
+  Script_94210ae7422252c5: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/filterHV/main.nf
+  Script_d5749af87ee8718f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/getNcbiTaxonomy/../../../modules/local/downloadNcbiTaxonomy/main.nf
+  Script_07815b3dca5c7483: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/processKrakenHV/main.nf
+  Script_9324ba8fa1e429a7: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/processOutput/../../../modules/local/summarizeComposition/main.nf
+  Script_a657cb898eaf5a5f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/processOutput/main.nf
+  Script_172186b2e1295138: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/../../../modules/local/blast/main.nf
+  Script_5fb50cd1a205cc57: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/dustmasker/main.nf
+  Script_7e89e381055479f9: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../subworkflows/local/taxonomy/../../../modules/local/subsetReads/main.nf
+  Script_b4837bdb95ff6594: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/clean/main.nf
+  Script_b8898727cf4ed13a: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/../../../modules/local/expandHumanVirusDB/main.nf
+  Script_a03ae28d3c966cc0: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/main.nf
+  Script_c6761d1c14dba9b4: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/makeHumanVirusIdMapping/main.nf
+  Script_f790ebd5de3ac718: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanIndex/main.nf
+  Script_be26732f1a44329c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/main.nf
+  Script_a1a6fa14aa22ae4c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../subworkflows/local/taxonomy/main.nf
+  Script_79d1fabfbbe84896: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/raw/../../../subworkflows/local/qc/main.nf
+  Script_3b449dc557dfabd6: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/downloadHumanVirusGenomes/main.nf
+  Script_0a594d4d981f0c36: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/bbmerge/main.nf
+  Script_aefa201691f46e5c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/dedup/../../../subworkflows/local/qc/../../../modules/local/summarizeMultiqcSingleSE/main.nf
+  Script_13b56875e785f126: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusDB/main.nf
+  Script_668b27f2a92a9c0a: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/../../../subworkflows/local/qc/../../../modules/local/multiqc/main.nf
+  Script_07bf828da2c1d9d7: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/../../../modules/local/pairBlast/main.nf
+  Script_77fd5bdb4ce9dc87: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/blastHV/../../../modules/local/filterBlast/main.nf
+  Script_a4dacd8e93f39f90: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/ribodepletion/../../../modules/local/bbdukSE/main.nf
+  Script_7125c19cf1a25e7e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/main.nf
+  Script_9ca3482a0a48237f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeContaminantIndex/main.nf
+  Script_3f3ef519936a3103: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/main.nf
+  Script_5e5275bf7779901e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/combineMappedBowtie2ReadsSE/main.nf
+  Script_f4c9a5d912ae9281: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../modules/local/joinRiboRef/main.nf
+  Script_aee3d516895d6e59: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../modules/local/makeTotalVirusDB/main.nf
+  Script_41000d48160fadac: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../modules/local/downloadBlastDB/main.nf
+  Script_ee8077a3e60a1a2b: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/clumpify/main.nf
+  Script_3aab582628346b32: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/joinFastq/main.nf
+  Script_16731353f0b23e94: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/filterHumanVirusGenomes/main.nf
+  Script_1f2e26979aabf9eb: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/kraken/main.nf
+  Script_15b3c0bfd2963f2c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/mergeSamKraken/main.nf
+  Script_40aa8ad7ead19226: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/extractUnconcReadsSE/main.nf
+  Script_0c70fed698e5667e: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/hv/../../../modules/local/extractUnconcReadIDs/main.nf
+  Script_7e406a86d8e7a87c: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../modules/local/extractTarball/main.nf
+  Script_5ed4e1a324c84d34: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/dedup/main.nf
+  Script_7ac9d8158af3209b: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/taxonomy/../../../modules/local/labelBrackenReports/main.nf
+  Script_f754ccea1855f97d: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeContaminantIndex/../../../modules/local/downloadGenome/main.nf
+  Script_ebb40894672f9e4f: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/./workflows/../subworkflows/local/makeHumanVirusIndex/../../../modules/local/bowtie2/main.nf
+Jul-05 23:04:22.993 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-05 23:04:22.993 [main] DEBUG nextflow.Session - Session await
+Jul-05 23:04:23.065 [Actor Thread 6] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 23:04:23.128 [Actor Thread 5] DEBUG i.s.wave.plugin.config.WaveConfig - Wave strategy not specified - using default: [container, dockerfile, conda, spack]
+Jul-05 23:04:23.131 [Actor Thread 3] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.001 s; external sort time: 0.059 s; total time: 0.06 s
+Jul-05 23:04:23.134 [Actor Thread 4] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.0 s; external sort time: 0.049 s; total time: 0.049 s
+Jul-05 23:04:23.138 [Actor Thread 5] DEBUG io.seqera.wave.plugin.WaveClient - Wave config: WaveConfig(enabled:true, endpoint:https://wave.seqera.io, containerConfigUrl:[], tokensCacheMaxDuration:30m, condaOpts:CondaOpts(mambaImage=mambaorg/micromamba:1.5.8-lunar; basePackages=conda-forge::procps-ng, commands=null), spackOpts:SpackOpts(basePackages=null, commands=null), strategy:[container, dockerfile, conda, spack], bundleProjectResources:true, buildRepository:null, cacheRepository:null, retryOpts:RetryOpts(delay:450ms, maxDelay:1m 30s, maxAttempts:10, jitter:0.25), httpClientOpts:HttpOpts(), freezeMode:null, preserveFileTimestamp:null)
+Jul-05 23:04:23.143 [Actor Thread 9] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.0 s; external sort time: 0.0 s; total time: 0.0 s
+Jul-05 23:04:23.182 [Actor Thread 3] DEBUG nextflow.file.FileCollector - >> temp file exists? false
+Jul-05 23:04:23.195 [Actor Thread 9] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Jul-05 23:04:23.197 [Actor Thread 4] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Jul-05 23:04:23.201 [Actor Thread 5] DEBUG io.seqera.wave.plugin.WaveClient - Wave assets bundle bin resources: /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/bin
+Jul-05 23:04:23.203 [Actor Thread 3] DEBUG nextflow.file.FileCollector - Missed collect-file cache -- cause: java.nio.file.NoSuchFileException: /nao-harmon/blauwkamp2019/work/collect-file/e727d46301e91816b9ca7c32366beaf8
+Jul-05 23:04:23.233 [Actor Thread 4] DEBUG nextflow.file.FileCollector - Retrieved cached collect-files from: s3://nao-harmon/blauwkamp2019/work/collect-file/ca939654f1b0f3e09d52ac021c3e5bd6
+Jul-05 23:04:23.241 [Actor Thread 4] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-10692783937446114457
+Jul-05 23:04:23.245 [Actor Thread 9] DEBUG nextflow.file.FileCollector - Retrieved cached collect-files from: s3://nao-harmon/blauwkamp2019/work/collect-file/fe91976c0adda5a953fed0e9d516e9ed
+Jul-05 23:04:23.246 [Actor Thread 9] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-15800664474470597905
+Jul-05 23:04:23.255 [Actor Thread 5] DEBUG io.seqera.wave.plugin.WaveClient - Wave request container config: https://fusionfs.seqera.io/releases/v2.3-amd64.json
+Jul-05 23:04:23.277 [PublishDir-1] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 upload file from=/home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/pipeline-version.txt to=s3://nao-harmon/blauwkamp2019/output/input/pipeline-version.txt
+Jul-05 23:04:23.277 [PublishDir-1] DEBUG nextflow.cloud.aws.nio.S3Client - Creating S3 transfer manager pool - chunk-size=104857600; max-treads=10;
+Jul-05 23:04:23.278 [PublishDir-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'S3TransferManager' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 23:04:23.335 [PublishDir-3] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 upload file from=/home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/ref/adapters.fasta to=s3://nao-harmon/blauwkamp2019/output/input/adapters.fasta
+Jul-05 23:04:23.338 [PublishDir-2] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 upload file from=/home/ec2-user/nao-harmon/blauwkamp2019/test_launch/libraries.csv to=s3://nao-harmon/blauwkamp2019/output/input/libraries.csv
+Jul-05 23:04:23.354 [Actor Thread 3] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /nao-harmon/blauwkamp2019/work/collect-file/e727d46301e91816b9ca7c32366beaf8
+Jul-05 23:04:23.355 [Actor Thread 3] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-4762228527189406438
+Jul-05 23:04:23.437 [Actor Thread 5] DEBUG io.seqera.wave.plugin.WaveClient - Wave container config response: [200] {
+  "entrypoint": [ "/usr/bin/fusion" ],
+  "env": [ "FUSION_CONFIG_PROFILE=nextflow", "FUSION_COMPACT_SYMLINKS=true" ],
+  "layers": [
+    {
+      "location": "https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz",
+      "gzipDigest": "sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a",
+      "gzipSize": 30907616,
+      "tarDigest": "sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c",
+      "skipHashing": true
+    }
+  ]
+}
+
+Jul-05 23:04:23.508 [Actor Thread 5] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:staphb/seqtk:1.4, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:23.506173140Z, fingerprint:c4d622b87768fdf66cf3efdb9eb901ed, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:23.952 [Actor Thread 5] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"c4ef18570312","targetImage":"wave.seqera.io/wt/c4ef18570312/staphb/seqtk:1.4","expiration":"2024-07-07T11:04:23.910927748Z","containerImage":"docker.io/staphb/seqtk:1.4","cached":true,"freeze":false}
+Jul-05 23:04:24.095 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [44/4829a8] Cached process > SINGLE:RAW:CONCAT_GZIPPED (2)
+Jul-05 23:04:24.095 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [13/0e5e02] Cached process > SINGLE:RAW:CONCAT_GZIPPED (1)
+Jul-05 23:04:24.242 [FileTransfer-1] DEBUG nextflow.file.FilePorter - Local cache found for foreign file /home/ec2-user/nao-harmon/blauwkamp2019/mgs-workflow/ref/adapters.fasta at s3://nao-harmon/blauwkamp2019/work/stage-5dbaec79-e305-4c5b-91ba-fed988193517/14/86341fb4bdb2246e7584c7f6406fb1/adapters.fasta
+Jul-05 23:04:24.278 [Actor Thread 9] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:staphb/fastp:0.23.4, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:24.276542303Z, fingerprint:bf8ceea4e509bb63fcc1606ffeb78afc, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:24.438 [Actor Thread 9] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"7e1f631160d4","targetImage":"wave.seqera.io/wt/7e1f631160d4/staphb/fastp:0.23.4","expiration":"2024-07-07T11:04:24.395799380Z","containerImage":"docker.io/staphb/fastp:0.23.4","cached":true,"freeze":false}
+Jul-05 23:04:24.593 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [d2/a7e7fb] Cached process > SINGLE:CLEAN:FASTP (2)
+Jul-05 23:04:24.593 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [dc/b79ec9] Cached process > SINGLE:CLEAN:FASTP (1)
+Jul-05 23:04:24.627 [Actor Thread 2] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:staphb/bbtools:39.01, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:24.627171699Z, fingerprint:4d8b7b57fe702e3a5c0bb801b40c2efb, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:24.635 [Actor Thread 11] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:staphb/fastqc:0.12.1, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:24.633048412Z, fingerprint:ae03618361fef0b8ea139c545294f434, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:24.710 [Actor Thread 2] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"4af1fff1cfe5","targetImage":"wave.seqera.io/wt/4af1fff1cfe5/staphb/bbtools:39.01","expiration":"2024-07-07T11:04:24.669226942Z","containerImage":"docker.io/staphb/bbtools:39.01","cached":true,"freeze":false}
+Jul-05 23:04:24.771 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [4e/c9cd86] Cached process > SINGLE:DEDUP:CLUMPIFY_SINGLE (1)
+Jul-05 23:04:24.775 [Actor Thread 2] INFO  nextflow.processor.TaskProcessor - [3c/8da294] Cached process > SINGLE:DEDUP:CLUMPIFY_SINGLE (2)
+Jul-05 23:04:24.948 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [84/e34556] Cached process > SINGLE:RIBO_INITIAL:BBDUK (2)
+Jul-05 23:04:24.949 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [41/7a0e5a] Cached process > SINGLE:RIBO_INITIAL:BBDUK (1)
+Jul-05 23:04:24.955 [Actor Thread 11] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"ef2edf8d9691","targetImage":"wave.seqera.io/wt/ef2edf8d9691/staphb/fastqc:0.12.1","expiration":"2024-07-07T11:04:24.908391113Z","containerImage":"docker.io/staphb/fastqc:0.12.1","cached":true,"freeze":false}
+Jul-05 23:04:25.014 [Actor Thread 15] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:staphb/bowtie2:2.5.3, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:25.013965061Z, fingerprint:2b9242176dcfc6aa5b6fcea51fe01547, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:25.067 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [df/cf4e95] Cached process > SINGLE:DEDUP:QC:FASTQC (1)
+Jul-05 23:04:25.081 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [b4/d08825] Cached process > SINGLE:CLEAN:QC:FASTQC (1)
+Jul-05 23:04:25.083 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [1d/fd8e00] Cached process > SINGLE:DEDUP:QC:FASTQC (2)
+Jul-05 23:04:25.095 [Actor Thread 14] INFO  nextflow.processor.TaskProcessor - [52/557623] Cached process > SINGLE:RIBO_INITIAL:QC:FASTQC (1)
+Jul-05 23:04:25.098 [Actor Thread 15] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"39879a1505bc","targetImage":"wave.seqera.io/wt/39879a1505bc/staphb/bowtie2:2.5.3","expiration":"2024-07-07T11:04:25.056883670Z","containerImage":"docker.io/staphb/bowtie2:2.5.3","cached":true,"freeze":false}
+Jul-05 23:04:25.107 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [81/b0b239] Cached process > SINGLE:CLEAN:QC:FASTQC (2)
+Jul-05 23:04:25.124 [Actor Thread 3] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:multiqc/multiqc:v1.21, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:25.123396479Z, fingerprint:d5158e86a84e4f24a2192dceb14093a3, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:25.129 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [84/1b9744] Cached process > SINGLE:RIBO_INITIAL:QC:FASTQC (2)
+Jul-05 23:04:25.147 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [6d/a19bd7] Cached process > SINGLE:RIBO_SECONDARY:BBDUK (2)
+Jul-05 23:04:25.148 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [d9/f53b73] Cached process > SINGLE:RIBO_SECONDARY:BBDUK (1)
+Jul-05 23:04:25.174 [Actor Thread 1] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:staphb/kraken2:2.1.3, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:25.174270887Z, fingerprint:f3e8179be25e49d5cb60c152dc09a47a, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:25.206 [Actor Thread 3] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"c1d581bd782b","targetImage":"wave.seqera.io/wt/c1d581bd782b/multiqc/multiqc:v1.21","expiration":"2024-07-07T11:04:25.165364774Z","containerImage":"docker.io/multiqc/multiqc:v1.21","cached":true,"freeze":false}
+Jul-05 23:04:25.262 [Actor Thread 1] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"9a022c660782","targetImage":"wave.seqera.io/wt/9a022c660782/staphb/kraken2:2.1.3","expiration":"2024-07-07T11:04:25.215734854Z","containerImage":"docker.io/staphb/kraken2:2.1.3","cached":true,"freeze":false}
+Jul-05 23:04:25.281 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [a0/a55322] Cached process > SINGLE:RIBO_SECONDARY:QC:FASTQC (2)
+Jul-05 23:04:25.291 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [53/87354f] Cached process > SINGLE:RIBO_SECONDARY:QC:FASTQC (1)
+Jul-05 23:04:25.300 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [30/e12ae4] Cached process > SINGLE:CLEAN:QC:MULTIQC
+Jul-05 23:04:25.301 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [62/2d6616] Cached process > SINGLE:DEDUP:QC:MULTIQC
+Jul-05 23:04:25.302 [Actor Thread 18] INFO  nextflow.processor.TaskProcessor - [23/d1c024] Cached process > SINGLE:RIBO_INITIAL:QC:MULTIQC
+Jul-05 23:04:25.342 [Actor Thread 15] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:securebio/nao-rpkg, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:25.341050209Z, fingerprint:52e25351077a6b1b815ddd48f1a77502, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:25.396 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [ef/7b2acf] Cached process > SINGLE:TAXONOMY_FULL:KRAKEN (2)
+Jul-05 23:04:25.423 [Actor Thread 15] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"bc43d89b0832","targetImage":"wave.seqera.io/wt/bc43d89b0832/securebio/nao-rpkg:latest","expiration":"2024-07-07T11:04:25.381979020Z","containerImage":"docker.io/securebio/nao-rpkg:latest","cached":true,"freeze":false}
+Jul-05 23:04:25.434 [Actor Thread 18] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:staphb/bracken:2.9, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:25.433767167Z, fingerprint:624f3b511052e4d22cc6d0d47275d3cd, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:25.440 [Actor Thread 1] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:rocker/tidyverse:4.4.1, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:04:25.440210042Z, fingerprint:1fee67b6be77d39e8dd642bd65380b48, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:04:25.518 [Actor Thread 18] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"c64e72c0a14c","targetImage":"wave.seqera.io/wt/c64e72c0a14c/staphb/bracken:2.9","expiration":"2024-07-07T11:04:25.475289572Z","containerImage":"docker.io/staphb/bracken:2.9","cached":true,"freeze":false}
+Jul-05 23:04:25.524 [Actor Thread 1] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"ad9b95916aea","targetImage":"wave.seqera.io/wt/ad9b95916aea/rocker/tidyverse:4.4.1","expiration":"2024-07-07T11:04:25.482712999Z","containerImage":"docker.io/rocker/tidyverse:4.4.1","cached":true,"freeze":false}
+Jul-05 23:04:25.528 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [82/04a935] Cached process > SINGLE:DEDUP:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:25.537 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [0c/218df2] Cached process > SINGLE:RIBO_INITIAL:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:25.554 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [ee/17c97c] Cached process > SINGLE:CLEAN:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:04:25.582 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [6d/b211b8] Cached process > SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS (1)
+Jul-05 23:04:25.590 [Actor Thread 18] INFO  nextflow.processor.TaskProcessor - [b9/0cdb2d] Cached process > SINGLE:TAXONOMY_FULL:BRACKEN (1)
+Jul-05 23:04:25.664 [Actor Thread 18] INFO  nextflow.processor.TaskProcessor - [d9/a9ef6f] Cached process > SINGLE:TAXONOMY_FULL:LABEL_BRACKEN_REPORTS (1)
+Jul-05 23:04:25.780 [AWSBatch-executor-3] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-9a022c660782-staphb-kraken2-2-1-3:1; container=wave.seqera.io/wt/9a022c660782/staphb/kraken2:2.1.3
+Jul-05 23:04:25.877 [AWSBatch-executor-3] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:TAXONOMY_FULL:KRAKEN (1)` submitted > job=3e15d8b1-afad-48bf-ba35-75262c0af512; work-dir=s3://nao-harmon/blauwkamp2019/work/4e/c51d3a1e633cebb11a4a158b2fc158
+Jul-05 23:04:25.877 [AWSBatch-executor-3] INFO  nextflow.Session - [4e/c51d3a] Submitted process > SINGLE:TAXONOMY_FULL:KRAKEN (1)
+Jul-05 23:04:26.064 [AWSBatch-executor-4] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-c1d581bd782b-multiqc-multiqc-v1-21:1; container=wave.seqera.io/wt/c1d581bd782b/multiqc/multiqc:v1.21
+Jul-05 23:04:26.126 [AWSBatch-executor-4] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:RIBO_SECONDARY:QC:MULTIQC` submitted > job=08d28825-86bc-4a5c-8a67-243188ee96ca; work-dir=s3://nao-harmon/blauwkamp2019/work/dd/3df20072a5876b0f86f3163b9d0b9f
+Jul-05 23:04:26.126 [AWSBatch-executor-4] INFO  nextflow.Session - [dd/3df200] Submitted process > SINGLE:RIBO_SECONDARY:QC:MULTIQC
+Jul-05 23:04:26.337 [AWSBatch-executor-1] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-39879a1505bc-staphb-bowtie2-2-5-3:1; container=wave.seqera.io/wt/39879a1505bc/staphb/bowtie2:2.5.3
+Jul-05 23:04:26.408 [AWSBatch-executor-2] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:BOWTIE2_HV (1)` submitted > job=ecd71361-72eb-4aaa-9bc0-766d8bb6f8f9; work-dir=s3://nao-harmon/blauwkamp2019/work/0e/57dd99289bc27523511137b3a27341
+Jul-05 23:04:26.409 [AWSBatch-executor-2] INFO  nextflow.Session - [0e/57dd99] Submitted process > SINGLE:HV:BOWTIE2_HV (1)
+Jul-05 23:04:26.414 [AWSBatch-executor-1] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:BOWTIE2_HV (2)` submitted > job=fee67746-58c1-4b52-9f9b-015d49ea5df6; work-dir=s3://nao-harmon/blauwkamp2019/work/aa/21991f650cfbbbcc91385902e45cf6
+Jul-05 23:04:26.414 [AWSBatch-executor-1] INFO  nextflow.Session - [aa/21991f] Submitted process > SINGLE:HV:BOWTIE2_HV (2)
+Jul-05 23:06:02.267 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: SINGLE:RIBO_SECONDARY:QC:MULTIQC; status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/dd/3df20072a5876b0f86f3163b9d0b9f]
+Jul-05 23:06:02.268 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 23:06:02.326 [Actor Thread 13] DEBUG io.seqera.wave.plugin.WaveClient - Wave request container config: https://fusionfs.seqera.io/releases/v2.3-amd64.json
+Jul-05 23:06:02.364 [Actor Thread 13] DEBUG io.seqera.wave.plugin.WaveClient - Wave container config response: [200] {
+  "entrypoint": [ "/usr/bin/fusion" ],
+  "env": [ "FUSION_CONFIG_PROFILE=nextflow", "FUSION_COMPACT_SYMLINKS=true" ],
+  "layers": [
+    {
+      "location": "https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz",
+      "gzipDigest": "sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a",
+      "gzipSize": 30907616,
+      "tarDigest": "sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c",
+      "skipHashing": true
+    }
+  ]
+}
+
+Jul-05 23:06:02.724 [AWSBatch-executor-15] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-bc43d89b0832-securebio-nao-rpkg-latest:1; container=wave.seqera.io/wt/bc43d89b0832/securebio/nao-rpkg:latest
+Jul-05 23:06:02.790 [AWSBatch-executor-15] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:RIBO_SECONDARY:QC:SUMMARIZE_MULTIQC_SINGLE` submitted > job=fd25a62b-b823-44cc-86c0-b1383fb374ee; work-dir=s3://nao-harmon/blauwkamp2019/work/52/a9fba375795b5d40d4167338666cef
+Jul-05 23:06:02.790 [AWSBatch-executor-15] INFO  nextflow.Session - [52/a9fba3] Submitted process > SINGLE:RIBO_SECONDARY:QC:SUMMARIZE_MULTIQC_SINGLE
+Jul-05 23:06:22.240 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: SINGLE:HV:BOWTIE2_HV (1); status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/0e/57dd99289bc27523511137b3a27341]
+Jul-05 23:06:22.320 [Actor Thread 20] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:pandas/pandas:pip-all, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:06:22.319431130Z, fingerprint:87d656d47e9555f5519d5b0b1874b469, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:06:22.330 [Actor Thread 21] DEBUG io.seqera.wave.plugin.WaveClient - Wave request: https://wave.seqera.io/v1alpha2/container; attempt=1 - request: SubmitContainerTokenRequest(towerAccessToken:null, towerRefreshToken:null, towerWorkspaceId:null, towerEndpoint:https://api.cloud.seqera.io, containerImage:securebio/nao-pypkg, containerFile:null, containerConfig:ContainerConfig(entrypoint:[/usr/bin/fusion], cmd:null, env:[FUSION_CONFIG_PROFILE=nextflow, FUSION_COMPACT_SYMLINKS=true], workingDir:null, layers:[ContainerLayer[location=data:H4sIAAAAAAAA/+09+3vb...; tarDigest=sha256:c0b4c8a86f6966b2a7896252642bee3b2321d4e31f193fc6488a645a53fb1ca2; gzipDigest=sha256:502d10278fcf11838ba816a0a357def2a3511bf77366af98b9582e90513ac8e5; gzipSize=10399], ContainerLayer[location=https://fusionfs.seqera.io/releases/pkg/2/3/2/fusion-amd64.tar.gz; tarDigest=sha256:59eb3278527819e7592fa8f87b34b032a6e65175d234cfb27f34d1234189037c; gzipDigest=sha256:49489973bc39644b68e65ab7baacf0a89a073f9bf938a62e3bc6c51741aa633a; gzipSize=30907616]]), condaFile:null, spackFile:null, containerPlatform:linux/amd64, buildRepository:null, cacheRepository:null, timestamp:2024-07-05T23:06:22.329765139Z, fingerprint:be387b545d78e365ae978cbd03f0156a, freeze:false, format:null, dryRun:false, workflowId:null, containerIncludes:null, packages:null)
+Jul-05 23:06:22.636 [Actor Thread 20] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"62b02899b12b","targetImage":"wave.seqera.io/wt/62b02899b12b/pandas/pandas:pip-all","expiration":"2024-07-07T11:06:22.595003813Z","containerImage":"docker.io/pandas/pandas:pip-all","cached":true,"freeze":false}
+Jul-05 23:06:22.637 [Actor Thread 21] DEBUG io.seqera.wave.plugin.WaveClient - Wave response: statusCode=200; body={"containerToken":"fa1f76bdf10b","targetImage":"wave.seqera.io/wt/fa1f76bdf10b/securebio/nao-pypkg:latest","expiration":"2024-07-07T11:06:22.596859552Z","containerImage":"docker.io/securebio/nao-pypkg:latest","cached":true,"freeze":false}
+Jul-05 23:06:23.034 [AWSBatch-executor-18] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-fa1f76bdf10b-securebio-nao-pypkg-latest:1; container=wave.seqera.io/wt/fa1f76bdf10b/securebio/nao-pypkg:latest
+Jul-05 23:06:23.103 [AWSBatch-executor-18] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:EXTRACT_UNCONC_READ_IDS (1)` submitted > job=0b3a4592-8855-49e8-9d5b-ce42e9ec1676; work-dir=s3://nao-harmon/blauwkamp2019/work/3a/333bfc7b235456093300a2fc7e500e
+Jul-05 23:06:23.103 [AWSBatch-executor-18] INFO  nextflow.Session - [3a/333bfc] Submitted process > SINGLE:HV:EXTRACT_UNCONC_READ_IDS (1)
+Jul-05 23:06:23.293 [AWSBatch-executor-19] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-62b02899b12b-pandas-pandas-pip-all:1; container=wave.seqera.io/wt/62b02899b12b/pandas/pandas:pip-all
+Jul-05 23:06:23.353 [AWSBatch-executor-19] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)` submitted > job=07d022fe-82ba-487e-968a-9aa77e8c107e; work-dir=s3://nao-harmon/blauwkamp2019/work/8a/91f6fd59619da2342c712d10dd393a
+Jul-05 23:06:23.353 [AWSBatch-executor-19] INFO  nextflow.Session - [8a/91f6fd] Submitted process > SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)
+Jul-05 23:07:32.256 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 33; name: SINGLE:RIBO_SECONDARY:QC:SUMMARIZE_MULTIQC_SINGLE; status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/52/a9fba375795b5d40d4167338666cef]
+Jul-05 23:07:32.279 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 35; name: SINGLE:HV:EXTRACT_UNCONC_READ_IDS (1); status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/3a/333bfc7b235456093300a2fc7e500e]
+Jul-05 23:07:32.341 [Task monitor] DEBUG nextflow.cloud.aws.AwsClientFactory - Merging AWS credentials file '/home/ec2-user/.aws/credentials' and config file '/home/ec2-user/.aws/config'
+Jul-05 23:07:32.441 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 34; name: SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1); status: COMPLETED; exit: 1; error: nextflow.exception.ProcessUnrecoverableException: Essential container in task exited; workDir: s3://nao-harmon/blauwkamp2019/work/8a/91f6fd59619da2342c712d10dd393a]
+Jul-05 23:07:32.445 [TaskFinalizer-5] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1); work-dir=s3://nao-harmon/blauwkamp2019/work/8a/91f6fd59619da2342c712d10dd393a
+  error [nextflow.exception.ProcessFailedException]: Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)` failed
+Jul-05 23:07:32.459 [TaskFinalizer-5] INFO  nextflow.processor.TaskProcessor - [8a/91f6fd] NOTE: Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)` failed -- Execution is retried (1)
+Jul-05 23:07:32.646 [AWSBatch-executor-32] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)` submitted > job=3624a324-6f48-4f14-af2c-81b92c44854d; work-dir=s3://nao-harmon/blauwkamp2019/work/a5/5e8ea7f6f9def4b0970b7671b229b4
+Jul-05 23:07:32.647 [AWSBatch-executor-32] INFO  nextflow.Session - [a5/5e8ea7] Re-submitted process > SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)
+Jul-05 23:07:32.757 [AWSBatch-executor-28] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-ad9b95916aea-rocker-tidyverse-4-4-1:1; container=wave.seqera.io/wt/ad9b95916aea/rocker/tidyverse:4.4.1
+Jul-05 23:07:32.811 [AWSBatch-executor-28] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QBASE` submitted > job=4dac3eaf-ed82-4aeb-bbbd-4fd80b15a70b; work-dir=s3://nao-harmon/blauwkamp2019/work/1c/1b3da538110f99615b2770d4646041
+Jul-05 23:07:32.811 [AWSBatch-executor-28] INFO  nextflow.Session - [1c/1b3da5] Submitted process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QBASE
+Jul-05 23:07:32.828 [AWSBatch-executor-30] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QSEQS` submitted > job=5bf51af6-9f45-44a2-8710-2c946595ef9f; work-dir=s3://nao-harmon/blauwkamp2019/work/66/bd3477a4580018951b36881c71a820
+Jul-05 23:07:32.828 [AWSBatch-executor-30] INFO  nextflow.Session - [66/bd3477] Submitted process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QSEQS
+Jul-05 23:07:33.017 [AWSBatch-executor-27] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-c4ef18570312-staphb-seqtk-1-4:1; container=wave.seqera.io/wt/c4ef18570312/staphb/seqtk:1.4
+Jul-05 23:07:33.062 [AWSBatch-executor-31] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_ADAPT` submitted > job=bcf4d84c-2ada-4193-87ec-f43fd4dc3c9f; work-dir=s3://nao-harmon/blauwkamp2019/work/fa/30452f20f21f32fbba6e0bd2339a53
+Jul-05 23:07:33.062 [AWSBatch-executor-31] INFO  nextflow.Session - [fa/30452f] Submitted process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_ADAPT
+Jul-05 23:07:33.088 [AWSBatch-executor-29] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_BASIC` submitted > job=a2200846-d6e9-45d4-946e-30bc79707fc6; work-dir=s3://nao-harmon/blauwkamp2019/work/84/33a4638e2b36e98dda4287bacfb79e
+Jul-05 23:07:33.088 [AWSBatch-executor-29] INFO  nextflow.Session - [84/33a463] Submitted process > SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_BASIC
+Jul-05 23:07:33.098 [AWSBatch-executor-27] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:EXTRACT_UNCONC_READS (1)` submitted > job=4208ace2-df89-4feb-a3f7-c80e8421758c; work-dir=s3://nao-harmon/blauwkamp2019/work/7e/74912db1563e8c5fc95fc512091680
+Jul-05 23:07:33.099 [AWSBatch-executor-27] INFO  nextflow.Session - [7e/74912d] Submitted process > SINGLE:HV:EXTRACT_UNCONC_READS (1)
+Jul-05 23:07:42.242 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: SINGLE:TAXONOMY_FULL:KRAKEN (1); status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/4e/c51d3a1e633cebb11a4a158b2fc158]
+Jul-05 23:07:42.256 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: SINGLE:HV:BOWTIE2_HV (2); status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/aa/21991f650cfbbbcc91385902e45cf6]
+Jul-05 23:07:42.408 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 41; name: SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1); status: COMPLETED; exit: 1; error: nextflow.exception.ProcessUnrecoverableException: Essential container in task exited; workDir: s3://nao-harmon/blauwkamp2019/work/a5/5e8ea7f6f9def4b0970b7671b229b4]
+Jul-05 23:07:42.409 [TaskFinalizer-8] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1); work-dir=s3://nao-harmon/blauwkamp2019/work/a5/5e8ea7f6f9def4b0970b7671b229b4
+  error [nextflow.exception.ProcessFailedException]: Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)` failed
+Jul-05 23:07:42.409 [TaskFinalizer-8] INFO  nextflow.processor.TaskProcessor - [a5/5e8ea7] NOTE: Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)` failed -- Execution is retried (2)
+Jul-05 23:07:42.499 [AWSBatch-executor-34] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS (2)` submitted > job=ec176724-6f89-4dc5-9a25-3228885d6ed8; work-dir=s3://nao-harmon/blauwkamp2019/work/35/d1d01011d49fb7de6fdfd0f326ff5c
+Jul-05 23:07:42.499 [AWSBatch-executor-35] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:EXTRACT_UNCONC_READ_IDS (2)` submitted > job=d6c2293d-bf6f-46c6-88cb-196e24fc4c9f; work-dir=s3://nao-harmon/blauwkamp2019/work/c8/1e83f3462d9bc93f503ac54b655461
+Jul-05 23:07:42.499 [AWSBatch-executor-35] INFO  nextflow.Session - [c8/1e83f3] Submitted process > SINGLE:HV:EXTRACT_UNCONC_READ_IDS (2)
+Jul-05 23:07:42.499 [AWSBatch-executor-34] INFO  nextflow.Session - [35/d1d010] Submitted process > SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS (2)
+Jul-05 23:07:42.571 [AWSBatch-executor-37] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)` submitted > job=dd514ed5-be45-4873-baf3-3fa69544f587; work-dir=s3://nao-harmon/blauwkamp2019/work/9e/6d590a078e48d4172c8692434128a3
+Jul-05 23:07:42.571 [AWSBatch-executor-37] INFO  nextflow.Session - [9e/6d590a] Re-submitted process > SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (1)
+Jul-05 23:07:42.591 [AWSBatch-executor-38] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (2)` submitted > job=64d4d582-201d-4376-953b-3c74b32ed8e3; work-dir=s3://nao-harmon/blauwkamp2019/work/33/25ca59e8efc0f67835d0378295a9f9
+Jul-05 23:07:42.591 [AWSBatch-executor-38] INFO  nextflow.Session - [33/25ca59] Submitted process > SINGLE:HV:PROCESS_BOWTIE2_SAM_PAIRED (2)
+Jul-05 23:07:42.821 [AWSBatch-executor-36] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-c64e72c0a14c-staphb-bracken-2-9:1; container=wave.seqera.io/wt/c64e72c0a14c/staphb/bracken:2.9
+Jul-05 23:07:42.874 [AWSBatch-executor-36] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:TAXONOMY_FULL:BRACKEN (2)` submitted > job=fe88be8c-5529-47f1-a129-796fcea87668; work-dir=s3://nao-harmon/blauwkamp2019/work/8c/5ecebdb6174892e2cf0885fa1ac3d4
+Jul-05 23:07:42.874 [AWSBatch-executor-36] INFO  nextflow.Session - [8c/5ecebd] Submitted process > SINGLE:TAXONOMY_FULL:BRACKEN (2)
+Jul-05 23:07:52.227 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 36; name: SINGLE:HV:EXTRACT_UNCONC_READS (1); status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/7e/74912db1563e8c5fc95fc512091680]
+Jul-05 23:07:52.643 [AWSBatch-executor-40] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] [AWS BATCH] Created job definition name=nf-wave-seqera-io-wt-4af1fff1cfe5-staphb-bbtools-39-01:1; container=wave.seqera.io/wt/4af1fff1cfe5/staphb/bbtools:39.01
+Jul-05 23:07:52.716 [AWSBatch-executor-40] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:HV:COMBINE_MAPPED_BOWTIE2_READS (1)` submitted > job=0d80fe3d-f730-4645-9d00-e9d47740e9eb; work-dir=s3://nao-harmon/blauwkamp2019/work/b4/859693faf8aadb79320b4cfdff671f
+Jul-05 23:07:52.717 [AWSBatch-executor-40] INFO  nextflow.Session - [b4/859693] Submitted process > SINGLE:HV:COMBINE_MAPPED_BOWTIE2_READS (1)
+Jul-05 23:08:42.278 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 40; name: SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QBASE; status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/1c/1b3da538110f99615b2770d4646041]
+Jul-05 23:08:42.312 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 37; name: SINGLE:PROCESS_OUTPUT:MERGE_MULTIQC_QSEQS; status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/66/bd3477a4580018951b36881c71a820]
+Jul-05 23:08:42.334 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 43; name: SINGLE:TAXONOMY_FULL:LABEL_KRAKEN_REPORTS (2); status: COMPLETED; exit: 0; error: -; workDir: s3://nao-harmon/blauwkamp2019/work/35/d1d01011d49fb7de6fdfd0f326ff5c]
+Jul-05 23:08:42.560 [AWSBatch-executor-46] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] Process `SINGLE:TAXONOMY_FULL:MERGE_KRAKEN_REPORTS` submitted > job=ff2d2b92-0d2b-4968-b573-b34fddd6d9b5; work-dir=s3://nao-harmon/blauwkamp2019/work/57/3c2345d67b2c1424a2f00fb90a5c4f
+Jul-05 23:08:42.560 [AWSBatch-executor-46] INFO  nextflow.Session - [57/3c2345] Submitted process > SINGLE:TAXONOMY_FULL:MERGE_KRAKEN_REPORTS
+Jul-05 23:09:07.562 [SIGINT handler] DEBUG nextflow.Session - Session aborted -- Cause: SIGINT
+Jul-05 23:09:07.587 [SIGINT handler] DEBUG nextflow.Session - The following nodes are still active:
+[process] SINGLE:TAXONOMY_FULL:LABEL_BRACKEN_REPORTS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:TAXONOMY_FULL:MERGE_BRACKEN
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: tsvs
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:EXTRACT_UNCONC_READS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:COMBINE_MAPPED_BOWTIE2_READS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:BOWTIE2_HUMAN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: index_dir
+  port 2: (value) bound ; channel: par_string
+  port 3: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:BOWTIE2_OTHER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: index_dir
+  port 2: (value) bound ; channel: par_string
+  port 3: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:BBMAP_HUMAN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: index_dir
+  port 2: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:BBMAP_OTHER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: index_dir
+  port 2: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:TAXONOMY:CLUMPIFY_SINGLE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:TAXONOMY:KRAKEN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: db_path
+  port 2: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:TAXONOMY:LABEL_KRAKEN_REPORTS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:TAXONOMY:MERGE_KRAKEN_REPORTS
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: tsvs
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:TAXONOMY:BRACKEN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: db_path
+  port 2: (value) bound ; channel: classificationLevel
+  port 3: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:TAXONOMY:LABEL_BRACKEN_REPORTS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:TAXONOMY:MERGE_BRACKEN
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: tsvs
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:PROCESS_KRAKEN_HV
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: nodes_path
+  port 2: (value) bound ; channel: hv_db_path
+  port 3: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:MERGE_SAM_KRAKEN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:MERGE_TSVS
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: tsvs
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:FILTER_HV
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits
+  port 1: (value) bound ; channel: score_threshold
+  port 2: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:COLLAPSE_HV
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits_filtered
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:MAKE_HV_FASTA
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits_collapsed
+  port 1: (cntrl) -     ; channel: $
+
+[process] SINGLE:HV:COUNT_HV_CLADES
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: hv_hits_tsv
+  port 1: (value) bound ; channel: viral_taxa
+  port 2: (cntrl) -     ; channel: $
+
+[process] SINGLE:PROCESS_OUTPUT:SUMMARIZE_COMPOSITION_FULL
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: bracken
+  port 1: (value) OPEN  ; channel: basic_stats
+  port 2: (value) bound ; channel: stage
+  port 3: (value) bound ; channel: classified_subset
+  port 4: (cntrl) -     ; channel: $
+
+Jul-05 23:09:07.588 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-05 23:09:07.588 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-05 23:09:07.588 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: awsbatch) - terminating tasks monitor poll loop
+Jul-05 23:09:07.591 [Actor Thread 24] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=SINGLE:TAXONOMY_FULL:MERGE_BRACKEN; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jul-05 23:09:07.597 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (8)
+Jul-05 23:09:07.598 [Actor Thread 32] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=SINGLE:HV:TAXONOMY:MERGE_BRACKEN; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jul-05 23:09:07.646 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=10; failedCount=2; ignoredCount=0; cachedCount=28; pendingCount=0; submittedCount=8; runningCount=-8; retriesCount=2; abortedCount=8; succeedDuration=40m 24s; failedDuration=314ms; cachedDuration=1h 23m 39s;loadCpus=-101; loadMemory=0; peakRunning=5; peakCpus=65; peakMemory=172 GB; ]
+Jul-05 23:09:07.780 [AWSBatch-reaper-5] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=64d4d582-201d-4376-953b-3c74b32ed8e3; response={}
+Jul-05 23:09:07.789 [AWSBatch-reaper-4] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=dd514ed5-be45-4873-baf3-3fa69544f587; response={}
+Jul-05 23:09:07.843 [AWSBatch-reaper-6] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=fe88be8c-5529-47f1-a129-796fcea87668; response={}
+Jul-05 23:09:07.844 [AWSBatch-reaper-3] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=d6c2293d-bf6f-46c6-88cb-196e24fc4c9f; response={}
+Jul-05 23:09:07.932 [AWSBatch-reaper-1] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=bcf4d84c-2ada-4193-87ec-f43fd4dc3c9f; response={}
+Jul-05 23:09:07.950 [AWSBatch-reaper-7] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=0d80fe3d-f730-4645-9d00-e9d47740e9eb; response={}
+Jul-05 23:09:07.958 [AWSBatch-reaper-8] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=ff2d2b92-0d2b-4968-b573-b34fddd6d9b5; response={}
+Jul-05 23:09:08.377 [AWSBatch-reaper-2] DEBUG n.c.aws.batch.AwsBatchTaskHandler - [AWS BATCH] killing job=a2200846-d6e9-45d4-946e-30bc79707fc6; response={}
+Jul-05 23:09:08.383 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-05 23:09:08.393 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-wave@1.4.2'
+Jul-05 23:09:08.394 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-wave
+Jul-05 23:09:08.394 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-amazon@2.5.2'
+Jul-05 23:09:08.394 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-amazon
+Jul-05 23:09:08.395 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
