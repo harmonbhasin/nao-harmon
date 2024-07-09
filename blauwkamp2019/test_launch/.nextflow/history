@@ -8,3 +8,6 @@
 2024-07-05 22:47:54	8m 7s	gloomy_hilbert	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
 2024-07-05 23:04:15	4m 53s	fabulous_boyd	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
 2024-07-05 23:24:21	14m 7s	fervent_bell	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-09 18:27:39	3m 38s	shrivelled_maxwell	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-09 18:43:05	3m 28s	golden_bell	ERR	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
+2024-07-09 19:40:22	18m 17s	gloomy_gates	OK	fa520ee134694cd64c29245ad2110ca0	5dbaec79-e305-4c5b-91ba-fed988193517	nextflow run ../mgs-workflow/ -resume
