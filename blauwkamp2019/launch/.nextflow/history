@@ -1,0 +1,1 @@
+2024-07-09 20:09:03	54m 7s	hungry_legentil	OK	fa520ee134694cd64c29245ad2110ca0	25da73aa-e7a1-4593-a195-4cd03bceacd8	nextflow run ../mgs-workflow/ -resume
