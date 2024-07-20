@@ -1,0 +1,1 @@
+2024-07-19 21:50:22	40m 56s	high_khorana	OK	4f0145a0b4156166dc7393af72357854	23fa7db9-8d0c-45f9-908b-0e17e5169e69	nextflow run ../mgs-workflow/ -resume
