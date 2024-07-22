@@ -1,0 +1,1 @@
+2024-07-22 19:50:43	49m 56s	infallible_darwin	OK	4f0145a0b4156166dc7393af72357854	d96eee6b-f081-4a67-b195-9841933024e0	nextflow run ../mgs-workflow/ -resume
