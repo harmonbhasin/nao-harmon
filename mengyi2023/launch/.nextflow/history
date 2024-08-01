@@ -1,0 +1,2 @@
+2024-07-31 18:43:00	1h 52m 56s	lonely_leibniz	ERR	4f0145a0b4156166dc7393af72357854	3029af1a-8657-4939-a178-544f96ac7535	nextflow run ../mgs-workflow/ -resume
+2024-07-31 21:21:35	2h 56m 6s	sleepy_church	OK	4f0145a0b4156166dc7393af72357854	3029af1a-8657-4939-a178-544f96ac7535	nextflow run ../mgs-workflow/ -resume
